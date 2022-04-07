@@ -1,0 +1,56 @@
+# Script and arguments
+executable              = /mnt/dv/wid/projects5/Roy-singlecell/sgm_work/otegui/merlin/otegui_run.sh
+arguments               = $(idx) \
+                          regulators.txt \
+                          otegui_cell_clusters.txt
+
+
+# Log files
+log                     = /mnt/dv/wid/projects5/Roy-singlecell/sgm_work/otegui/merlin54/logs/run.$(idx).log
+output                  = /mnt/dv/wid/projects5/Roy-singlecell/sgm_work/otegui/merlin54/logs/run.$(idx).out
+error                   = /mnt/dv/wid/projects5/Roy-singlecell/sgm_work/otegui/merlin54/logs/run.$(idx).err
+
+
+
+# Input/output files
+should_transfer_files   = YES
+transfer_input_files    = /mnt/dv/wid/projects5/Roy-singlecell/netinf_algo_comparison/bin/MERLIN/merlin-p_self_checkpoint/merlin,\
+                          /mnt/dv/wid/projects5/Roy-singlecell/cell_netinf/scripts/condor/sharedlib.tgz,\
+                          /mnt/dv/wid/projects5/Roy-singlecell/sgm_work/otegui/merlin54/otegui_subset/dataset$(idx).txt,\
+                          /mnt/dv/wid/projects5/Roy-singlecell/sgm_work/otegui/merlin/regulators.txt,\
+                          /mnt/dv/wid/projects5/Roy-singlecell/sgm_work/otegui/merlin/otegui_cell_clusters.txt
+
+
+transfer_output_files   = run.$(idx).tar.gz
+initialdir			    = /mnt/dv/wid/projects5/Roy-singlecell/sgm_work/otegui/merlin54/output/raw
+when_to_transfer_output = ON_EXIT_OR_EVICT
+
+
+
+# Resource requirements
+universe                = vanilla
+request_cpus            = 1
+request_memory          = ifthenelse(MemoryUsage =!= undefined, (MAX({34000, MemoryUsage * 5/4})), 34000)
+periodic_release        = ((JobStatus == 5) && ((HoldReasonCode == 34) || (HoldReasonCode == 21)) && (NumJobStarts <= 15))
+request_disk            = 1G
+
+
+
+# Manage checkpointing
+match_list_length       = 5
+requirements            = (TARGET.Name =!= LastMatchName1)
++is_resumable           = true
+
+# Other settings
+Notification            = never
+Rank                    = kflops
++WantGlidein            = false
++WantFlocking           = true
++group                  = "WID"
+JobBatchName            = "otegui"
+
+
+#queue idx from /mnt/dv/wid/projects5/Roy-singlecell/sgm_work/otegui/merlin/input/input_test.txt
+
+queue idx from /mnt/dv/wid/projects5/Roy-singlecell/sgm_work/otegui/merlin/input/input.txt
+
