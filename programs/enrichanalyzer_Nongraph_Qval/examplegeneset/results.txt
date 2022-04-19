@@ -1,0 +1,3 @@
+"inPopulation" "inStudySet" "estimate" "std.error"
+"set1" 68 1 9.6e-06 3.23419232575925e-06
+"set2" 745 62 4.6e-06 4.6e-06

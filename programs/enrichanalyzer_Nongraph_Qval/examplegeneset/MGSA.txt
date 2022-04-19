@@ -1,0 +1,17 @@
+1. Read the gene set
+ genes<-scan("examplegeneset/set1.txt","c"))
+2. Read the term set
+ f <- file("examplegeneset/goset_tab.txt", 'rt')
+> row<-list()
+>     while (length(line <- readLines(f, n=1)) > 0) {
++         rows[[length(rows) + 1]] <- scan(text=line, what="list", sep="\t")
++ }
+
+close(f)
+
+3. Now read the names (TBD)
+termnames<-scan("examplegeneset/terms.txt","c");
+4. Name the terms
+names(rows)<-termnames;
+5. Run mgsa
+results<-mgsa();
