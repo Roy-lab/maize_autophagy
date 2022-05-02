@@ -1,0 +1,28 @@
+The three dimensional organization of the genome is emerging as a major
+determinant of gene reg- ulation. Advances in chromosome conformation capture
+methods (3C) are expanding our repertoire of data sets measuring the three
+dimensional organization for multiple cell types and organisms. An impor- tant
+challenge is to develop computational methods to interrogate these data to
+reveal three-dimensional organization of the genome and how these maps change
+across different cell types.
+We introduce a clustering based approach to analyze genome-wide contact counts
+of pairs of loci and to compare them across different cell types. We examine
+different clustering algorithms including Hierarchical, Kmeans and Spectral
+using different cluster evaluation criteria. We find that Spectral clus-
+tering, which is based on a graph-based representation of the contact count
+matrix is significantly better than a simple Hierarchical or Kmeans clustering
+approach. We apply our spectral clustering algorithm to published genome-wide
+3C data (Hi-C) from six human and two mice cell lines. Our spectral algo-
+rithm recovers clusters representing different levels of chromosomal
+organization ranging from entire chromosomes within one cluster, chromosomes
+split into multiple clusters as well as clusters capturing more than one
+chromosome. Several of our clusters are enriched for genomic features such as
+gene content, activating and repressive chromatin marks and DNAse1
+hypersensitive sites. Most of the clus- ters are similar across different cell
+types, however clusters spanning multiple chromosomes are more cell-type
+specific. We also observe that the smaller, more gene rich chromosomes group
+together in our clusters. Finally, we use our clusters to define
+inter-chromosomal interactions in human and mouse embryonic stem (ES) cells
+and observe significant conservation between these interactions. In summary,
+our clustering based approach provides a promising approach to systematically
+compare Hi-C contact count maps across multiple cell types and organisms.
