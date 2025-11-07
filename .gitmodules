@@ -1,2 +1,4 @@
 [submodule "programs/validator"]
-	path = programs/validator
+    path = programs/validator
+    url  = https://github.com/<org-or-user>/validator.git
+    branch = main
