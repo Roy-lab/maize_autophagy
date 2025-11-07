@@ -2,7 +2,7 @@ name: Build & publish shinylive apps
 
 on:
   push:
-    branches: [ "main" ]   # run whenever you push to main
+    branches: [ "main", "master" ]   # run whenever you push to main
 
 jobs:
   build:
