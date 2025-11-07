@@ -2,50 +2,58 @@ name: Build & publish shinylive apps
 
 on:
   push:
-    branches: [ "main" ]   # quote branch names; safer in YAML
+    branches: [ "main" ]   # run whenever you push to main
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
+    # environment variables visible to all steps
+    env:
+      RENV_CONFIG_AUTOLOADER_ENABLED: "FALSE"
+      RSPM: https://packagemanager.posit.co/cran/latest
+
     steps:
+      # 1. Check out your repo
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: recursive
-          fetch-depth: 0
+          fetch-depth: 0        # full history for versioning
+          submodules: false     # you removed submodules
 
+      # 2. Set up R on the GitHub runner
       - name: Setup R
         uses: r-lib/actions/setup-r@v2
 
-      - name: Install shinylive
-        run: Rscript -e 'install.packages("shinylive", repos="https://cloud.r-project.org")'
+      # 3. Install shinylive and cache dependencies
+      - name: Install R packages
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          extra-packages: |
+            any::shinylive
+          cache: true
 
+      # 4. Verify shinylive is installed (optional sanity check)
+      - name: Verify shinylive
+        run: Rscript -e '.libPaths(); packageVersion("shinylive"); sessionInfo()'
+
+      # 5. Export both apps to the docs/ directory
       - name: Export apps
         env:
           REPO: ${{ github.event.repository.name }}
         run: |
-          # REPO is also available in the shell from the env: block above
-          echo "Repo name is: ${REPO}"
+          Rscript -e 'shinylive::export("shiny-apps/mrna", "docs/apps/mrna",
+                                        base_href = paste0("/", Sys.getenv("REPO"), "/apps/mrna/"))'
+          Rscript -e 'shinylive::export("shiny-apps/omic", "docs/apps/omic",
+                                        base_href = paste0("/", Sys.getenv("REPO"), "/apps/omic/"))'
 
-          # mRNA
-          Rscript -e 'shinylive::export(
-            appdir   = "shiny-apps/mrna",
-            destdir  = "docs/apps/mrna",
-            base_href = paste0("/", Sys.getenv("REPO"), "/apps/mrna/")
-          )'
-
-          # omic
-          Rscript -e 'shinylive::export(
-            appdir   = "shiny-apps/omic",
-            destdir  = "docs/apps/omic",
-            base_href = paste0("/", Sys.getenv("REPO"), "/apps/omic/")
-          )'
-
+      # 6. Make sure GitHub Pages ignores Jekyll
       - name: Ensure .nojekyll
         run: |
           mkdir -p docs
           touch docs/.nojekyll
 
+      # 7. Commit and push the exported files back to the repo
       - name: Commit and push exports
         run: |
           git config user.name "github-actions[bot]"
