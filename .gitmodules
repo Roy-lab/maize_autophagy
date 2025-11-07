@@ -1,4 +1,2 @@
-[submodule "programs/validator"]
-    path = programs/validator
-    url  = https://github.com/<org-or-user>/validator.git
-    branch = main
+git config -f .gitmodules --remove-section submodule.programs/validator || true
+git add .gitmodules || true
