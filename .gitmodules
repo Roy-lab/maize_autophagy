@@ -1,2 +1,0 @@
-git config -f .gitmodules --remove-section submodule.programs/validator || true
-git add .gitmodules || true
