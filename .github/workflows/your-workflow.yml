@@ -1,0 +1,47 @@
+steps:
+  - uses: actions/checkout@v4
+    with:
+      submodules: recursive
+      fetch-depth: 0
+name: Build & publish shinylive apps
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - uses: r-lib/actions/setup-r@v2
+
+      - name: Install shinylive
+        run: Rscript -e "install.packages('shinylive', repos='https://cloud.r-project.org')"
+
+      - name: Export mRNA app
+        env: { REPO: ${{ github.event.repository.name }} }
+        run: |
+          Rscript -e "shinylive::export(appdir='shiny-apps/mrna', destdir='docs/apps/mrna', base_href=paste0('/','${REPO}','/apps/mrna/'))"
+
+          #      - name: Export Omic app
+          #        env: { REPO: ${{ github.event.repository.name }} }
+          #        run: |
+          #          Rscript -e "shinylive::export(appdir='shiny-apps/omic', destdir='docs/apps/omic', base_href=paste0('/','${REPO}','/apps/omic/'))"
+
+      - name: Ensure .nojekyll
+        run: |
+          mkdir -p docs
+          touch docs/.nojekyll
+
+      - name: Commit and push exports
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs
+          git commit -m "Update shinylive exports [skip ci]" || echo "No changes to commit"
+          git push
+
