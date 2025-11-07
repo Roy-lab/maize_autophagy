@@ -1,0 +1,1023 @@
+Cluster143	multicellular organism development	0.0188927	0.0188927	30344	4022	5	3	4.5267	camta3;cdpk10;cdpk22
+Cluster141	cellular metabolic process	0.029921	0.029921	30344	4751	5	3	3.83212	GRMZM2G011367;GRMZM2G380765;GRMZM2G409112
+Cluster124	multicellular organism development	0.0188927	0.0188927	30344	4022	5	3	4.5267	alf12;cl31341_-1;pco105214a
+Cluster125	phosphorelay signal transduction system	1.19921e-06	3.59763e-06	30344	151	5	3	120.572	LOC100217235;crr7;crr9
+Cluster125	intracellular signal transduction	6.61366e-05	9.92049e-05	30344	576	5	3	31.6083	LOC100217235;crr7;crr9
+Cluster125	regulation of transcription, DNA-templated	0.00843087	0.00843087	30344	3019	5	3	6.03061	LOC100217235;crr7;crr9
+Cluster151	cellular metabolic process	0.029921	0.029921	30344	4751	5	3	3.83212	GRMZM2G011862;GRMZM2G322892;mate44
+Cluster79	RNA splicing, via transesterification reactions	4.49164e-15	4.49164e-15	30344	43	5	5	705.674	GRMZM2G061965;GRMZM2G109740;GRMZM2G110865;GRMZM5G844605;GRMZM5G849018
+Cluster83	heat acclimation	6.75423e-12	2.02888e-11	30344	179	5	5	169.52	hsp1;hsp27;hsp28;hsp8;ms42
+Cluster83	response to hydrogen peroxide	1.01444e-11	2.02888e-11	30344	194	5	5	156.412	hsp1;hsp27;hsp28;hsp8;ms42
+Cluster83	response to high light intensity	2.01321e-10	2.68428e-10	30344	351	5	5	86.4501	hsp1;hsp27;hsp28;hsp8;ms42
+Cluster83	response to stress	0.000116849	0.000116849	30344	2142	5	4	11.333	hsp1;hsp27;hsp28;ms42
+Cluster84	cellular metabolic process	0.029921	0.029921	30344	4751	5	3	3.83212	GRMZM2G020982;IDP7869;Zm00001d012088
+Cluster92	cellular metabolic process	0.029921	0.029921	30344	4751	5	3	3.83212	GRMZM2G108523;mtl4;mtl5
+Cluster118	multicellular organism development	0.0188927	0.0188927	30344	4022	5	3	4.5267	AC203570.4_FG005;IDP7275;Zm00001d028434
+Cluster145	response to stress	0.00597307	0.0119461	30344	2142	6	3	7.0831	prh25;smr5;wrky34
+Cluster129	cellular component organization	0.0068482	0.0136964	30344	2248	6	3	6.74911	GRMZM2G154156;GRMZM5G834313;GRMZM5G881730
+Cluster129	multicellular organism development	0.0340872	0.0340872	30344	4022	6	3	3.77225	GRMZM2G154156;GRMZM5G834313;GRMZM5G881730
+Cluster103	regulation of cellular process	0.0052732	0.0052732	30344	2050	6	3	7.40098	GRMZM2G033671;GRMZM2G179248;gpm875
+Cluster22	response to hydrogen peroxide	5.074e-06	1.5222e-05	30344	194	6	3	78.2062	cl11887_1;pco123267;pco127462a
+Cluster22	protein folding	5.32517e-05	7.98775e-05	30344	426	6	3	35.615	dnaJ74;pco127462a;pza03531
+Cluster22	cellular protein metabolic process	0.000530433	0.000530433	30344	927	6	3	16.3668	dnaJ74;pco123267;pza03531
+Cluster8	(1->3)-beta-D-glucan biosynthetic process	5.70529e-09	5.70529e-09	30344	21	6	3	722.476	GRMZM2G430680;cals3;cl858_1a
+Cluster52	cell differentiation	0.000310957	0.000621914	30344	773	6	3	19.6274	gata24;gata4;hb5
+Cluster52	regulation of transcription, DNA-templated	0.0156182	0.0156182	30344	3019	6	3	5.02551	gata24;gata4;hb5
+Cluster74	carbohydrate metabolic process	0.00040132	0.00040132	30344	843	6	3	17.9976	pco061836;pho2;sbe4
+Cluster86	multicellular organism development	0.00369816	0.00369816	30344	4022	6	4	5.02967	cdpk25;cl31747_3b;toc2;umc2742
+Cluster2	anthocyanin-containing compound biosynthetic process	7.82428e-08	7.82428e-08	30344	211	7	4	82.1774	a2;bz1;bz2;fht1
+Cluster4	response to stimulus	0.03235	0.03235	30344	3309	7	3	3.93006	GRMZM2G094543;chph2;csu351
+Cluster31	rRNA processing	3.55705e-07	1.06712e-06	30344	308	7	4	56.2968	GRMZM2G060817;GRMZM2G128092;dek51;gpm647
+Cluster31	pyrimidine ribonucleotide biosynthetic process	8.46424e-07	1.26964e-06	30344	89	7	3	146.119	GRMZM2G060817;IDP8551;pco147515
+Cluster31	cellular component organization	0.0113272	0.0113272	30344	2248	7	3	5.78495	GRMZM2G128092;pco147515;pum5
+Cluster37	phosphorylation	2.58243e-06	1.54946e-05	30344	1279	7	5	16.9463	GRMZM2G109830;GRMZM2G165387;GRMZM2G702599;IDP6825;serk3
+Cluster37	protein phosphorylation	9.57344e-06	2.87203e-05	30344	1669	7	5	12.9864	GRMZM2G109830;GRMZM2G702599;IDP6825;Zm00001d051083;serk3
+Cluster37	multicellular organism development	0.000678843	0.00135769	30344	4022	7	5	5.38893	GRMZM2G109830;GRMZM2G165387;GRMZM2G702599;IDP6825;Zm00001d051083
+Cluster37	regulation of plant-type hypersensitive response	0.00131334	0.0017556	30344	1053	7	3	12.35	GRMZM2G702599;IDP6825;serk3
+Cluster37	response to chitin	0.001463	0.0017556	30344	1093	7	3	11.8981	GRMZM2G702599;IDP6825;serk3
+Cluster37	response to stimulus	0.00376323	0.00376323	30344	3309	7	4	5.24008	GRMZM2G109830;GRMZM2G165387;Zm00001d051083;gpx13
+Cluster45	metabolic process	0.000957675	0.000957675	30344	2301	7	4	7.53561	GRMZM2G026095;GRMZM2G165960;GRMZM2G339699;LOC100281698
+Cluster1	cellular water homeostasis	2.57805e-15	6.70292e-14	30344	22	7	5	985.195	wakl3;wakl4;wakl5;wakl6;wakl7
+Cluster1	oligosaccharide metabolic process	1.80191e-12	2.34248e-11	30344	16	7	4	1083.71	wakl3;wakl4;wakl6;wakl7
+Cluster1	glycoside biosynthetic process	1.40486e-10	1.21755e-09	30344	179	7	5	121.085	wakl3;wakl4;wakl5;wakl6;wakl7
+Cluster1	lateral root development	2.33671e-10	1.51886e-09	30344	198	7	5	109.466	wakl3;wakl4;wakl5;wakl6;wakl7
+Cluster1	unidimensional cell growth	8.18477e-10	4.25608e-09	30344	254	7	5	85.3318	wakl3;wakl4;wakl5;wakl6;wakl7
+Cluster1	protein phosphorylation	1.50492e-09	6.01849e-09	30344	1669	7	7	18.1809	GRMZM2G071396;wak4;wakl3;wakl4;wakl5;wakl6;wakl7
+Cluster1	root hair cell differentiation	1.62036e-09	6.01849e-09	30344	291	7	5	74.4821	wakl3;wakl4;wakl5;wakl6;wakl7
+Cluster1	plant ovule development	4.26751e-09	1.38694e-08	30344	353	7	5	61.4002	wakl3;wakl4;wakl5;wakl6;wakl7
+Cluster1	thylakoid membrane organization	5.77638e-09	1.66873e-08	30344	375	7	5	57.7981	wakl3;wakl4;wakl5;wakl6;wakl7
+Cluster1	glucosinolate biosynthetic process	9.82522e-09	2.55456e-08	30344	417	7	5	51.9767	wakl3;wakl4;wakl5;wakl6;wakl7
+Cluster1	iron-sulfur cluster assembly	1.93193e-08	4.56637e-08	30344	149	7	4	116.372	wakl3;wakl4;wakl6;wakl7
+Cluster1	vegetative to reproductive phase transition of meristem	3.25496e-08	7.05242e-08	30344	530	7	5	40.8949	wakl3;wakl4;wakl5;wakl6;wakl7
+Cluster1	embryo development ending in seed dormancy	6.19416e-08	1.23883e-07	30344	603	7	5	35.9441	wakl3;wakl4;wakl5;wakl6;wakl7
+Cluster1	post-embryonic animal organ development	1.24719e-07	2.31621e-07	30344	694	7	5	31.231	wakl3;wakl4;wakl5;wakl6;wakl7
+Cluster1	epidermal cell differentiation	2.07757e-07	3.60112e-07	30344	769	7	5	28.185	wakl3;wakl4;wakl5;wakl6;wakl7
+Cluster1	anatomical structure formation involved in morphogenesis	5.77885e-07	9.39064e-07	30344	945	7	5	22.9358	wakl3;wakl4;wakl5;wakl6;wakl7
+Cluster1	response to virus	9.98573e-07	1.52723e-06	30344	94	7	3	138.347	wakl5;wakl6;wakl7
+Cluster1	MAPK cascade	1.3457e-06	1.94379e-06	30344	430	7	4	40.3243	wak4;wakl5;wakl6;wakl7
+Cluster1	systemic acquired resistance, salicylic acid mediated signaling pathway	5.05233e-06	6.91372e-06	30344	600	7	4	28.899	GRMZM2G071396;wakl5;wakl6;wakl7
+Cluster1	defense response to fungus	6.4833e-06	8.42829e-06	30344	639	7	4	27.1353	GRMZM2G071396;wakl5;wakl6;wakl7
+Cluster1	defense response to bacterium	1.0916e-05	1.35151e-05	30344	729	7	4	23.7852	GRMZM2G071396;wakl5;wakl6;wakl7
+Cluster1	jasmonic acid mediated signaling pathway	1.23405e-05	1.45842e-05	30344	752	7	4	23.0578	GRMZM2G071396;wakl5;wakl6;wakl7
+Cluster1	negative regulation of programmed cell death	1.82049e-05	2.05794e-05	30344	247	7	3	52.6501	wakl5;wakl6;wakl7
+Cluster1	protein targeting to membrane	3.18751e-05	3.45314e-05	30344	298	7	3	43.6395	wakl5;wakl6;wakl7
+Cluster1	negative regulation of defense response	3.83198e-05	3.98526e-05	30344	317	7	3	41.0239	wakl5;wakl6;wakl7
+Cluster1	regulation of plant-type hypersensitive response	4.64084e-05	4.64084e-05	30344	1053	7	4	16.4667	GRMZM2G071396;wakl5;wakl6;wakl7
+Cluster82	systemic acquired resistance	0.000124163	0.000248327	30344	471	7	3	27.6106	GRMZM2G089506;GRMZM2G099092;GRMZM2G145440
+Cluster144	response to chitin	0.000104344	0.000208688	30344	1093	8	4	13.8811	TIDP3413;arm14;si606063b10;si707005c08b
+Cluster144	response to auxin	0.000232784	0.000232784	30344	499	8	3	22.8036	TIDP3413;si606063b10;si707005c08b
+Cluster128	response to salicylic acid	6.37309e-05	0.000382385	30344	322	8	3	35.3385	mybr102;p1;p2
+Cluster128	nucleic acid metabolic process	0.00058931	0.00176793	30344	685	8	3	16.6117	mybr102;p1;p2
+Cluster128	multicellular organism development	0.00161193	0.00260181	30344	4022	8	5	4.71532	GRMZM2G477685;mybr102;p1;p2;pub69
+Cluster128	cellular macromolecule biosynthetic process	0.00173454	0.00260181	30344	994	8	3	11.4477	mybr102;p1;p2
+Cluster128	transcription, DNA-templated	0.0372453	0.037569	30344	3009	8	3	3.78166	GRMZM2G064597;cchh2;mybr102
+Cluster128	regulation of transcription, DNA-templated	0.037569	0.037569	30344	3019	8	3	3.76913	GRMZM2G064597;GRMZM2G477685;cchh2
+Cluster20	defense response to bacterium	0.000706606	0.00141321	30344	729	8	3	15.6091	GRMZM2G139680;LOC100282980;cl61174_1b
+Cluster20	translation	0.00167494	0.00167494	30344	982	8	3	11.5876	LOC100285700;cl61174_1b;rpl6b
+Cluster78	cellular metabolic process	3.59366e-07	3.59366e-07	30344	4751	8	8	6.38687	GRMZM5G815339;GRMZM5G827270;GRMZM5G841805;GRMZM5G863015;GRMZM5G867093;GRMZM5G871222;GRMZM5G872300;GRMZM5G878383
+Cluster88	nucleosome assembly	2.6324e-06	2.6324e-06	30344	111	8	3	102.514	AC212565.3_FG001;LOC103504712;his408
+Cluster6	activation of signaling protein activity involved in unfolded protein response	3.2697e-20	4.25061e-19	30344	33	9	7	715.178	bip1;bip2;crt2;crt4;dnaJ77;pdi8;shpl2
+Cluster6	protein folding	3.59651e-12	2.33773e-11	30344	426	9	7	55.4011	clx1;clx2;crt2;crt4;dnaJ77;pdi8;shpl2
+Cluster6	response to endoplasmic reticulum stress	1.90975e-09	7.0286e-09	30344	211	9	5	79.8947	bip1;bip2;clx1;clx2;pdi8
+Cluster6	sequestering of calcium ion	2.16265e-09	7.0286e-09	30344	10	9	3	1011.47	crt2;crt4;shpl2
+Cluster6	protein N-linked glycosylation via asparagine	5.03947e-09	1.31026e-08	30344	78	9	4	172.9	clx1;clx2;crt2;crt4
+Cluster6	exogen	1.95743e-08	4.24109e-08	30344	109	9	4	123.727	clx1;clx2;crt2;crt4
+Cluster6	response to high light intensity	2.44161e-08	4.53442e-08	30344	351	9	5	48.0279	bip1;bip2;clx1;clx2;shpl2
+Cluster6	ER-nucleus signaling pathway	1.98755e-07	3.22977e-07	30344	535	9	5	31.5099	crt2;crt4;dnaJ77;pdi8;shpl2
+Cluster6	spermatogenesis	3.30122e-07	4.76843e-07	30344	49	9	3	206.422	crt2;crt4;dnaJ77
+Cluster6	ubiquitin-dependent ERAD pathway	6.12155e-07	7.95802e-07	30344	60	9	3	168.578	bip1;bip2;shpl2
+Cluster6	response to cadmium ion	2.6761e-06	3.16266e-06	30344	906	9	5	18.6068	bip1;bip2;crt2;crt4;shpl2
+Cluster6	response to heat	0.000116328	0.000126022	30344	345	9	3	29.3179	bip1;bip2;dnaJ77
+Cluster6	response to salt stress	0.00410179	0.00410179	30344	1177	9	3	8.5936	crt2;crt4;shpl2
+Cluster21	positive regulation of catalytic activity	3.14352e-06	3.14352e-06	30344	103	9	3	98.2006	LOC103650090;agp2;si946069e08
+Cluster33	cellular ketone metabolic process	0.00223734	0.00223734	30344	951	9	3	10.6358	LOC100275233;hcf3;mdh6
+Cluster43	biosynthetic process	0.00243788	0.00243788	30344	980	9	3	10.3211	Zm00001d029087;got1;sus2
+Cluster121	multicellular organism development	0.0057594	0.0172561	30344	4022	10	5	3.77225	AC217887.3_FG005;GRMZM2G097843;c3h2;phd21;vq39
+Cluster121	regulation of biological process	0.0126116	0.0172561	30344	1570	10	3	5.79822	AC217887.3_FG005;GRMZM2G429231;vq39
+Cluster121	response to stimulus	0.0172561	0.0172561	30344	3309	10	4	3.66806	AC217887.3_FG005;GRMZM2G377641;GRMZM2G426553;phd21
+Cluster12	oxidation-reduction process	0.0215954	0.0215954	30344	1917	10	3	4.74867	GRMZM2G061230;ga20ox6;skus13
+Cluster39	regulation of biological process	0.0126116	0.0126116	30344	1570	10	3	5.79822	hon104a;pco135861(187);uce17
+Cluster34	multicellular organism development	0.0333602	0.0333602	30344	4022	10	4	3.0178	camta9;impb19;npi239;pza02961
+Cluster54	protein folding	7.52304e-06	1.50461e-05	30344	426	10	4	28.492	IDP7330;Zm00001d045544;hsp90.6;pco066521(186)
+Cluster54	response to salt stress	0.00569169	0.00569169	30344	1177	10	3	7.73424	IDP7330;dhad1;hsp90.6
+Cluster56	protein transport	0.000204116	0.000204116	30344	371	10	3	24.5369	GRMZM2G151015;LOC103632146;atg12
+Cluster95	response to chemical	0.00208275	0.00416551	30344	825	10	3	11.0342	IDP809;nactf9;plt29
+Cluster97	animal organ development	0.0179266	0.0431907	30344	1788	10	3	5.09128	IDP7899;Zm00001d038831;drl2
+Cluster97	oxidation-reduction process	0.0215954	0.0431907	30344	1917	10	3	4.74867	Zm00001d038831;cyp39;lac8
+Cluster3	transmembrane transport	0.00195538	0.00586613	30344	807	10	3	11.2803	GRMZM2G015805;GRMZM2G314934;GRMZM2G429110
+Cluster3	cellular component organization	0.00438722	0.00658083	30344	2248	10	4	5.39929	GRMZM2G015805;GRMZM2G163120;GRMZM2G179317;cl4495_2
+Cluster27	endomembrane system organization	2.92944e-08	1.75766e-07	30344	20	10	3	455.16	GRMZM2G040175;GRMZM5G812126;umc1771
+Cluster27	membrane organization	2.08943e-06	6.26828e-06	30344	80	10	3	113.79	GRMZM2G040175;GRMZM5G812126;umc1771
+Cluster27	glucuronoxylan metabolic process	7.98272e-05	0.000143483	30344	270	10	3	33.7156	Zm00001d017536;ccp35;xyn10
+Cluster27	xylan biosynthetic process	9.56555e-05	0.000143483	30344	287	10	3	31.7185	Zm00001d017536;ccp35;xyn10
+Cluster27	proteolysis	0.00287691	0.0034523	30344	924	10	3	9.85195	ccp35;mca11;vpe4
+Cluster53	glucosinolate biosynthetic process	0.00039168	0.000783359	30344	417	11	3	19.8457	GRMZM5G839794;Zm00001eb089390;mha3
+Cluster9	glycoside biosynthetic process	4.27041e-05	0.000213521	30344	179	12	3	42.3799	rafs2;trps11;trps15
+Cluster9	metabolic process	0.00125705	0.00314264	30344	2301	12	5	5.49471	aga3;rafs2;trps11;trps15;umc2221
+Cluster9	response to abscisic acid	0.00376741	0.00627902	30344	833	12	3	9.10684	GRMZM2G099598;aga3;rafs2
+Cluster126	cellular biosynthetic process	8.15655e-05	8.15655e-05	30344	1279	12	5	9.88533	GRMZM2G047818;GRMZM2G069630;GRMZM2G531699;GRMZM2G558324;PCO068526
+Cluster157	polysaccharide biosynthetic process	5.26411e-06	4.7377e-05	30344	89	12	3	85.236	GRMZM2G095382;GRMZM5G816289;kcs24
+Cluster157	positive regulation of transcription, DNA-templated	0.00163492	0.00505358	30344	621	12	3	12.2158	kcs24;trl1;tru1
+Cluster157	root hair elongation	0.00173487	0.00505358	30344	634	12	3	11.9653	kch6;kcs24;tip4d
+Cluster157	post-embryonic animal organ development	0.00224604	0.00505358	30344	694	12	3	10.9308	kcs24;trl1;tru1
+Cluster157	multi-organism process	0.00959679	0.0147702	30344	1166	12	3	6.506	kch6;kcs24;wrky11
+Cluster157	response to salt stress	0.00984677	0.0147702	30344	1177	12	3	6.4452	kch6;kcs24;tip4d
+Cluster157	transport	0.0369967	0.0475671	30344	1937	12	3	3.91637	AC202915.3_FG002;kch6;tip4d
+Cluster18	protein folding	6.36005e-09	3.18003e-08	30344	426	12	6	35.615	GRMZM2G016281;cdj1;dnaJ28;dnaJ46;dnaJ67;dnaJ76
+Cluster18	response to heat	1.36916e-07	3.42289e-07	30344	345	12	5	36.6473	cdj1;dnaJ28;dnaJ46;hsftf13;hsftf20
+Cluster18	response to high light intensity	0.000312431	0.00044007	30344	351	12	3	21.6125	dnaJ28;hsftf20;hsp70-6
+Cluster18	cellular protein metabolic process	0.000352056	0.00044007	30344	927	12	4	10.9112	GRMZM2G016281;cdj1;dnaJ67;dnaJ76
+Cluster18	response to stress	0.047762	0.047762	30344	2142	12	3	3.54155	GRMZM2G016281;hsftf13;hsp70-6
+Cluster36	circadian rhythm	6.39125e-05	0.00025565	30344	205	12	3	37.0049	fkf1;fkf2;pco146174
+Cluster36	regulation of transcription, DNA-templated	0.00422508	0.00845017	30344	3019	12	5	4.18792	GRMZM2G300500;cct11;fkf1;fkf2;prrh1
+Cluster73	transmembrane transport	0.00344519	0.00689038	30344	807	12	3	9.40025	GRMZM6G654251;gsht1;ys1
+Cluster70	gene expression	0.0138417	0.0287992	30344	1334	12	3	5.68666	GRMZM2G095043;GRMZM2G134844;GRMZM2G458888
+Cluster70	multicellular organism development	0.0143996	0.0287992	30344	4022	12	5	3.14354	GRMZM2G039671;GRMZM2G075027;GRMZM2G095043;GRMZM2G458888;IDP8615
+Cluster70	single-organism metabolic process	0.0249453	0.0332604	30344	1664	12	3	4.55889	GRMZM2G005256;mlh1;pza01960
+Cluster96	isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway	3.41609e-08	3.7577e-07	30344	261	12	5	48.4419	GRMZM2G113205;GRMZM2G127361;GRMZM2G414537;IDP3934;Zm00001d005814
+Cluster96	pentose-phosphate shunt	2.67456e-05	0.000105921	30344	153	12	3	49.5817	IDP3934;Zm00001d005814;ndhn1
+Cluster96	regulation of proton transport	2.88874e-05	0.000105921	30344	157	12	3	48.3185	IDP3934;Zm00001d005814;col19
+Cluster96	photosystem II assembly	4.34182e-05	0.000117539	30344	180	12	3	42.1444	GRMZM2G164558;IDP3934;ndhn1
+Cluster96	response to blue light	5.34269e-05	0.000117539	30344	193	12	3	39.3057	IDP3934;Zm00001d005814;col19
+Cluster96	response to far red light	7.16026e-05	0.000118902	30344	213	12	3	35.615	IDP3934;Zm00001d005814;col19
+Cluster96	response to light stimulus	7.5665e-05	0.000118902	30344	217	12	3	34.9585	GRMZM2G127361;IDP3934;Zm00001d005814
+Cluster96	rRNA processing	0.00021288	0.00029271	30344	308	12	3	24.6299	GRMZM2G164558;IDP3934;Zm00001d005814
+Cluster96	response to sucrose	0.000787535	0.000962543	30344	482	12	3	15.7386	IDP3934;Zm00001d005814;col19
+Cluster96	oxidation-reduction process	0.0052137	0.00573507	30344	1917	12	4	5.2763	GRMZM2G113205;GRMZM2G127361;GRMZM2G164558;ndhn1
+Cluster65	coumarin biosynthetic process	6.1948e-05	0.00026103	30344	186	13	3	37.6476	Zm00001d051626;gst16;gst9
+Cluster65	lateral root development	7.45799e-05	0.00026103	30344	198	13	3	35.366	gst16;gst9;mads45
+Cluster65	root hair cell differentiation	0.000232496	0.00054249	30344	291	13	3	24.0634	gst16;gst9;mads45
+Cluster65	regulation of phenylpropanoid metabolic process	0.000792709	0.00138724	30344	443	13	3	15.8069	GRMZM2G004828;gst16;gst9
+Cluster65	response to nitrate	0.00177373	0.00248322	30344	586	13	3	11.9496	gst16;gst9;mads45
+Cluster65	multi-organism process	0.0121236	0.0141442	30344	1166	13	3	6.00554	gst16;gst56;gst9
+Cluster75	cellular metabolic process	0.00930615	0.0158423	30344	4751	13	6	2.94778	AC203571.3_FG001;GRMZM2G106906;GRMZM2G181540;pco121752;trx2;umc1705
+Cluster75	response to stress	0.0105615	0.0158423	30344	2142	13	4	4.35883	GRMZM2G096100;pco109727;trx2;wrky14
+Cluster139	lipid metabolic process	0.000190482	0.000571447	30344	721	13	4	12.9495	GRMZM2G010925;GRMZM2G145131;GRMZM2G374460;GRMZM2G466984
+Cluster139	cellular metabolic process	0.00164105	0.00246158	30344	4751	13	7	3.43908	AC185256.3_FG002;GRMZM2G080191;GRMZM2G145131;GRMZM2G180122;GRMZM2G374460;GRMZM2G448918;GRMZM5G804216
+Cluster139	signal transduction	0.0266804	0.0266804	30344	1568	13	3	4.46586	GRMZM2G004054;GRMZM2G010925;GRMZM2G448918
+Cluster131	response to hormone	2.58849e-06	3.88274e-05	30344	221	14	4	39.2295	arftf17;arftf3;arftf30;bzip23
+Cluster131	xylem and phloem pattern formation	0.000107747	0.000530633	30344	207	14	3	31.412	arftf17;arftf3;arftf30
+Cluster131	determination of bilateral symmetry	0.000136053	0.000530633	30344	224	14	3	29.0281	arftf17;arftf3;arftf30
+Cluster131	flower morphogenesis	0.000141502	0.000530633	30344	227	14	3	28.6444	arftf17;arftf3;arftf30
+Cluster131	auxin-activated signaling pathway	0.000311912	0.000935737	30344	297	14	3	21.8932	arftf17;arftf3;arftf30
+Cluster131	defense response	0.00116193	0.00238411	30344	467	14	3	13.9235	GRMZM2G003563;Zm00001d009425;bzip23
+Cluster131	post-embryonic animal morphogenesis	0.00136572	0.00238411	30344	494	14	3	13.1625	arftf17;arftf3;arftf30
+Cluster131	response to auxin	0.00140578	0.00238411	30344	499	14	3	13.0306	arftf17;arftf3;arftf30
+Cluster131	regulation of transcription, DNA-templated	0.00143046	0.00238411	30344	3019	14	6	4.30758	arftf17;arftf3;arftf30;bzip23;nfya1;sbp19
+Cluster131	cellular biosynthetic process	0.00223945	0.00335918	30344	1279	14	4	6.77851	GRMZM2G018992;IDP7226;Zm00001d009425;sbp19
+Cluster131	post-embryonic animal organ development	0.00359167	0.00489773	30344	694	14	3	9.36929	arftf17;arftf3;arftf30
+Cluster131	transcription, DNA-templated	0.00889276	0.011116	30344	3009	14	5	3.60158	arftf17;arftf3;arftf30;bzip23;sbp19
+Cluster131	developmental process	0.0240356	0.0277334	30344	1393	14	3	4.66783	GRMZM2G018992;Zm00001d009425;sbp19
+Cluster131	single-organism metabolic process	0.0380444	0.0407618	30344	1664	14	3	3.90762	arftf17;arftf3;arftf30
+Cluster99	defense response to fungus, incompatible interaction	3.29966e-05	0.000296969	30344	139	14	3	46.779	GRMZM2G062600;chn33;pco103560
+Cluster99	response to salt stress	0.00165006	0.00540026	30344	1177	14	4	7.36594	GRMZM2G062600;chn33;pco103560;px19
+Cluster99	response to ethylene	0.00180009	0.00540026	30344	544	14	3	11.9527	LOC103654463;chn33;cyp31
+Cluster99	defense response to fungus	0.00284503	0.00640131	30344	639	14	3	10.1757	chn33;cyp31;px19
+Cluster99	multi-organism process	0.0149954	0.0269917	30344	1166	14	3	5.57657	GRMZM2G062600;chn33;prp13
+Cluster99	developmental process	0.0240356	0.0360534	30344	1393	14	3	4.66783	chn33;cyp22;cyp31
+Cluster160	L-methionine salvage from methylthioadenosine	5.7635e-14	3.4581e-13	30344	17	14	5	637.479	AC233900.1_FG002;GRMZM2G373040;GRMZM2G433446;GRMZM2G434572;GRMZM5G827939
+Cluster160	amine biosynthetic process	2.7459e-08	8.23769e-08	30344	208	14	5	52.1016	AC233900.1_FG002;GRMZM2G373040;GRMZM2G433446;GRMZM2G434572;GRMZM5G827939
+Cluster160	short-chain fatty acid biosynthetic process	1.70483e-06	3.40966e-06	30344	52	14	3	125.044	GRMZM2G373040;GRMZM2G433446;GRMZM2G434572
+Cluster160	cellular amine metabolic process	7.28036e-06	1.09205e-05	30344	287	14	4	30.2081	AC233900.1_FG002;GRMZM2G433446;GRMZM2G434572;GRMZM5G827939
+Cluster160	cellular ketone metabolic process	4.73125e-05	5.6775e-05	30344	951	14	5	11.3955	AC233900.1_FG002;GRMZM2G433446;GRMZM2G434572;GRMZM5G827939;mybr64
+Cluster160	oxidation-reduction process	0.00123769	0.00123769	30344	1917	14	5	5.65318	AC233900.1_FG002;GRMZM2G373040;GRMZM2G433446;GRMZM2G434572;GRMZM5G827939
+Cluster142	aminoglycan metabolic process	1.49153e-10	1.64068e-09	30344	19	15	4	425.881	GRMZM2G034385;GRMZM2G162109;GRMZM2G359892;Zm00001d032696
+Cluster142	polysaccharide biosynthetic process	9.20666e-08	5.06366e-07	30344	89	15	4	90.9184	GRMZM2G034385;GRMZM2G162109;GRMZM2G359892;Zm00001d032696
+Cluster142	amine metabolic process	3.28036e-07	1.2028e-06	30344	122	15	4	66.3257	GRMZM2G034385;GRMZM2G162109;GRMZM2G359892;Zm00001d032696
+Cluster142	regulation of biological process	0.000715111	0.00196656	30344	1570	15	5	6.44246	GRMZM2G034385;GRMZM2G162109;GRMZM2G359892;GRMZM2G437675;Zm00001d032696
+Cluster142	cellular macromolecule biosynthetic process	0.0118751	0.0261252	30344	994	15	3	6.10543	GRMZM2G162109;GRMZM2G359892;GRMZM2G437675
+Cluster15	maltose metabolic process	9.92296e-05	0.000198459	30344	187	15	3	32.4535	GRMZM2G093254;LOC100384340;apo3
+Cluster15	starch biosynthetic process	0.000204705	0.000204705	30344	239	15	3	25.3925	GRMZM2G093254;LOC100384340;apo3
+Cluster16	DNA strand elongation involved in DNA replication	3.58302e-18	3.08336e-17	30344	31	15	7	456.791	mcm1;mcm2;mcm4;mcm5;mcm6;mcm7;pco076382
+Cluster16	DNA replication	3.62749e-18	3.08336e-17	30344	251	15	10	80.595	cl3646_1;mcm1;mcm2;mcm4;mcm5;mcm6;mcm7;pcna2;pco076382;rnrs3
+Cluster16	DNA replication initiation	3.30564e-17	1.8732e-16	30344	92	15	8	175.907	cl3646_1;mcm1;mcm2;mcm4;mcm5;mcm6;mcm7;pco076382
+Cluster16	mitotic S phase	5.58177e-17	2.37225e-16	30344	98	15	8	165.137	mcm1;mcm2;mcm4;mcm5;mcm6;mcm7;pcna2;pco076382
+Cluster16	double-strand break repair via break-induced replication	8.54792e-17	2.90629e-16	30344	18	15	6	674.311	mcm1;mcm2;mcm4;mcm5;mcm6;mcm7
+Cluster16	pre-replicative complex assembly involved in nuclear cell cycle DNA replication	3.43211e-16	9.72432e-16	30344	22	15	6	551.709	mcm1;mcm2;mcm4;mcm5;mcm6;mcm7
+Cluster16	DNA unwinding involved in DNA replication	6.18811e-16	1.50283e-15	30344	24	15	6	505.733	mcm1;mcm2;mcm4;mcm5;mcm6;mcm7
+Cluster16	cell proliferation	2.54449e-15	5.40704e-15	30344	287	15	9	63.4369	cl3646_1;mcm1;mcm2;mcm4;mcm5;mcm6;mcm7;pcna2;pco076382
+Cluster16	histone H3-K9 methylation	4.78794e-14	9.04389e-14	30344	224	15	8	72.2476	cl3646_1;mcm1;mcm2;mcm4;mcm5;mcm7;pcna2;pco076382
+Cluster16	DNA duplex unwinding	4.53821e-13	7.71495e-13	30344	67	15	6	181.158	mcm1;mcm2;mcm4;mcm5;mcm6;mcm7
+Cluster16	regulation of DNA-dependent DNA replication initiation	2.7562e-11	4.25958e-11	30344	13	15	4	622.441	mcm4;mcm5;mcm6;mcm7
+Cluster16	chromatin silencing at telomere	1.10841e-07	1.57025e-07	30344	20	15	3	303.44	mcm1;mcm2;mcm5
+Cluster16	regulation of flower development	9.70861e-07	1.26959e-06	30344	394	15	5	25.6717	cl3646_1;mcm4;mcm5;mcm7;pco076382
+Cluster16	anaphase	1.2662e-06	1.53753e-06	30344	171	15	4	47.3201	mcm4;mcm5;mcm7;pco076382
+Cluster16	regulation of G2/M transition of mitotic cell cycle	2.81386e-06	3.18904e-06	30344	57	15	3	106.47	cl3646_1;mcm5;pco076382
+Cluster16	regulation of DNA replication	6.20259e-06	6.59025e-06	30344	74	15	3	82.0108	cl3646_1;mcm7;pcna2
+Cluster16	cytokinesis by cell plate formation	1.85195e-05	1.85195e-05	30344	337	15	4	24.0111	mcm4;mcm5;mcm7;pco076382
+Cluster26	fatty acid beta-oxidation	8.29151e-05	0.00033166	30344	176	15	3	34.4818	GRMZM2G033491;GRMZM2G077837;acat2
+Cluster26	cellular ketone metabolic process	0.0105324	0.0210649	30344	951	15	3	6.38149	acat2;bas1;pco068984
+Cluster23	response to nematode	0.00103682	0.00311046	30344	417	15	3	14.5535	cax2;gpm828;sut2
+Cluster23	transmembrane transport	0.00671437	0.0100716	30344	807	15	3	7.5202	cax2;gpm828;sut2
+Cluster23	response to salt stress	0.0186768	0.0186768	30344	1177	15	3	5.15616	GRMZM2G140150;cax2;gpm828
+Cluster38	response to water deprivation	0.00333394	0.00333394	30344	628	15	3	9.66369	mbf3;opst2;pco116018
+Cluster55	response to jasmonic acid	0.00110458	0.0055229	30344	398	16	3	14.2952	GRMZM2G064386;LOC103652818;ork1
+Cluster55	response to salt stress	0.00281994	0.00704985	30344	1177	16	4	6.4452	Zm00001eb309390;mterf17;pco138410b;stp2
+Cluster55	response to abscisic acid	0.00883755	0.0147293	30344	833	16	3	6.83013	mterf17;ork1;stp2
+Cluster55	cellular protein metabolic process	0.0118204	0.0147755	30344	927	16	3	6.13754	GRMZM2G064386;GRMZM5G876434;cl8508_1
+Cluster119	small molecule metabolic process	0.00642918	0.0192875	30344	742	16	3	7.66779	GRMZM2G042516;fdx7;ftfh2
+Cluster64	regulation of meristem growth	0.00293858	0.00881573	30344	526	17	3	10.1803	Zm00001eb103470;sbt34;serk1
+Cluster122	chromosome organization	5.68293e-06	7.95611e-05	30344	778	19	6	12.3166	GRMZM2G125432;GRMZM2G317738;GRMZM2G475583;atx5;hac101a;pza01926
+Cluster122	transcription, DNA-templated	3.3503e-05	0.000234521	30344	3009	19	9	4.77683	GRMZM2G013765;GRMZM2G017414;GRMZM2G125432;GRMZM2G317738;atx5;hac101a;mybr71;pza01926;umc1799
+Cluster122	one-carbon metabolic process	0.000110402	0.000515209	30344	151	19	3	31.7295	GRMZM2G125432;atx5;dnaj165
+Cluster122	regulation of gene expression	0.00350099	0.0122535	30344	498	19	3	9.6208	GRMZM2G475583;atx5;pza01926
+Cluster122	regulation of cellular metabolic process	0.00644539	0.0180471	30344	620	19	3	7.72767	GRMZM2G475583;atx5;umc1799
+Cluster122	multicellular organism development	0.00839113	0.0195793	30344	4022	19	7	2.77955	GRMZM2G013765;GRMZM2G017414;GRMZM2G125432;GRMZM2G475583;Zm00001d033982;atx5;pza01926
+Cluster122	biological regulation	0.0209399	0.0387087	30344	1741	19	4	3.66928	GRMZM2G379964;LOC100384565;gpm714b;phd15
+Cluster122	biosynthetic process	0.0221192	0.0387087	30344	980	19	3	4.88894	Zm00001d051039;atx5;umc1799
+Cluster69	post-translational protein modification	0.00280499	0.0278784	30344	1469	21	5	4.91815	GRMZM2G012319;GRMZM2G057416;LOC103647548;mek1;mybr67
+Cluster69	vesicle-mediated transport	0.00557568	0.0278784	30344	530	21	3	8.17898	LOC100193726;cl33432_1b;vpsh26
+Cluster137	cellular component organization	0.00337575	0.0101273	30344	2248	21	6	3.85663	GRMZM2G088258;GRMZM2G105391;LOC103636806;csu191;pco107491a;umc2359
+Cluster42	RNA processing	0.004804	0.033628	30344	457	23	3	8.66064	AC190740.2_FG004;PCO146525;pco136151a
+Cluster41	response to hypoxia	0.000172538	0.00172538	30344	132	25	3	27.5855	alt10;sus6;sus7
+Cluster41	biosynthetic process	0.00107847	0.00539234	30344	980	25	5	6.19265	GRMZM2G113177;GRMZM2G153871;alt10;sus6;sus7
+Cluster61	purine ribonucleoside triphosphate catabolic process	0.00632532	0.0291465	30344	463	25	3	7.86454	GRMZM2G101460;GRMZM2G422090;cl19589_1
+Cluster61	purine ribonucleotide catabolic process	0.00647701	0.0291465	30344	467	25	3	7.79717	GRMZM2G101460;GRMZM2G422090;cl19589_1
+Cluster61	embryo development ending in seed dormancy	0.0129743	0.0389229	30344	603	25	3	6.03861	lls1;mcsf1;pgdh4
+Cluster68	abscisic acid-activated signaling pathway	0.00260577	0.0208462	30344	686	26	4	6.80511	bnlg1792;bzip60;pyl8;spk1
+Cluster68	primary metabolic process	0.00563753	0.0225501	30344	2643	26	7	3.09101	GRMZM2G073954;GRMZM5G864166;GRMZM5G897342;aldh14;aprl4;npi254b;phi251315
+Cluster109	biosynthetic process	0.000692754	0.00635308	30344	980	34	6	5.46411	GRMZM2G090112;GRMZM2G093359;GRMZM2G093666;gss1;pdrp2;si946019d11
+Cluster109	thylakoid membrane organization	0.000794135	0.00635308	30344	375	34	4	9.51969	Zm00001d040804;csy1;im30p1;nbp1
+Cluster109	regulation of cellular metabolic process	0.00492288	0.0262553	30344	620	34	4	5.75787	GRMZM2G069569;GRMZM2G090112;cl17097_1;w3
+Cluster146	cell wall organization	1.32443e-09	8.87366e-08	30344	294	35	8	23.5911	IDP727;kcs11;kcs13;kcs28;kcs9;plt12;xt2;xth30
+Cluster146	wax biosynthetic process	7.90626e-09	2.6486e-07	30344	60	35	5	72.2476	abcg11;kcs11;kcs13;kcs28;kcs9
+Cluster146	sulfur amino acid metabolic process	5.92438e-08	1.07779e-06	30344	33	35	4	105.087	kcs11;kcs13;kcs28;kcs9
+Cluster146	sulfur compound biosynthetic process	6.70881e-08	1.07779e-06	30344	34	35	4	101.997	kcs11;kcs13;kcs28;kcs9
+Cluster146	regulation of lipid metabolic process	9.53075e-08	1.07779e-06	30344	37	35	4	93.7266	kcs11;kcs13;kcs28;kcs9
+Cluster146	cell tip growth	1.09221e-07	1.07779e-06	30344	341	35	7	17.7971	GRMZM2G042758;IDP727;cyp50;kcs11;kcs13;kcs28;kcs9
+Cluster146	very long-chain fatty acid metabolic process	1.34692e-07	1.07779e-06	30344	105	35	5	41.2844	GRMZM2G042758;kcs11;kcs13;kcs28;kcs9
+Cluster146	cellulose metabolic process	1.60864e-07	1.07779e-06	30344	42	35	4	82.5687	kcs11;kcs13;kcs28;kcs9
+Cluster146	lipoate metabolic process	1.60864e-07	1.07779e-06	30344	42	35	4	82.5687	kcs11;kcs13;kcs28;kcs9
+Cluster146	vitamin metabolic process	1.60864e-07	1.07779e-06	30344	42	35	4	82.5687	kcs11;kcs13;kcs28;kcs9
+Cluster146	suberin biosynthetic process	1.86053e-07	1.13323e-06	30344	112	35	5	38.7041	gpat7;kcs11;kcs13;kcs28;kcs9
+Cluster146	anthocyanin accumulation in tissues in response to UV light	2.04114e-07	1.13963e-06	30344	374	35	7	16.2267	GRMZM2G042758;IDP727;cyp50;kcs11;kcs13;kcs28;kcs9
+Cluster146	aromatic amino acid family metabolic process	3.56519e-07	1.83744e-06	30344	51	35	4	67.9978	kcs11;kcs13;kcs28;kcs9
+Cluster146	glycine catabolic process	3.85913e-07	1.84687e-06	30344	52	35	4	66.6901	kcs11;kcs13;kcs28;kcs9
+Cluster146	oxidoreduction coenzyme metabolic process	5.21856e-07	2.33096e-06	30344	56	35	4	61.9265	kcs11;kcs13;kcs28;kcs9
+Cluster146	pollen exine formation	6.13632e-07	2.47378e-06	30344	270	35	6	19.266	GRMZM2G042758;cyp50;kcs11;kcs13;kcs28;kcs9
+Cluster146	cuticle development	6.27676e-07	2.47378e-06	30344	143	35	5	30.3137	GRMZM2G042758;kcs11;kcs13;kcs28;kcs9
+Cluster146	fatty acid biosynthetic process	9.35007e-07	3.4803e-06	30344	155	35	5	27.9668	kcs11;kcs13;kcs28;kcs3;kcs9
+Cluster146	coenzyme biosynthetic process	1.21532e-06	4.28562e-06	30344	69	35	4	50.2592	kcs11;kcs13;kcs28;kcs9
+Cluster146	brassinosteroid biosynthetic process	1.47576e-06	4.94378e-06	30344	314	35	6	16.5663	cyp50;kcs11;kcs13;kcs28;kcs9;prx39
+Cluster146	response to red light	2.29282e-06	7.31517e-06	30344	186	35	5	23.3057	expa1;kcs11;kcs13;kcs28;kcs9
+Cluster146	multidimensional cell growth	2.85352e-06	8.69026e-06	30344	352	35	6	14.7779	GRMZM2G042758;cyp50;kcs11;kcs13;kcs28;kcs9
+Cluster146	response to karrikin	3.05227e-06	8.8914e-06	30344	561	35	7	10.8178	LOC100382383;abcg11;gpat7;kcs11;kcs13;kcs28;kcs9
+Cluster146	acetyl-CoA metabolic process	3.37681e-06	9.04985e-06	30344	89	35	4	38.965	kcs11;kcs13;kcs28;kcs9
+Cluster146	polysaccharide biosynthetic process	3.37681e-06	9.04985e-06	30344	89	35	4	38.965	kcs11;kcs13;kcs28;kcs9
+Cluster146	plant-type cell wall biogenesis	3.68389e-06	9.15744e-06	30344	368	35	6	14.1354	GRMZM2G042758;IDP727;kcs11;kcs13;kcs28;kcs9
+Cluster146	lipid biosynthetic process	3.69031e-06	9.15744e-06	30344	91	35	4	38.1086	kcs11;kcs13;kcs28;kcs9
+Cluster146	oxylipin biosynthetic process	3.8549e-06	9.22422e-06	30344	92	35	4	37.6944	kcs11;kcs13;kcs28;kcs9
+Cluster146	root hair elongation	6.8005e-06	1.57115e-05	30344	634	35	7	9.57224	GRMZM2G042758;IDP727;cyp50;kcs11;kcs13;kcs28;kcs9
+Cluster146	calcium ion transport	7.29753e-06	1.62978e-05	30344	108	35	4	32.1101	kcs11;kcs13;kcs28;kcs9
+Cluster146	alcohol biosynthetic process	7.78138e-06	1.68178e-05	30344	239	35	5	18.1375	cyp50;kcs11;kcs13;kcs28;kcs9
+Cluster146	carotenoid biosynthetic process	9.04207e-06	1.89318e-05	30344	114	35	4	30.4201	kcs11;kcs13;kcs28;kcs9
+Cluster146	isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway	1.19107e-05	2.41822e-05	30344	261	35	5	16.6086	gpm525;kcs11;kcs13;kcs28;kcs9
+Cluster146	unsaturated fatty acid biosynthetic process	1.30148e-05	2.56468e-05	30344	125	35	4	27.7431	kcs11;kcs13;kcs28;kcs9
+Cluster146	chlorophyll biosynthetic process	1.47365e-05	2.82099e-05	30344	129	35	4	26.8828	kcs11;kcs13;kcs28;kcs9
+Cluster146	iron-sulfur cluster assembly	2.59683e-05	4.83299e-05	30344	149	35	4	23.2744	kcs11;kcs13;kcs28;kcs9
+Cluster146	flavonoid biosynthetic process	3.10821e-05	5.61895e-05	30344	156	35	4	22.23	kcs11;kcs13;kcs28;kcs9
+Cluster146	regulation of proton transport	3.18687e-05	5.61895e-05	30344	157	35	4	22.0884	kcs11;kcs13;kcs28;kcs9
+Cluster146	plant ovule development	5.04676e-05	8.67007e-05	30344	353	35	5	12.28	GRMZM2G042758;kcs11;kcs13;kcs28;kcs9
+Cluster146	cellular amino acid biosynthetic process	6.6988e-05	0.000109756	30344	190	35	4	18.252	kcs11;kcs13;kcs28;kcs9
+Cluster146	thylakoid membrane organization	6.7164e-05	0.000109756	30344	375	35	5	11.5596	gpm525;kcs11;kcs13;kcs28;kcs9
+Cluster146	response to blue light	7.1181e-05	0.000113551	30344	193	35	4	17.9683	kcs11;kcs13;kcs28;kcs9
+Cluster146	sterol biosynthetic process	9.15916e-05	0.000142713	30344	206	35	4	16.8344	kcs11;kcs13;kcs28;kcs9
+Cluster146	response to far red light	0.000104194	0.000158659	30344	213	35	4	16.2812	kcs11;kcs13;kcs28;kcs9
+Cluster146	post-embryonic animal organ development	0.000129138	0.000192272	30344	694	35	6	7.49543	IDP727;dnaj162;kcs11;kcs13;kcs28;kcs9
+Cluster146	plant-type cell wall organization	0.000142349	0.000207335	30344	231	35	4	15.0125	cl5426_1;expa1;expb4;prx39
+Cluster146	jasmonic acid biosynthetic process	0.000181144	0.000258227	30344	246	35	4	14.0971	kcs11;kcs13;kcs28;kcs9
+Cluster146	multi-organism process	0.000317816	0.000443618	30344	1166	35	7	5.2048	GRMZM2G042758;IDP6761;kcs11;kcs13;kcs28;kcs9;znod1
+Cluster146	response to cold	0.000432636	0.000591564	30344	869	35	6	5.98599	burp2;kcs11;kcs13;kcs28;kcs9;prx39
+Cluster146	response to high light intensity	0.000694233	0.000930273	30344	351	35	4	9.88002	kcs11;kcs13;kcs28;kcs9
+Cluster146	epidermal cell differentiation	0.00178358	0.00234314	30344	769	35	5	5.63701	kcs11;kcs13;kcs28;kcs9;prx39
+Cluster146	response to salt stress	0.00207926	0.00267905	30344	1177	35	6	4.41957	abcg11;burp2;kcs11;kcs13;kcs28;kcs9
+Cluster146	response to sucrose	0.00222914	0.00281796	30344	482	35	4	7.19478	kcs11;kcs13;kcs28;kcs9
+Cluster146	Golgi organization	0.0022968	0.00284974	30344	486	35	4	7.13557	kcs11;kcs13;kcs28;kcs9
+Cluster146	vegetative to reproductive phase transition of meristem	0.00313743	0.00382196	30344	530	35	4	6.54318	kcs11;kcs13;kcs28;kcs9
+Cluster146	embryo development ending in seed dormancy	0.00496077	0.00593521	30344	603	35	4	5.75105	kcs11;kcs13;kcs28;kcs9
+Cluster146	positive regulation of transcription, DNA-templated	0.00550069	0.00642624	30344	621	35	4	5.58436	kcs11;kcs13;kcs28;kcs9
+Cluster146	response to wounding	0.00556301	0.00642624	30344	623	35	4	5.56643	kcs11;kcs13;kcs28;kcs9
+Cluster146	defense response to bacterium	0.00958263	0.010882	30344	729	35	4	4.75704	kcs11;kcs13;kcs28;kcs9
+Cluster146	metabolic process	0.0146112	0.0163158	30344	2301	35	7	2.63746	cgt2;gpat7;kcs11;kcs13;kcs28;kcs3;kcs9
+Cluster146	carbohydrate metabolic process	0.0156393	0.0171776	30344	843	35	4	4.11374	IDP727;burp2;pdcb41;xth30
+Cluster117	xylan biosynthetic process	6.18031e-08	2.16311e-06	30344	287	38	7	19.4763	Zm00001d027938;ccp18;hb20;knox1;pal1;pal3;umc2705
+Cluster117	phenylpropanoid metabolic process	1.38859e-07	2.43003e-06	30344	97	38	5	41.1612	GRMZM2G178199;Zm00001d052493;nrt7;pal1;pal3
+Cluster117	glucuronoxylan metabolic process	2.12171e-05	0.000247533	30344	270	38	5	14.7875	ccp18;hb20;knox1;pal1;pal3
+Cluster117	polyamine catabolic process	3.01408e-05	0.000263732	30344	48	38	3	49.9079	Zm00001d052493;pal1;pal3
+Cluster117	cellular modified amino acid biosynthetic process	0.000172583	0.00120808	30344	86	38	3	27.8556	Zm00001d052493;pal1;pal3
+Cluster117	cellular modified amino acid metabolic process	0.000766119	0.00446903	30344	143	38	3	16.7523	Zm00001d052493;pal1;pal3
+Cluster117	coumarin biosynthetic process	0.00163259	0.00816295	30344	186	38	3	12.8795	ivr2;pal1;pal3
+Cluster117	Golgi organization	0.0031181	0.0136417	30344	486	38	4	6.57223	GRMZM2G020156;GRMZM5G853513;anx4;ivr2
+Cluster117	response to karrikin	0.00518678	0.0201708	30344	561	38	4	5.69359	GRMZM2G090279;mate10;pal1;pal3
+Cluster117	brassinosteroid biosynthetic process	0.00708413	0.0204324	30344	314	38	3	7.62923	GRMZM5G853513;anx4;ivr2
+Cluster117	xylem development	0.00714612	0.0204324	30344	315	38	3	7.60501	GRMZM2G020156;hb20;knox1
+Cluster117	response to wounding	0.00747311	0.0204324	30344	623	38	4	5.12697	mate10;nrt7;pal1;pal3
+Cluster117	response to salicylic acid	0.00758916	0.0204324	30344	322	38	3	7.43969	GRMZM2G021624;LOC100191680;nrt7
+Cluster117	cellular response to iron ion starvation	0.00967058	0.0241765	30344	352	38	3	6.80562	LOC100191680;ivr2;nrt7
+Cluster117	response to nematode	0.0152301	0.0355369	30344	417	38	3	5.74479	LOC100191680;mate10;nrt7
+Cluster130	cellular metabolic process	6.21848e-07	1.18151e-05	30344	4751	51	23	2.88035	AC195351.3_FG001;AC210593.3_FG001;GRMZM2G026184;GRMZM2G058459;GRMZM2G087016;GRMZM2G093524;GRMZM2G104220;GRMZM2G123774;GRMZM2G161579;GRMZM2G173668;GRMZM2G176354;GRMZM2G301848;GRMZM2G323413;GRMZM2G349670;GRMZM2G352310;GRMZM2G422782;GRMZM2G427400;GRMZM2G430646;GRMZM2G436864;GRMZM2G448924;GRMZM5G832381;GRMZM5G838352;prozip1
+Cluster133	photosynthesis	4.75747e-70	3.13993e-68	30344	182	56	37	110.158	B6U534;GRMZM2G017290;GRMZM2G036880;GRMZM2G085646;GRMZM2G094224;GRMZM2G377168;GRMZM2G377855;GRMZM2G380414;GRMZM5G832229;LOC103647735;Zm00001d015385;Zm00001d032197;csu27;gpm472;gpm571;lhca1;lhca2;lhcb12;lhcb3;lhcb5;lhcb6;lhcb7;lhcb9;oec17;oec33b;pba1;pco070877;pet7;pet8;pet9;psad1;psah1;psb29;pspb1;pspb2;umc1684;umc1974
+Cluster133	response to red light	1.20212e-32	3.96698e-31	30344	186	56	21	61.1774	GRMZM2G036880;IDP80;LOC100192599;LOC103647735;Zm00001d015385;Zm00001d032197;gpm571;lhca1;lhca2;lhcb12;lhcb3;lhcb5;lhcb6;lhcb7;lhcb9;oec17;pcr3;psb29;pspb1;pspb2;umc1684
+Cluster133	photosynthesis, light harvesting	1.2886e-31	2.83491e-30	30344	30	56	14	252.867	GRMZM2G036880;Zm00001d015385;Zm00001d032197;gpm571;lhca1;lhca2;lhcb12;lhcb3;lhcb5;lhcb6;lhcb7;lhcb9;psb29;umc1684
+Cluster133	response to far red light	2.34394e-31	3.86749e-30	30344	213	56	21	53.4225	GRMZM2G036880;IDP80;LOC100192599;LOC103647735;Zm00001d015385;Zm00001d032197;gpm571;lhca1;lhca2;lhcb12;lhcb3;lhcb5;lhcb6;lhcb7;lhcb9;oec17;pcr3;psb29;pspb1;pspb2;umc1684
+Cluster133	response to blue light	2.75228e-30	3.63301e-29	30344	193	56	20	56.151	GRMZM2G036880;IDP80;LOC100192599;LOC103647735;Zm00001d015385;Zm00001d032197;gpm571;lhca1;lhca2;lhcb12;lhcb3;lhcb5;lhcb6;lhcb7;lhcb9;oec17;psb29;pspb1;pspb2;umc1684
+Cluster133	photosynthesis, light harvesting in photosystem I	5.48216e-29	6.03037e-28	30344	20	56	12	325.114	GRMZM2G036880;Zm00001d015385;Zm00001d032197;gpm571;lhca1;lhca2;lhcb3;lhcb6;lhcb9;pco139896;psb29;umc1684
+Cluster133	photosystem II assembly	6.49399e-29	6.12291e-28	30344	180	56	19	57.196	C0P7G8;GRMZM2G005984;GRMZM2G094224;IDP80;LOC100192599;LOC100285487;LOC103647735;gun4;oec17;oec33b;pco070877;pco139896;pcr3;pet7;psad1;psah1;pspb1;pspb2;umc1974
+Cluster133	protein-chromophore linkage	8.09797e-28	6.68082e-27	30344	50	56	14	151.72	GRMZM2G036880;Zm00001d015385;Zm00001d032197;gpm571;lhca1;lhca2;lhcb12;lhcb3;lhcb5;lhcb6;lhcb7;lhcb9;psb29;umc1684
+Cluster133	plastid organization	1.3025e-25	9.55169e-25	30344	69	56	14	109.942	C0P7G8;GRMZM2G005984;GRMZM2G094224;LOC103647735;oec17;pco070877;pco139896;pet7;psad1;psah1;pspb1;pspb2;rpl29;umc1974
+Cluster133	regulation of protein dephosphorylation	5.78608e-20	3.81881e-19	30344	219	56	15	37.1135	C0P7G8;GRMZM2G005984;GRMZM2G036880;LOC100192599;LOC100285487;LOC103647735;Zm00001d015385;lhcb6;oec17;oec33b;pco139896;pet7;psad1;psah1;psb29
+Cluster133	photosynthetic electron transport in photosystem I	4.3139e-15	2.58834e-14	30344	66	56	9	73.8896	B6U534;GRMZM2G377855;LOC100192599;LOC100285487;gpm472;oec33b;psah1;pspb1;pspb2
+Cluster133	regulation of proton transport	2.98668e-13	1.64267e-12	30344	157	56	10	34.5132	GRMZM2G036880;IDP80;LOC103647735;Zm00001d015385;lhcb5;lhcb6;oec17;psb29;pspb1;pspb2
+Cluster133	rRNA processing	3.61865e-13	1.83716e-12	30344	308	56	12	21.1113	C0P7G8;GRMZM2G005984;LOC100192599;LOC100285487;LOC103647735;gun4;lhcb5;oec17;pco070877;pco139896;psad1;psah1
+Cluster133	response to high light intensity	1.68305e-12	7.93437e-12	30344	351	56	12	18.525	GRMZM2G036880;IDP80;LOC103647735;Zm00001d015385;Zm00001d032197;lhca1;lhcb5;lhcb6;oec17;psb29;pspb1;pspb2
+Cluster133	divalent metal ion transport	6.63525e-11	2.91951e-10	30344	72	56	7	52.6806	B6U534;LOC103647735;oec17;pco139896;pet8;pet9;psad1
+Cluster133	cysteine biosynthetic process	3.25441e-10	1.34245e-09	30344	149	56	8	29.093	B6U534;LOC100192599;gun4;lhcb5;pco139896;psad1;psah1;pspb2
+Cluster133	response to sucrose	1.13441e-09	4.40418e-09	30344	482	56	11	12.366	GRMZM2G036880;IDP80;LOC100192599;LOC103647735;Zm00001d015385;lhcb5;lhcb6;oec17;psb29;pspb1;pspb2
+Cluster133	cellular cation homeostasis	1.54199e-09	5.65398e-09	30344	112	56	7	33.8661	B6U534;LOC103647735;oec17;pco139896;pet8;pet9;psad1
+Cluster133	nonphotochemical quenching	4.96172e-07	1.63737e-06	30344	9	56	3	180.619	lhcb5;lhcb6;psb29
+Cluster133	photosystem II stabilization	4.96172e-07	1.63737e-06	30344	9	56	3	180.619	LOC100285487;oec33b;pco070877
+Cluster133	response to low light intensity stimulus	2.66655e-06	8.3806e-06	30344	15	56	3	108.371	Zm00001d015385;Zm00001d032197;lhca1
+Cluster133	chlorophyll biosynthetic process	4.12356e-06	1.23707e-05	30344	129	56	5	21.0022	LOC100192599;LOC100285487;gtr1;gun4;pcr3
+Cluster133	response to karrikin	8.45534e-06	2.42632e-05	30344	561	56	8	7.72702	GRMZM2G036880;Zm00001d015385;Zm00001d032197;gpm571;lhca1;lhca2;lhcb6;psb29
+Cluster133	photosynthesis, light reaction	9.74682e-06	2.68037e-05	30344	72	56	4	30.1032	GRMZM2G070847;oec33b;pet8;pet9
+Cluster133	detection of biotic stimulus	3.27862e-05	8.65556e-05	30344	198	56	5	13.6833	LOC100192599;LOC100285487;oec33b;pspb1;pspb2
+Cluster133	chloroplast relocation	0.000147491	0.0003744	30344	144	56	4	15.0516	LOC100192599;LOC100285487;oec33b;pcr3
+Cluster133	macromolecule modification	0.000260803	0.000637519	30344	308	56	5	8.79638	B6U534;GRMZM2G377855;gpm472;oec33b;pet7
+Cluster133	defense response to bacterium	0.000374467	0.000882673	30344	729	56	7	5.20302	GRMZM2G132811;LOC100192599;LOC100285487;oec33b;prdx2;pspb1;pspb2
+Cluster133	regulation of multi-organism process	0.000665513	0.00151461	30344	92	56	3	17.6693	LOC100192599;LOC100285487;pspb2
+Cluster133	transcription from plastid promoter	0.000753256	0.00165716	30344	96	56	3	16.933	LOC100285487;oec33b;rpl29
+Cluster133	response to cold	0.001055	0.00224613	30344	869	56	7	4.36479	LOC100192599;LOC100285487;Zm00001d015385;Zm00001d032197;lhca1;pspb1;pspb2
+Cluster133	regulation of hydrogen peroxide metabolic process	0.00118994	0.00245425	30344	431	56	5	6.28605	LOC100192599;LOC100285487;oec33b;pspb1;pspb2
+Cluster133	carotenoid biosynthetic process	0.00123834	0.00247667	30344	114	56	3	14.2594	LOC100285487;gun4;lyce1
+Cluster133	unsaturated fatty acid biosynthetic process	0.00161308	0.00313128	30344	125	56	3	13.0046	LOC100192599;LOC100285487;pcr3
+Cluster133	salicylic acid biosynthetic process	0.00248209	0.0046805	30344	510	56	5	5.31232	LOC100192599;LOC100285487;oec33b;pspb1;pspb2
+Cluster133	pentose-phosphate shunt	0.00286502	0.00525254	30344	153	56	3	10.6246	LOC100285487;gun4;pco139896
+Cluster133	systemic acquired resistance, salicylic acid mediated signaling pathway	0.00495119	0.0088305	30344	600	56	5	4.51548	LOC100192599;LOC100285487;oec33b;pspb1;pspb2
+Cluster133	thylakoid membrane organization	0.00508423	0.0088305	30344	375	56	4	5.77981	LOC100192599;LOC100285487;oec33b;pcr3
+Cluster133	cellular developmental process	0.00556334	0.00941488	30344	617	56	5	4.39106	B6U534;GRMZM2G017290;GRMZM2G085646;GRMZM2G377855;pet7
+Cluster133	establishment of localization	0.00604294	0.00997085	30344	394	56	4	5.50109	GRMZM2G017290;GRMZM2G070847;GRMZM2G085646;pet7
+Cluster133	cell surface receptor signaling pathway	0.00642455	0.010342	30344	401	56	4	5.40506	GRMZM2G070847;GRMZM2G094224;pet7;umc1974
+Cluster133	MAPK cascade	0.0081761	0.0128482	30344	430	56	4	5.04053	LOC100192599;LOC100285487;pspb1;pspb2
+Cluster133	jasmonic acid mediated signaling pathway	0.012447	0.0191047	30344	752	56	5	3.60277	LOC100192599;LOC100285487;oec33b;pspb1;pspb2
+Cluster133	response to cytokinin	0.0133829	0.0200743	30344	268	56	3	6.06557	pet9;psah1;psb29
+Cluster133	response to chitin	0.0151156	0.0221696	30344	1093	56	6	2.97451	LOC100192599;LOC100285487;gtr1;oec33b;pspb1;pspb2
+Cluster133	protein targeting to membrane	0.0177224	0.0254277	30344	298	56	3	5.45494	LOC100192599;LOC100285487;pspb2
+Cluster133	leaf morphogenesis	0.0204908	0.028643	30344	315	56	3	5.16054	gun4;oec33b;pcr3
+Cluster133	negative regulation of defense response	0.0208313	0.028643	30344	317	56	3	5.12799	LOC100192599;LOC100285487;pspb2
+Cluster133	defense response to fungus	0.0302365	0.0407267	30344	639	56	4	3.39191	LOC100192599;LOC100285487;pspb1;pspb2
+Cluster149	dolichol-linked oligosaccharide biosynthetic process	1.84593e-05	0.00073837	30344	23	68	3	58.2046	GRMZM2G045979;GRMZM2G049484;LOC100282442
+Cluster149	regulation of alternative mRNA splicing, via spliceosome	0.000107947	0.00215895	30344	41	68	3	32.6514	c3h4;drh1;pco133413
+Cluster149	mRNA processing	0.000218444	0.00291259	30344	243	68	5	9.1818	GRMZM2G111138;GRMZM5G813627;LOC100383763;pco133413;pco146608
+Cluster149	single organism reproductive process	0.000585699	0.00585699	30344	170	68	4	10.4997	GRMZM2G171961;LOC100279216;recq4;sro3
+Cluster149	mRNA splicing, via spliceosome	0.000787307	0.00629846	30344	184	68	4	9.70077	LOC100191198;Zm00001d014343;c3h4;phm5798
+Cluster149	double-strand break repair via homologous recombination	0.00132502	0.00883348	30344	96	68	3	13.9449	GRMZM2G001334;GRMZM2G149788;recq4
+Cluster149	developmental process	0.00379479	0.0216845	30344	1393	68	9	2.88307	GRMZM2G040720;GRMZM2G160046;GRMZM2G398809;GRMZM5G820374;LOC100383763;LOC113174990;eif2;pum4;srt101
+Cluster149	rRNA processing	0.00509237	0.022884	30344	308	68	4	5.79526	GRMZM2G171961;cl12271_1a;drh1;iaa48
+Cluster149	RNA metabolic process	0.00514891	0.022884	30344	944	68	7	3.30895	GRMZM2G111138;GRMZM2G177781;GRMZM5G810275;GRMZM5G864412;LOC100191788;eif2;recq4
+Cluster149	regulation of nucleobase-containing compound metabolic process	0.00641026	0.025641	30344	329	68	4	5.42535	GRMZM2G078116;GRMZM2G149788;GRMZM5G813627;umc2539
+Cluster149	glycolytic process	0.00775623	0.0282045	30344	180	68	3	7.43725	GRMZM2G419024;si707090f09c;sro3
+Cluster138	photosynthetic electron transport in photosystem I	4.71693e-14	2.78299e-12	30344	66	72	9	57.4697	GRMZM2G075958;GRMZM2G122715;Zm00001d052242;atpc2;fbp2;pco076489;pgr5;si603029f11;srrp1
+Cluster138	plastid organization	5.01122e-12	1.47831e-10	30344	69	72	8	48.8631	GRMZM2G122715;GRMZM2G134130;agrr21;atpc2;fha9;pco076489;ris2;umc2173
+Cluster138	starch biosynthetic process	1.13815e-11	2.23836e-10	30344	239	72	11	19.397	GRMZM2G068963;GRMZM2G122715;GRMZM2G169405;IDP7311;PCO088312;Zm00001d052242;atpc2;fbp2;fha9;osca8;ss1
+Cluster138	photosystem II assembly	1.63668e-11	2.4141e-10	30344	180	72	10	23.4136	GRMZM2G122715;GRMZM2G134130;Zm00001d052242;agrr21;atpc2;fbp2;fha9;pco076489;ris2;umc2173
+Cluster138	maltose metabolic process	2.38889e-11	2.81889e-10	30344	187	72	10	22.5371	GRMZM2G068963;GRMZM2G122715;GRMZM2G169405;IDP7311;PCO088312;atpc2;fbp2;fha9;osca8;ss1
+Cluster138	pentose-phosphate shunt	1.07858e-10	1.06061e-09	30344	153	72	9	24.7908	GRMZM2G078324;GRMZM2G122715;GRMZM2G169405;Zm00001d052242;fbp2;fha9;rpe1;si603029f11;srrp1
+Cluster138	positive regulation of catalytic activity	1.33683e-10	1.12675e-09	30344	103	72	8	32.7335	GRMZM2G122715;GRMZM2G169405;agrr21;cl49128_1a;fbp2;fha9;ss1;umc2173
+Cluster138	rRNA processing	4.94607e-08	3.64773e-07	30344	308	72	9	12.3149	GRMZM2G122715;GRMZM2G134130;Zm00001d052242;agrr21;fbp2;fha9;pco076489;srrp1;umc2173
+Cluster138	photosynthesis	2.63757e-07	1.72907e-06	30344	182	72	7	16.2094	GRMZM2G134130;TIDP3285;Zm00001d052242;agrr21;hcp101a;psa6;ris2
+Cluster138	electron transport chain	6.29919e-06	3.71652e-05	30344	109	72	5	19.3323	agrr21;cl49128_1a;fdx1;fdx5;ris2
+Cluster138	chlorophyll biosynthetic process	1.4305e-05	7.67267e-05	30344	129	72	5	16.3351	Zm00001d052242;fbp2;pco076489;si603029f11;srrp1
+Cluster138	cysteine biosynthetic process	2.86514e-05	0.000140869	30344	149	72	5	14.1424	GRMZM2G122715;GRMZM2G134130;LOC103630482;pco076489;psa6
+Cluster138	isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway	3.71432e-05	0.000168573	30344	261	72	6	9.68838	GRMZM2G061442;GRMZM2G078324;GRMZM2G122715;Zm00001d052242;pco076489;srrp1
+Cluster138	carbohydrate metabolic process	0.00016808	0.000694933	30344	843	72	9	4.49941	GRMZM2G075958;GRMZM2G099367;IDP445;IDP7311;csu816;fbp2;mdh10;pco094517;rpe1
+Cluster138	regulation of protein dephosphorylation	0.000176678	0.000694933	30344	219	72	5	9.62202	GRMZM2G134130;agrr21;atpc2;fbp2;pco076489
+Cluster138	dephosphorylation	0.000196189	0.000723446	30344	224	72	5	9.40724	IDP664;PCO088312;csu816;fbp2;pco076489
+Cluster138	divalent metal ion transport	0.000679283	0.00235751	30344	72	72	3	17.5602	fbp2;php20071;psa6
+Cluster138	response to red light	0.00101593	0.00332999	30344	186	72	4	9.06332	GRMZM2G122715;fbp2;pco076489;pgr5
+Cluster138	mRNA modification	0.00110044	0.00341715	30344	85	72	3	14.8745	GRMZM2G075958;GRMZM2G117531;GRMZM2G118646
+Cluster138	response to blue light	0.00116453	0.00343537	30344	193	72	4	8.7346	GRMZM2G122715;fbp2;pco076489;pgr5
+Cluster138	response to far red light	0.00167222	0.00458574	30344	213	72	4	7.91445	GRMZM2G122715;fbp2;pco076489;pgr5
+Cluster138	defense response to bacterium	0.00170994	0.00458574	30344	729	72	7	4.04679	IDP3788;IDP445;Zm00001d052242;fbp2;mdh10;ris2;srrp1
+Cluster138	thylakoid membrane organization	0.00199387	0.00511471	30344	375	72	5	5.61926	GRMZM2G061442;GRMZM2G078324;Zm00001d052242;fbp2;srrp1
+Cluster138	response to karrikin	0.00216528	0.00532298	30344	561	72	6	4.50743	LOC103630482;fdx1;fdx5;msr2;ris2;si603029f11
+Cluster138	proton transport	0.00323465	0.00763376	30344	124	72	3	10.1962	GRMZM2G078324;atpc2;ris2
+Cluster138	protein folding	0.0034488	0.00782612	30344	426	72	5	4.94653	GRMZM2G068963;cl49128_1a;csu816;lim2;pco148714
+Cluster138	response to cold	0.004524	0.00988577	30344	869	72	7	3.39483	IDP445;Zm00001d052242;ccha1;fbp2;mdh10;rpe1;srrp1
+Cluster138	glucosinolate biosynthetic process	0.0173785	0.0363622	30344	417	72	4	4.04263	GRMZM2G022248;LOC103630482;pco076489;umc2173
+Cluster138	chloroplast organization	0.0178729	0.0363622	30344	232	72	3	5.44971	GRMZM2G152419;psa1;si603029f11
+Cluster138	metabolic process	0.0192783	0.0379139	30344	2301	72	11	2.01473	GRMZM2G110657;GRMZM2G117531;GRMZM2G118646;IDP445;ccha1;cl25234_-2a;csu816;dnaJ69;pco067797;php20071;rpe1
+Cluster25	isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway	2.52966e-15	2.30199e-13	30344	261	92	15	18.9555	GRMZM2G022876;GRMZM2G096962;GRMZM2G117968;GRMZM2G152485;IDP635;Zm00001d020437;abc4;chld1;cl12401_1;cl61634_1;cl9367_1;ndf4;pas1;pco103958;umc1212
+Cluster25	chlorophyll biosynthetic process	5.62036e-15	2.55727e-13	30344	129	92	12	30.6815	GRMZM2G022876;GRMZM2G117968;chld1;chlh1;cl12401_1;cl61634_1;ggh1;oy1;pco103958;psb1;ptac16;umc1212
+Cluster25	thylakoid membrane organization	2.89192e-14	8.77216e-13	30344	375	92	16	14.0726	GRMZM2G018403;GRMZM2G022876;GRMZM2G074252;GRMZM2G117968;GRMZM2G126128;Zm00001d020437;dhar4;hcf106;lhcb4;pgk1;pgk2;prdx3;psb1;ptac16;rca4;umc1212
+Cluster25	photosynthesis	3.59339e-13	8.17496e-12	30344	182	92	12	21.7468	GRMZM2G021256;GRMZM2G113287;GRMZM5G805134;LOC103627333;Zm00001d027422;chld1;ggh1;lhcb4;oy1;pco136292;pco149145;ssu2
+Cluster25	pentose-phosphate shunt	1.01066e-09	1.83941e-08	30344	153	92	9	19.4015	GRMZM2G022876;GRMZM2G126128;IDP635;Zm00001d027422;ndf4;pas1;psb1;ptac16;umc1212
+Cluster25	photosynthetic electron transport in photosystem I	1.25688e-09	1.90627e-08	30344	66	92	7	34.9816	GRMZM2G117968;GRMZM2G328908;GRMZM5G865543;Zm00001d027422;dpr1;emb27;ndf4
+Cluster25	carotenoid biosynthetic process	2.2151e-09	2.87963e-08	30344	114	92	8	23.1457	GRMZM2G117968;GRMZM2G126128;cl61634_1;pco103958;psb1;ptac16;rca4;umc1212
+Cluster25	photosystem II assembly	4.23429e-09	4.81651e-08	30344	180	92	9	16.4913	GRMZM2G018403;GRMZM2G117968;GRMZM2G152485;Zm00001d027422;abc4;dpr1;lhcb4;pco108695b;psb1
+Cluster25	glucose catabolic process	1.68966e-08	1.70843e-07	30344	211	92	9	14.0684	GRMZM2G126128;IDP635;ndf4;pgk1;pgk2;phi1;psb1;ptac16;umc1212
+Cluster25	stomatal complex morphogenesis	1.20585e-07	1.09733e-06	30344	352	92	10	9.37006	GRMZM2G117968;Zm00001d020437;Zm00001d027422;abc4;cl61634_1;dpr1;hcf106;oy1;pas1;ptac16
+Cluster25	response to cytokinin	1.63598e-06	1.35341e-05	30344	268	92	8	9.84555	GRMZM2G122324;IDP635;IDP810;IDP813;dhar4;oy1;psb1;umc1212
+Cluster25	rRNA processing	4.57441e-06	3.22809e-05	30344	308	92	8	8.56691	GRMZM2G018403;GRMZM2G022876;Zm00001d027422;cl12401_1;lhcb4;psb1;ptac16;umc1212
+Cluster25	NADPH regeneration	4.61156e-06	3.22809e-05	30344	80	92	5	20.6141	GRMZM2G126128;ndf4;psb1;ptac16;umc1212
+Cluster25	response to cold	1.2532e-05	8.14581e-05	30344	869	92	12	4.55456	GRMZM2G018403;GRMZM2G117968;IDP3814;Zm00001d027422;lhcb4;pco142484;pgk1;pgk2;prdx3;rca4;ssu2;umc1212
+Cluster25	reductive pentose-phosphate cycle	4.57095e-05	0.000277305	30344	23	92	3	43.0208	pgk1;pgk2;ssu2
+Cluster25	DNA-templated transcription, elongation	5.88291e-05	0.000334591	30344	69	92	4	19.1204	IDP810;cl9367_1;emb27;ggh1
+Cluster25	photosynthesis, light reaction	6.9525e-05	0.000372163	30344	72	92	4	18.3237	dpr1;pco103958;ptac16;umc1212
+Cluster25	chloroplast relocation	7.92259e-05	0.000400531	30344	144	92	5	11.4523	GRMZM2G018403;GRMZM2G117968;Zm00001d020437;psb1;ptac16
+Cluster25	protein peptidyl-prolyl isomerization	9.04027e-05	0.000432981	30344	77	92	4	17.1338	GRMZM2G076544;GRMZM2G117968;cl5994_1;cl61634_1
+Cluster25	photosynthetic electron transport chain	0.000125512	0.000571081	30344	32	92	3	30.9212	GRMZM2G021256;LOC103627333;si605005c05
+Cluster25	ribosome biogenesis	0.00016797	0.00072787	30344	169	92	5	9.75817	GRMZM2G042492;GRMZM2G076263;GRMZM2G096962;GRMZM2G142097;emb27
+Cluster25	translation	0.000189787	0.000785028	30344	982	92	11	3.69459	GRMZM2G017957;GRMZM2G018403;GRMZM2G042492;GRMZM2G076263;GRMZM2G096962;GRMZM2G142097;IDP810;IDP813;LOC103642224;cl9367_1;emb27
+Cluster25	transcription from plastid promoter	0.00021239	0.000840325	30344	96	92	4	13.7428	GRMZM2G018403;GRMZM2G117968;Zm00001d020437;psb1
+Cluster25	glycolytic process	0.00022512	0.000853579	30344	180	92	5	9.16184	Zm00001d004123;pgk1;pgk2;phi1;tpi1
+Cluster25	response to red light	0.000261952	0.000953505	30344	186	92	5	8.86629	Zm00001d027422;lhcb4;psb1;ptac16;ssu2
+Cluster25	response to blue light	0.00031052	0.00108682	30344	193	92	5	8.54472	Zm00001d027422;lhcb4;psb1;ptac16;ssu2
+Cluster25	response to far red light	0.000487244	0.00164219	30344	213	92	5	7.7424	Zm00001d027422;lhcb4;psb1;ptac16;ssu2
+Cluster25	regulation of protein dephosphorylation	0.000552663	0.00179615	30344	219	92	5	7.53028	GRMZM2G018403;GRMZM2G117968;emb27;pco103958;psb1
+Cluster25	chloroplast organization	0.000716856	0.00224944	30344	232	92	5	7.10832	IDP3814;Zm00001d002951;pgk1;pgk2;tpi1
+Cluster25	starch biosynthetic process	0.000819104	0.00248461	30344	239	92	5	6.90013	GRMZM2G074252;Zm00001d020437;ndf4;pgk1;pgk2
+Cluster25	protein targeting to chloroplast	0.00149628	0.0043923	30344	74	92	3	13.3713	IDP635;IDP813;Zm00001d020437
+Cluster25	defense response to bacterium	0.00168881	0.00472781	30344	729	92	8	3.61949	GRMZM2G018403;GRMZM2G076544;GRMZM2G117968;dpr1;pco142484;prdx3;rca4;umc1212
+Cluster25	glucosinolate biosynthetic process	0.00171448	0.00472781	30344	417	92	6	4.7457	ndf4;oy1;pgk1;pgk2;prdx3;ptac16
+Cluster25	mRNA modification	0.00222577	0.0059572	30344	85	92	3	11.6409	GRMZM2G117968;abc4;dpr1
+Cluster25	maltose metabolic process	0.00255854	0.00665221	30344	187	92	4	7.0551	GRMZM2G074252;Zm00001d020437;pgk1;pgk2
+Cluster25	positive regulation of catalytic activity	0.00383213	0.00968676	30344	103	92	3	9.60659	Zm00001d027422;rca4;umc1212
+Cluster25	electron transport chain	0.00449004	0.0110431	30344	109	92	3	9.07778	pas1;pco136292;pco149145
+Cluster25	salicylic acid biosynthetic process	0.00462024	0.0110643	30344	510	92	6	3.88031	GRMZM2G117968;Zm00001d027422;pgk1;pgk2;prdx3;umc1212
+Cluster25	unsaturated fatty acid biosynthetic process	0.00656398	0.015316	30344	125	92	3	7.91583	GRMZM2G117968;cl61634_1;umc1212
+Cluster25	positive regulation of transcription, DNA-templated	0.0116105	0.0261538	30344	621	92	6	3.18673	GRMZM2G018403;GRMZM2G022876;IDP8653;Zm00001d020437;dpr1;psb1
+Cluster25	fatty acid biosynthetic process	0.0117836	0.0261538	30344	155	92	3	6.38373	GRMZM2G122324;fad8;pco103958
+Cluster25	oxidation-reduction process	0.0129741	0.0281106	30344	1917	92	12	2.06464	GRMZM2G058261;GRMZM2G149295;IDP62;cl27030_1;dhar4;dpr1;ggh1;msr5;prdx3;rpl40;si605005c05;ssu2
+Cluster25	post-embryonic animal morphogenesis	0.0173435	0.0367038	30344	494	92	5	3.33832	GRMZM2G117968;cl61634_1;hcf106;oy1;ptac16
+Cluster25	detection of biotic stimulus	0.0224857	0.0465045	30344	198	92	3	4.99736	GRMZM2G117968;Zm00001d027422;prdx3
+Cluster154	hydrogen peroxide biosynthetic process	4.33178e-07	2.63803e-05	30344	149	138	8	11.8059	GRMZM2G032694;GRMZM2G048008;GRMZM2G113432;GRMZM2G160702;cesa12;nactf82;nactf87;rlk11
+Cluster154	protein desumoylation	7.44319e-07	2.63803e-05	30344	160	138	8	10.9942	GRMZM2G032694;GRMZM2G048008;GRMZM2G113432;GRMZM2G160702;cesa12;nactf82;nactf87;rlk11
+Cluster154	xylan biosynthetic process	8.35223e-07	2.63803e-05	30344	287	138	10	7.66147	AC208201.3_FG003;GRMZM2G113432;GRMZM2G131221;cesa12;cesa13;csu1007(eif4F);glp1;nactf82;nactf87;umc1240
+Cluster154	plant-type secondary cell wall biogenesis	8.56618e-07	2.63803e-05	30344	163	138	8	10.7919	GRMZM2G113432;GRMZM2G118959;Zm00001eb156920;cesa12;cesa13;csu1007(eif4F);lac21;xt6
+Cluster154	cell wall organization	1.03859e-06	2.63803e-05	30344	294	138	10	7.47905	GRMZM2G048008;GRMZM2G118959;IDP8224;Zm00001d014967;Zm00001eb156920;cesa12;cesa13;cl40803_1a;csu1007(eif4F);xt6
+Cluster154	glucuronoxylan metabolic process	3.46718e-05	0.000733886	30344	270	138	8	6.51508	GRMZM2G113432;cesa12;cesa13;csu1007(eif4F);glp1;nactf82;nactf87;umc1240
+Cluster154	epidermal cell differentiation	5.18967e-05	0.000941554	30344	769	138	13	3.71716	GRMZM2G068158;GRMZM2G113432;GRMZM2G137118;GRMZM2G160702;GRMZM2G444845;Zm00001d014967;Zm00001d051264;act5;cl1070_1;cl25718_1b;rlk11;ropgef7;si707059d02
+Cluster154	xylem development	0.000101862	0.00161705	30344	315	138	8	5.58436	GRMZM2G113432;Zm00001d014967;cesa12;cl25718_1b;mha12;nactf82;ropgef7;umc1240
+Cluster154	single organism reproductive process	0.000132085	0.00172817	30344	170	138	6	7.76061	GRMZM2G160702;GRMZM2G444845;jmj15;nactf82;nactf87;si707059d02
+Cluster154	microtubule-based movement	0.000157525	0.00172817	30344	111	138	5	9.90469	LOC103646439;cl1070_1;cl30679_1;dv1;krp15
+Cluster154	root hair elongation	0.000159455	0.00172817	30344	634	138	11	3.81502	GRMZM2G039577;GRMZM2G068158;GRMZM2G113432;GRMZM2G444845;Zm00001d051264;act5;cesa12;cesa13;cl25718_1b;rop5;ropgef7
+Cluster154	vegetative to reproductive phase transition of meristem	0.000163292	0.00172817	30344	530	138	10	4.14876	GRMZM2G032694;GRMZM2G048008;GRMZM2G113432;GRMZM2G160702;GRMZM2G444845;cesa12;lac21;nactf82;nactf87;rlk11
+Cluster154	regulation of secondary cell wall biogenesis	0.000277397	0.00270995	30344	28	138	3	23.559	myb92;nactf82;nactf87
+Cluster154	microtubule cytoskeleton organization	0.000443881	0.00402664	30344	213	138	6	6.19392	IDP7844;dv1;krp15;pco061957;rop5;umc1240
+Cluster154	multicellular organism development	0.000997119	0.00844227	30344	4022	138	32	1.74945	AC213463.3_FG009;GRMZM2G011071;GRMZM2G015406;GRMZM2G034684;GRMZM2G075921;GRMZM2G086577;GRMZM2G089448;GRMZM2G092947;GRMZM2G135359;GRMZM2G142667;GRMZM2G325804;GRMZM2G377647;GRMZM2G422510;GRMZM5G872264;IDP4018;IDP7844;IDP8095;LOC103646439;Zm00001d001825;Zm00001d053171;alf13;bzip124;cl30679_1;dv1;iqd25;myb149;myb23;myb30;myb92;pco061491;pco061957;rdph1
+Cluster154	cellulose biosynthetic process	0.00157485	0.012446	30344	109	138	4	8.06914	GRMZM2G113432;cesa12;cesa13;csu1007(eif4F)
+Cluster154	anthocyanin accumulation in tissues in response to UV light	0.001666	0.012446	30344	374	138	7	4.11548	GRMZM2G068158;Zm00001d051264;cesa12;cesa13;rop5;ropgef7;umc1859
+Cluster154	cell adhesion	0.00217078	0.015316	30344	119	138	4	7.39106	GRMZM2G160702;GRMZM2G338037;Zm00001d014967;rlk11
+Cluster154	animal organ development	0.00316415	0.0211499	30344	1788	138	17	2.09062	GRMZM2G032694;GRMZM2G048008;GRMZM2G068158;GRMZM2G113432;GRMZM2G137118;GRMZM2G160702;GRMZM2G444845;Zm00001d014967;Zm00001d051264;Zm00001e008723;bhlh121;cl1070_1;cl25718_1b;gata27;pat12;ropgef7;si707059d02
+Cluster154	anatomical structure formation involved in morphogenesis	0.00402138	0.0241468	30344	945	138	11	2.5595	GRMZM2G032694;GRMZM2G113432;GRMZM2G444845;Zm00001d014967;Zm00001d051264;cl1070_1;cl25718_1b;rlk11;rop5;ropgef7;si707059d02
+Cluster154	glucuronoxylan biosynthetic process	0.00403321	0.0241468	30344	70	138	3	9.4236	GRMZM2G118959;Zm00001eb156920;xt6
+Cluster154	plant-type cell wall organization	0.00418291	0.0241468	30344	231	138	5	4.7594	GRMZM2G048474;osca7;pat12;rlk11;sirk1
+Cluster154	multidimensional cell growth	0.00557973	0.0308098	30344	352	138	6	3.74802	GRMZM2G068158;Zm00001d051264;cesa12;cesa13;rop5;ropgef7
+Cluster154	M phase	0.0078471	0.04057	30344	171	138	4	5.14349	GRMZM2G032694;GRMZM2G053869;IDP7844;krp15
+Cluster154	pollen exine formation	0.00798621	0.04057	30344	270	138	5	4.07193	GRMZM2G068158;GRMZM2G118959;Zm00001eb156920;bnlg1074;pdcb38
+Cluster154	pollen tube development	0.0099405	0.0485555	30344	97	138	3	6.80054	IDP8224;si707059d02;xt6
+Cluster116	cellular metabolic process	8.41847e-11	5.80875e-09	30344	4751	154	57	2.36397	AC188721.3_FG001;AC210035.3_FG002;AC212351.4_FG001;AC217841.3_FG001;GRMZM2G001877;GRMZM2G029151;GRMZM2G038116;GRMZM2G054304;GRMZM2G091743;GRMZM2G096876;GRMZM2G105173;GRMZM2G105941;GRMZM2G110172;GRMZM2G110553;GRMZM2G115905;GRMZM2G118834;GRMZM2G130486;GRMZM2G130640;GRMZM2G135228;GRMZM2G137964;GRMZM2G143426;GRMZM2G156372;GRMZM2G162675;GRMZM2G162677;GRMZM2G165675;GRMZM2G300424;GRMZM2G302295;GRMZM2G316775;GRMZM2G316781;GRMZM2G328005;GRMZM2G333029;GRMZM2G333798;GRMZM2G356338;GRMZM2G370924;GRMZM2G383631;GRMZM2G386281;GRMZM2G393988;GRMZM2G413422;GRMZM2G429184;GRMZM2G429188;GRMZM2G430371;GRMZM2G435536;GRMZM2G443291;GRMZM2G461566;GRMZM2G465860;GRMZM2G471362;GRMZM2G499981;GRMZM2G572198;GRMZM2G700571;GRMZM5G808652;GRMZM5G855743;GRMZM5G862276;GRMZM5G869530;GRMZM5G873765;GRMZM5G891425;GRMZM5G892774;GRMZM6G194106
+Cluster116	regulation of cellular metabolic process	8.19084e-05	0.00282584	30344	620	154	12	3.81366	GRMZM2G038501;GRMZM2G041055;GRMZM2G064008;GRMZM2G071664;GRMZM2G071666;GRMZM2G104489;GRMZM2G130640;GRMZM2G146298;GRMZM2G333013;GRMZM2G474019;GRMZM2G527017;GRMZM5G892723
+Cluster116	system process	0.000296813	0.0068267	30344	114	154	5	8.64206	GRMZM2G009065;GRMZM2G408256;GRMZM2G409753;GRMZM2G527017;GRMZM5G828284
+Cluster116	embryo development	0.000945903	0.0150334	30344	491	154	9	3.61171	AC216246.2_FG002;GRMZM2G003711;GRMZM2G064008;GRMZM2G066609;GRMZM2G104489;GRMZM2G145632;GRMZM2G148768;GRMZM2G527017;GRMZM5G892723
+Cluster116	organelle organization	0.00108938	0.0150334	30344	605	154	10	3.25684	AC216246.2_FG002;GRMZM2G064008;GRMZM2G071664;GRMZM2G071666;GRMZM2G087575;GRMZM2G136100;GRMZM2G148768;GRMZM2G163542;GRMZM2G333029;GRMZM5G854551
+Cluster116	purine ribonucleotide biosynthetic process	0.00136319	0.0156766	30344	43	154	3	13.7469	GRMZM2G071664;GRMZM2G071666;GRMZM2G702522
+Cluster116	reproductive process	0.00170655	0.0168217	30344	168	154	5	5.86425	AC195608.3_FG005;GRMZM2G014988;GRMZM2G071664;GRMZM2G071666;GRMZM2G078407
+Cluster116	nucleoside monophosphate biosynthetic process	0.00236117	0.0203651	30344	52	154	3	11.3676	GRMZM2G020411;GRMZM2G408256;GRMZM5G828284
+Cluster59	thylakoid membrane organization	1.54276e-32	2.03644e-30	30344	375	155	34	17.7496	AY110540;GRMZM2G024607;GRMZM2G026614;GRMZM2G042683;GRMZM2G047513;GRMZM2G070015;GRMZM2G070723;GRMZM2G085153;GRMZM2G118005;GRMZM2G136522;GRMZM2G156937;GRMZM2G472382;GRMZM2G488458;GRMZM5G839422;IDP2420;LOC100275420;LOC103626952;TIDP3557;atp4;chlg1;cl24591_1;csu173;dnaJ40;emb14;pco138567b;pco148010;ppr310;ppr53;psa3;ptac7;pyg7;rnp1;ser2;sig2A
+Cluster59	isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway	2.28207e-30	1.50616e-28	30344	261	155	29	21.752	AY110540;GRMZM2G026614;GRMZM2G042683;GRMZM2G047513;GRMZM2G066107;GRMZM2G076950;GRMZM2G085153;GRMZM2G087079;GRMZM2G108643;GRMZM2G123234;GRMZM2G136522;GRMZM2G156937;GRMZM2G488458;GRMZM5G841101;IDP3811;TIDP2957;TIDP3557;chlg1;cl20018_1;cl24591_1;csu173;ij1;pco085040b;pco138567b;pyg7;rnp1;si606013c03;sig2A;uaz7c01c01
+Cluster59	chloroplast relocation	3.65508e-23	1.60823e-21	30344	144	155	20	27.19	AY110540;GRMZM2G042683;GRMZM2G047513;GRMZM2G070723;GRMZM2G085153;GRMZM2G156937;GRMZM2G472382;GRMZM2G488458;GRMZM5G839422;LOC103626952;TIDP3557;atp4;chlg1;csu173;pco138567b;pco148010;ppr53;rnp1;ser2;sig2A
+Cluster59	transcription from plastid promoter	4.53484e-20	1.4965e-18	30344	96	155	16	32.628	GRMZM2G042683;GRMZM2G070723;GRMZM2G085153;GRMZM2G156937;GRMZM2G472382;GRMZM2G488458;GRMZM5G839422;LOC103626952;atp4;chlg1;csu173;pco148010;ppr53;ptac7;rnp1;ser2
+Cluster59	protein targeting to chloroplast	7.72909e-17	2.04048e-15	30344	74	155	13	34.3916	GRMZM2G026614;GRMZM2G042683;GRMZM2G070015;GRMZM2G076950;GRMZM2G123234;GRMZM5G841101;IDP644;atp4;cl24029_1;ij1;ppr53;rnp1;uaz7c01c01
+Cluster59	photosystem II assembly	1.39014e-15	3.0583e-14	30344	180	155	16	17.4016	AY110540;GRMZM2G066107;GRMZM2G130064;GRMZM2G156630;GRMZM2G472382;GRMZM2G488458;GRMZM5G839422;LOC103626952;atp4;csu173;pco095664;pco148010;ppr53;pyg7;ser2;sr2
+Cluster59	rRNA processing	5.76055e-12	1.08628e-10	30344	308	155	16	10.1698	AY110540;GRMZM2G047513;GRMZM2G070015;GRMZM2G076950;GRMZM2G488458;GRMZM5G839422;LOC103626952;atp4;chlg1;cl915_1;csu173;pco070149;pco086004;pco138567b;ppr53;ser2
+Cluster59	chlorophyll biosynthetic process	6.84498e-11	1.12942e-09	30344	129	155	11	16.6934	AY110540;GRMZM2G031761;GRMZM2G042683;GRMZM2G047513;GRMZM2G085153;chlg1;crp4;csu173;pco086004;pco138567b;rnp1
+Cluster59	phosphatidylglycerol biosynthetic process	2.24719e-10	3.29588e-09	30344	77	155	9	22.8819	GRMZM2G123234;GRMZM2G156937;TIDP3557;ami4;cl20018_1;ij1;pyg7;rnp1;uaz7c01c01
+Cluster59	iron-sulfur cluster assembly	3.25274e-10	4.29362e-09	30344	149	155	11	14.4527	GRMZM2G026614;GRMZM2G123234;LOC100275420;atp4;cl24029_1;ij1;ppr53;pyg7;ser2;si707021b11;uaz7c01c01
+Cluster59	carotenoid biosynthetic process	7.69088e-09	9.22905e-08	30344	114	155	9	15.4553	GRMZM2G070723;GRMZM2G085153;GRMZM2G136522;LOC100275420;chlg1;csu173;ps1;si606013c03;sig2A
+Cluster59	tRNA metabolic process	1.06784e-08	1.17463e-07	30344	31	155	6	37.8905	GRMZM2G070015;GRMZM2G076950;atp4;cl915_1;ppr53;sig2A
+Cluster59	translation	3.23623e-08	3.28602e-07	30344	982	155	21	4.18648	AY110540;GRMZM2G047513;GRMZM2G108643;GRMZM2G118005;GRMZM2G145496;GRMZM2G175755;GRMZM2G360021;IDP2420;IDP3811;IDP644;TIDP2957;ami4;cl11440_1a;csu230;ij1;lem1;pco071008a;pco085040b;pco086004;pco138567b;ptac7
+Cluster59	photosynthetic electron transport in photosystem I	4.79035e-08	4.51661e-07	30344	66	155	7	20.7632	AY110540;GRMZM2G042683;GRMZM2G123234;GRMZM5G841101;pco138567b;rnp1;uaz7c01c01
+Cluster59	aromatic amino acid family biosynthetic process	1.06978e-07	9.41403e-07	30344	74	155	7	18.5186	GRMZM2G026614;atp4;chlg1;ij1;ppr53;pyg7;si707021b11
+Cluster59	leaf morphogenesis	7.27647e-07	5.91565e-06	30344	315	155	11	6.83633	GRMZM2G026614;GRMZM2G050485;GRMZM2G123234;GRMZM2G472382;atp4;chlg1;cl24591_1;ppr53;ser2;sig2A;uaz7c01c01
+Cluster59	positive regulation of transcription, DNA-templated	7.61864e-07	5.91565e-06	30344	621	155	15	4.72869	GRMZM2G026614;GRMZM2G050485;GRMZM2G070723;GRMZM2G123234;GRMZM2G156937;GRMZM2G488458;GRMZM5G839422;LOC103626952;atp4;chlg1;pco148010;ppr53;ser2;uaz7c01c01;zhd21
+Cluster59	cysteine biosynthetic process	1.04673e-06	7.67604e-06	30344	149	155	8	10.511	GRMZM2G042683;GRMZM2G123234;GRMZM5G841101;IDP3811;chlg1;pyg7;rnp1;uaz7c01c01
+Cluster59	pentose-phosphate shunt	1.27825e-06	8.88046e-06	30344	153	155	8	10.2362	AY110540;GRMZM2G085153;GRMZM2G087079;GRMZM2G175755;GRMZM2G488458;chlg1;cl24591_1;pco138567b
+Cluster59	embryo development ending in seed dormancy	2.86372e-06	1.89006e-05	30344	603	155	14	4.54519	GRMZM2G026614;GRMZM2G130064;LOC100193421;LOC100275420;atp4;cl11544_1a;cl24029_1;cps5;ppr103;ppr2;ppr310;ppr53;ser2;zhd21
+Cluster59	defense response, incompatible interaction	3.77332e-06	2.3718e-05	30344	46	155	5	21.2791	GRMZM2G042683;GRMZM2G123234;GRMZM5G841101;rnp1;uaz7c01c01
+Cluster59	maltose metabolic process	5.69197e-06	3.41518e-05	30344	187	155	8	8.37509	GRMZM2G087079;GRMZM2G158662;TIDP3557;cl24591_1;mex1;pco095664;psa3;si486077g03
+Cluster59	photosystem I assembly	1.0736e-05	6.16155e-05	30344	9	155	3	65.2559	otp51;ppd1;pyg7
+Cluster59	positive regulation of catalytic activity	1.53227e-05	8.42747e-05	30344	103	155	6	11.4039	GRMZM2G087079;GRMZM2G136522;cl24591_1;pco095664;psa3;si486077g03
+Cluster59	regulation of protein dephosphorylation	1.79546e-05	9.48003e-05	30344	219	155	8	7.15133	GRMZM2G472382;GRMZM2G488458;GRMZM5G839422;LOC103626952;atp4;pco148010;ppr53;ser2
+Cluster59	plastid translation	2.78029e-05	0.000135925	30344	12	155	3	48.9419	GRMZM2G070723;pco085040b;pco116928b
+Cluster59	protein import into chloroplast thylakoid membrane	2.78029e-05	0.000135925	30344	12	155	3	48.9419	GRMZM5G839422;pco148010;si496035e06
+Cluster59	stomatal complex morphogenesis	8.7454e-05	0.000412283	30344	352	155	9	5.00543	GRMZM2G123234;atp4;cl20018_1;ij1;pco085040b;ppr53;rnp1;uaz7c01c01;zhd21
+Cluster59	cellular ion homeostasis	0.000169779	0.000772789	30344	54	155	4	14.5013	GRMZM2G088196;asg34a(msd);pco061977;si486101c02
+Cluster59	translational termination	0.000187452	0.000786797	30344	22	155	3	26.6956	GRMZM2G070723;GRMZM2G081077;GRMZM2G472382
+Cluster59	tRNA aminoacylation for protein translation	0.000190739	0.000786797	30344	103	155	5	9.50329	GRMZM2G412085;LOC100275420;LOC103633183;cps5;ser2
+Cluster59	translational elongation	0.000190739	0.000786797	30344	103	155	5	9.50329	GRMZM2G037778;GRMZM2G106061;cl24029_1;cps5;pco100031a
+Cluster59	chloroplast organization	0.000198955	0.000795819	30344	232	155	7	5.90679	GRMZM2G070015;GRMZM2G070723;GRMZM2G076950;GRMZM2G130064;cl915_1;ptac7;ser2
+Cluster59	starch biosynthetic process	0.000238467	0.000896595	30344	239	155	7	5.73378	GRMZM2G087079;GRMZM2G158662;TIDP3557;cl24591_1;pco095664;psa3;si486077g03
+Cluster59	ribosome biogenesis	0.000240525	0.000896595	30344	169	155	6	6.95033	AY110540;GRMZM2G118005;TIDP3557;cl915_1;emb14;pco086004
+Cluster59	regulation of translational fidelity	0.000244526	0.000896595	30344	24	155	3	24.471	LOC100275420;cps5;pco071008a
+Cluster59	mRNA processing	0.00026374	0.000940909	30344	243	155	7	5.6394	GRMZM2G026614;GRMZM2G042683;GRMZM2G123234;GRMZM5G841101;LOC103626926;rnp1;uaz7c01c01
+Cluster59	photosynthesis	0.00035771	0.00124257	30344	182	155	6	6.45388	GRMZM2G047513;GRMZM2G112728;cl24591_1;pco095664;ppd1;si606013c03
+Cluster59	animal organ morphogenesis	0.000455461	0.00154156	30344	440	155	9	4.00434	GRMZM2G026614;GRMZM2G050485;GRMZM2G123234;atp4;cl24591_1;ppr53;si618008g06;sig2A;uaz7c01c01
+Cluster59	RNA metabolic process	0.0011584	0.00382271	30344	944	155	13	2.69595	GRMZM2G047513;GRMZM2G070015;GRMZM2G070723;GRMZM2G081077;GRMZM2G137064;GRMZM2G161506;IDP2420;IDP3811;pco138567b;phi233376;ppr19;ppr2;si486042a10
+Cluster59	guanosine-containing compound catabolic process	0.00256788	0.00823626	30344	111	155	4	7.05469	GRMZM2G106061;emb14;pco100031a;si496035e06
+Cluster59	response to cytokinin	0.00262063	0.00823626	30344	268	155	6	4.38286	GRMZM2G145496;GRMZM2G147279;GRMZM2G360021;IDP3811;mrpa16;pco138567b
+Cluster59	purine ribonucleoside triphosphate catabolic process	0.00270795	0.00831277	30344	463	155	8	3.3826	GRMZM2G106061;emb14;mrpa15;mrpa16;pco100031a;rh3;rh4;si496035e06
+Cluster59	purine ribonucleotide catabolic process	0.00285351	0.00856054	30344	467	155	8	3.35362	GRMZM2G106061;emb14;mrpa15;mrpa16;pco100031a;rh3;rh4;si496035e06
+Cluster59	GTP metabolic process	0.00310476	0.0091073	30344	117	155	4	6.69291	GRMZM2G106061;emb14;pco100031a;si496035e06
+Cluster59	ncRNA metabolic process	0.00404639	0.0116114	30344	126	155	4	6.21485	GRMZM2G070723;GRMZM2G085153;GRMZM2G156937;TIDP3557
+Cluster59	cellular aromatic compound metabolic process	0.00503109	0.0141299	30344	134	155	4	5.84381	GRMZM2G134270;GRMZM2G136522;fdx4;si618008g06
+Cluster59	negative regulation of gene expression	0.00728663	0.0200382	30344	149	155	4	5.25551	GRMZM2G090018;IDP7393;IDP8049;wrky141
+Cluster59	NADPH regeneration	0.00805849	0.0217086	30344	80	155	3	7.34129	GRMZM2G175755;GRMZM2G488458;cl24591_1
+Cluster59	chloroplast RNA processing	0.00911076	0.0240524	30344	159	155	4	4.92497	atp4;crp4;ppr103;si605087c09
+Cluster59	cellular response to hydrogen peroxide	0.0107672	0.0273509	30344	167	155	4	4.68905	GRMZM2G136522;GRMZM5G839422;ndk1;pco148010
+Cluster59	innate immune response	0.0107746	0.0273509	30344	89	155	3	6.59891	GRMZM2G026614;GRMZM2G042683;rnp1
+Cluster59	methylglyoxal catabolic process to D-lactate via S-lactoyl-glutathione	0.0132108	0.0329023	30344	96	155	3	6.11774	GRMZM2G134270;LOC100272694;TIDP2957
+Cluster59	post-embryonic animal morphogenesis	0.0137934	0.0337171	30344	494	155	7	2.77404	GRMZM2G123234;atp4;pco085040b;ppr53;rnp1;uaz7c01c01;zhd21
+Cluster59	carboxylic acid metabolic process	0.0141108	0.0338659	30344	181	155	4	4.32636	GRMZM2G123652;IDP7393;ps1;ptac7
+Cluster59	salicylic acid biosynthetic process	0.0161529	0.0380748	30344	510	155	7	2.68701	GRMZM2G042683;GRMZM2G088196;GRMZM2G123234;GRMZM5G841101;pco061977;rnp1;uaz7c01c01
+Cluster153	cellular metabolic process	8.67089e-05	0.00685	30344	4751	174	47	1.72519	GRMZM2G006981;GRMZM2G037012;GRMZM2G049790;GRMZM2G067989;GRMZM2G079674;GRMZM2G104673;GRMZM2G114882;GRMZM2G123143;GRMZM2G123842;GRMZM2G135558;GRMZM2G143082;GRMZM2G301853;GRMZM2G306376;GRMZM2G317069;GRMZM2G317705;GRMZM2G322917;GRMZM2G340286;GRMZM2G344001;GRMZM2G353478;GRMZM2G369485;GRMZM2G381195;GRMZM2G389070;GRMZM2G478624;GRMZM2G555437;GRMZM2G574534;GRMZM2G700446;GRMZM5G814465;GRMZM5G820808;GRMZM5G827566;GRMZM5G845018;GRMZM5G852229;GRMZM5G852876;GRMZM5G859315;GRMZM5G862537;GRMZM5G893953;LOC100193604;LOC109942418;Zm00001d045385;Zm00001eb339800;cl20634_1b;dnaJ6;dof11;pco118748;saur50;si605073b02a;umc1174;umc2031
+Cluster153	phosphate-containing compound metabolic process	0.00115022	0.0454336	30344	136	174	5	6.41143	GRMZM2G068091;GRMZM2G109152;GRMZM2G176182;Zm00001d051966;nactf1
+Cluster72	chromosome organization	3.34666e-22	7.86466e-20	30344	778	291	45	6.03133	AC198174.4_FG001;AC205730.3_FG002;GRMZM2G095905;GRMZM2G099337;GRMZM2G161913;GRMZM2G343917;GRMZM2G352431;GRMZM2G368678;GRMZM2G394722;GRMZM2G436226;GRMZM2G475362;GRMZM5G862565;LOC103636656;Zm00001d031847;Zm00001eb110770;Zm00001eb152970;Zm00001eb220400;Zm00001eb404070;chr10;chr118;chr119;chr15;chr18;chr26;cl17761_1a;cl48276_1;ddt1;ddt4;ddt6;hb113;mybr118;mybr134;phd19;phd26;phd29;phd32;phd47;pza00752;sdg108;sdg117;si606069f05b;smc3;syd1;taz4;taz6
+Cluster72	transcription from RNA polymerase II promoter	8.74507e-14	1.02755e-11	30344	754	291	34	4.70205	AC198174.4_FG001;GRMZM2G022987;GRMZM2G044306;GRMZM2G099337;GRMZM2G329944;GRMZM2G343917;GRMZM2G436226;GRMZM5G812289;GRMZM5G862565;IDP7282;LOC100278565;LOC100279374;LOC103636656;LOC103652948;Zm00001eb024560;Zm00001eb110770;chr118;chr119;chr125a;chr125b;chr126a;cl48276_1;gtb101;hox3;jmj20;phd29;phd9;polm1;polm3;rpo1;si687072e08;si946038f11;syd1;thkl1
+Cluster72	chromatin organization	5.05365e-12	3.95869e-10	30344	219	291	18	8.57054	AC198174.4_FG001;AC205730.3_FG002;GRMZM2G131443;GRMZM2G394722;GRMZM2G475362;IDP1675;chr118;chr15;chr18;ddt1;ddt4;ddt6;hb113;mybr118;mybr134;phd19;phd32;syd1
+Cluster72	DNA-templated transcription, initiation	1.03604e-06	6.08673e-05	30344	80	291	8	10.4275	GRMZM2G102664;GRMZM2G343917;GRMZM2G436226;LOC103636656;Zm00001eb152970;Zm00001eb220400;Zm00001eb404070;gtb101
+Cluster72	transcription, DNA-templated	2.21876e-06	0.000104282	30344	3009	291	55	1.90599	AC205730.3_FG002;AC218457.2_FG013;GRMZM2G022987;GRMZM2G044306;GRMZM2G070038;GRMZM2G095905;GRMZM2G131389;GRMZM2G142456;GRMZM2G153797;GRMZM2G173763;GRMZM2G312974;GRMZM2G321420;GRMZM2G352431;GRMZM2G394722;GRMZM5G812289;GRMZM5G824439;IDP1654;IDP7282;IDP751;LOC100193455;LOC100278565;LOC103635328;LOC103639973;LOC103646285;arid9;brca2;chr10;chr26;cl17761_1a;cl32455_1a;cl3247_1a;cl3247_1b;cl52666_-1b;cl7472_1b;ddt1;ddt4;ddt6;hb113;hb3;phd19;phd26;phd29;phd32;phd9;pial1;polm3;pza00752;rpo1;rrb1;sdg108;sdg117;si486070h04;si606069f05b;syd1;taz6
+Cluster72	regulation of transcription from RNA polymerase II promoter	4.26868e-06	0.00016719	30344	377	291	15	4.14887	AC198174.4_FG001;AC205730.3_FG002;AC218457.2_FG013;GRMZM2G022987;GRMZM2G343442;IDP7282;LOC100278565;LOC100279374;cl52666_-1b;gtb101;jmj20;polm1;polm3;rrb1;si946038f11
+Cluster72	histone modification	6.53921e-06	0.000219531	30344	171	291	10	6.09795	GRMZM2G161913;GRMZM2G343917;GRMZM2G436226;GRMZM5G862565;LOC103636656;Zm00001eb152970;Zm00001eb220400;Zm00001eb404070;phd47;pza00752
+Cluster72	multicellular organism development	1.37999e-05	0.000389752	30344	4022	291	65	1.6852	AC218457.2_FG013;GRMZM2G015073;GRMZM2G021483;GRMZM2G022987;GRMZM2G024374;GRMZM2G027932;GRMZM2G044143;GRMZM2G058155;GRMZM2G095905;GRMZM2G113319;GRMZM2G121905;GRMZM2G131482;GRMZM2G156827;GRMZM2G164854;GRMZM2G311328;GRMZM2G319307;GRMZM2G398024;GRMZM2G412150;GRMZM2G433333;GRMZM2G454594;GRMZM2G475362;GRMZM2G480002;GRMZM2G499182;GRMZM6G933659;LOC100278565;LOC100279374;LOC100381565;LOC103627383;LOC103630320;LOC103651644;Zm00001eb110770;Zm00001eb404070;arid9;atg2;chr118;chr119;chr124;chr125a;chr125b;chr16;chr18;chr26;cl48276_1;dcl4;ddt1;ddt4;dnaJ78;fancm1;mybr118;mybr134;nbslrr1;phd26;phd29;phd32;phd47;sdg117;si683010e05b;si687072e08;si946038f11;siz1;ski3;syd1;taz4;umc1938;vq39
+Cluster72	mRNA polyadenylation	1.49267e-05	0.000389752	30344	33	291	5	15.7992	GRMZM2G012761;GRMZM2G070038;GRMZM2G142168;IDP7527;LOC103647268
+Cluster72	negative regulation of flower development	1.7781e-05	0.000417853	30344	57	291	6	10.9763	GRMZM2G075628;GRMZM2G161913;GRMZM2G352431;LOC100193455;chr15;chr18
+Cluster72	regulation of nucleobase-containing compound metabolic process	2.00527e-05	0.000428399	30344	329	291	13	4.12029	AC203366.4_FG001;GRMZM2G034025;GRMZM2G095905;GRMZM2G142456;GRMZM2G321420;GRMZM2G348014;GRMZM2G352431;GRMZM5G889418;chr10;chr26;cl3247_1a;cl3247_1b;siz1
+Cluster72	nucleosome positioning	2.96947e-05	0.000581521	30344	7	291	3	44.6892	chr125a;chr125b;chr126a
+Cluster72	endosome organization	4.36002e-05	0.000732291	30344	21	291	4	19.8619	GRMZM2G092586;GRMZM2G365185;dnaJ7;dnaJ86
+Cluster72	nucleosome mobilization	4.71738e-05	0.000732291	30344	8	291	3	39.1031	chr125a;chr125b;chr126a
+Cluster72	establishment of integrated proviral latency	4.98581e-05	0.000732291	30344	42	291	5	12.4137	AC186592.3_FG002;AC205834.3_FG003;AC212023.4_FG006;AC213431.4_FG005;AC214359.3_FG003
+Cluster72	response to starvation	4.98581e-05	0.000732291	30344	42	291	5	12.4137	GRMZM2G151195;atg2;dnaJ7;dnaJ86;uggt1
+Cluster72	nuclear-transcribed mRNA catabolic process, deadenylation-dependent decay	6.35402e-05	0.000873205	30344	23	291	4	18.1348	GRMZM2G082573;Zm00001d003611;si687055e04b;thkl1
+Cluster72	single-organism metabolic process	6.68838e-05	0.000873205	30344	1664	291	33	2.06795	GRMZM2G015073;GRMZM2G022987;GRMZM2G029186;GRMZM2G070038;GRMZM2G102664;GRMZM2G131482;GRMZM2G153797;GRMZM2G163277;GRMZM2G436226;GRMZM5G812289;LOC100278565;LOC100383190;LOC103627383;Zm00001eb024560;Zm00001eb220400;cl6407_1a;cl7472_1b;dnaj166;gtb101;npi91a;pco125096;rpo1;sdg117;si687055e04b;si687072e08;smg1;spa2;taz4;taz6;upl12;upl2;upl9;xrn2
+Cluster72	gravitropism	7.54933e-05	0.000933732	30344	143	291	8	5.83356	AY111877;GRMZM2G131443;GRMZM2G161913;LOC100279374;ddt6;jmj20;o1;phd32
+Cluster72	DNA repair	8.17823e-05	0.000955071	30344	431	291	14	3.38712	AC203366.4_FG001;AC205057.3_FG004;GRMZM2G024612;GRMZM2G049954;brca2;chr125a;chr125b;cl5367_1b;npi91a;si606069f05b;smc3;smg1;spa2;tor1
+Cluster72	termination of RNA polymerase II transcription	8.64562e-05	0.000955071	30344	47	291	5	11.0931	GRMZM2G012761;GRMZM2G142168;GRMZM2G480809;IDP7527;LOC103647268
+Cluster72	mRNA cleavage	8.94109e-05	0.000955071	30344	25	291	4	16.684	GRMZM2G012761;GRMZM2G142168;IDP7527;LOC103647268
+Cluster72	gene expression	9.58014e-05	0.000978841	30344	1334	291	28	2.18868	GRMZM2G021483;GRMZM2G027932;GRMZM2G082573;GRMZM2G131443;GRMZM2G156827;GRMZM2G159744;GRMZM2G327311;GRMZM2G413290;GRMZM2G429213;GRMZM2G475362;GRMZM2G480002;GRMZM2G499182;IDP4238;IDP7527;LOC103656035;chr15;chr18;cl6657_1;fancm1;gpm697;mybr118;mybr134;pco090939;phd47;si605083d08;si660003c05;taz4;ubp41
+Cluster72	DNA recombination	0.000155816	0.00152569	30344	202	291	9	4.64591	AC186592.3_FG002;AC203366.4_FG001;AC205834.3_FG003;AC212023.4_FG006;AC213431.4_FG005;AC214359.3_FG003;IDP1675;brca2;npi91a
+Cluster72	reproduction	0.000175008	0.00164507	30344	252	291	10	4.13789	GRMZM2G004087;GRMZM2G021483;GRMZM2G341918;GRMZM2G553532;LOC109945992;chr16;cl52666_-1b;phd12;si606069f05b;siz1
+Cluster72	viral life cycle	0.000200677	0.00176998	30344	56	291	5	9.31026	AC186592.3_FG002;AC205834.3_FG003;AC212023.4_FG006;AC213431.4_FG005;AC214359.3_FG003
+Cluster72	regulation of macromolecule biosynthetic process	0.00020336	0.00176998	30344	165	291	8	5.05575	GRMZM2G164854;GRMZM2G321420;chr10;chr26;cl3247_1a;cl3247_1b;pza00752;sdg117
+Cluster72	regulation of development, heterochronic	0.000364657	0.00306051	30344	15	291	3	20.855	polm1;polm3;xrn2
+Cluster72	transcription elongation from RNA polymerase II promoter	0.000404538	0.00327815	30344	65	291	5	8.02115	GRMZM2G161913;Zm00001eb152970;cl7472_1b;rpo1;si486070h04
+Cluster72	cellular component organization	0.000479857	0.0036735	30344	2248	291	38	1.76265	AC205057.3_FG004;AC209208.3_FG004;GRMZM2G004087;GRMZM2G024612;GRMZM2G029186;GRMZM2G044143;GRMZM2G057576;GRMZM2G058155;GRMZM2G075628;GRMZM2G111355;GRMZM2G113319;GRMZM2G131389;GRMZM2G325285;GRMZM2G341918;GRMZM2G405690;GRMZM2G429213;GRMZM2G499182;GRMZM2G553532;GRMZM2G591258;GRMZM5G826596;IDP4238;IDP4364;LOC100193455;LOC100279374;LOC100381929;LOC103635328;arid9;chr16;cl33044_1;cl34188_1;cl7472_1b;hb113;lug15;mybr118;si605083d08;ski3;smg1;tor1
+Cluster72	regulation of primary metabolic process	0.000484589	0.0036735	30344	340	291	11	3.3736	AI714716;AY111877;GRMZM2G053980;GRMZM2G075628;GRMZM2G360626;GRMZM2G433333;GRMZM2G473310;GRMZM6G443309;phd12;pza00752;siz1
+Cluster72	RNA processing	0.000520416	0.00382181	30344	457	291	13	2.96624	GRMZM2G049954;GRMZM2G131443;GRMZM2G131482;GRMZM2G151944;GRMZM2G454594;IDP1654;LOC100278565;LOC103639973;Zm00001d003611;cl5919_1a;cl5919_1c;dcl4;si687072e08
+Cluster72	negative regulation of nucleobase-containing compound metabolic process	0.000755457	0.00537977	30344	112	291	6	5.58616	GRMZM5G855124;IDP1654;LOC100278565;ddt4;hb113;si946038f11
+Cluster72	regulation of gene expression	0.00114131	0.00788847	30344	498	291	13	2.72204	AY111877;GRMZM2G030659;GRMZM2G321420;GRMZM2G360626;chr10;chr124;chr26;phd12;polm3;pza00752;sdg108;sdg117;siz1
+Cluster72	reproductive process	0.00123404	0.0082857	30344	168	291	7	4.34479	AC186592.3_FG002;AC205834.3_FG003;AC212023.4_FG006;AC213431.4_FG005;AC214359.3_FG003;IDP751;uggt1
+Cluster72	regulation of cellular process	0.00133083	0.00868733	30344	2050	291	34	1.72944	AC209208.3_FG004;GRMZM2G015073;GRMZM2G036685;GRMZM2G044306;GRMZM2G121905;GRMZM2G152768;GRMZM2G156827;GRMZM2G173763;GRMZM2G311328;GRMZM2G312110;GRMZM2G380456;GRMZM2G412150;GRMZM2G473310;GRMZM2G475362;GRMZM2G499182;GRMZM6G933659;IDP4238;LOC103627383;LOC103656035;TIDP2877;chr15;chr18;cl32455_1a;cl5919_1a;dcl4;gpm697;mybr118;mybr134;si605083d08;si683010e05b;si687072e08;smg1;upl12;upl9
+Cluster72	production of siRNA involved in RNA interference	0.00144889	0.00920243	30344	86	291	5	6.0625	GRMZM2G131482;GRMZM2G153797;GRMZM2G161913;dcl4;yg3
+Cluster72	chromatin assembly or disassembly	0.00192744	0.011555	30344	26	291	3	12.0317	cl48276_1;gtb101;phd26
+Cluster72	regulation of transcription, DNA-templated	0.00195417	0.011555	30344	3019	291	45	1.55428	GRMZM2G099337;GRMZM2G131389;GRMZM2G159744;GRMZM2G161913;GRMZM2G312974;GRMZM2G329944;GRMZM2G343917;GRMZM2G394722;GRMZM2G436226;GRMZM5G812289;GRMZM5G824439;GRMZM5G852533;GRMZM5G855124;GRMZM5G862565;IDP751;LOC100193455;LOC100278565;LOC103635328;LOC103639973;Zm00001eb024560;Zm00001eb110770;Zm00001eb404070;arid9;brca2;chr119;cl17761_1a;cl48276_1;ddt1;ddt4;ddt6;hb113;hb3;hox3;ldp1;phd19;phd26;phd29;phd32;phd9;pial1;si606069f05b;syd1;taz4;taz6;thkl1
+Cluster72	vegetative to reproductive phase transition of meristem	0.0019776	0.011555	30344	530	291	13	2.55769	AY111877;GRMZM2G070038;chr126a;chr18;cl17761_1a;cl6407_1a;emp25;hb113;ldp1;pco125096;ppr9;sdg108;upl2
+Cluster72	negative regulation of cellular process	0.0020454	0.011555	30344	235	291	8	3.54978	GRMZM5G842103;IDP751;brca2;chr119;dcl4;ddt1;ddt6;jmj20
+Cluster72	RNA metabolic process	0.00206516	0.011555	30344	944	291	19	2.09875	AC212023.4_FG006;AC213431.4_FG005;AY111877;GRMZM2G036685;GRMZM2G348014;GRMZM2G441687;GRMZM2G475362;IDP7527;chr15;chr18;cl6468_1;emp25;fancm1;gpm697;mybr118;mybr134;pco090939;ppr521;si687055e04b
+Cluster72	embryo sac development	0.00220747	0.0120641	30344	138	291	6	4.53369	GRMZM2G053980;GRMZM2G070038;GRMZM2G352431;chr10;chr126a;rrb1
+Cluster72	COPII vesicle coating	0.00265199	0.014164	30344	29	291	3	10.7871	GRMZM2G163277;LOC100383190;sag4
+Cluster72	cellular biosynthetic process	0.00306377	0.0159748	30344	1279	291	23	1.87515	AC203366.4_FG001;AC209208.3_FG004;AI714716;GRMZM2G036685;GRMZM2G053980;GRMZM2G107136;GRMZM2G131443;GRMZM2G341918;GRMZM2G360626;GRMZM5G817551;GRMZM5G826596;GRMZM6G443309;IDP1654;IDP7527;LOC103656035;arid9;brca2;cl5919_1a;cl5919_1c;cl6657_1;fancm1;pzb01358;ski3
+Cluster72	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay	0.00312698	0.0159748	30344	148	291	6	4.22736	Zm00001d003611;pco061645;pco090939;si660003c05;si687055e04b;smg1
+Cluster72	meiotic M phase	0.00328453	0.0164226	30344	311	291	9	3.0176	GRMZM2G096092;GRMZM2G131443;GRMZM2G161913;IDP1675;Zm00001d031847;cl3247_1a;cl3247_1b;ppr505;smc3
+Cluster72	developmental process	0.00427912	0.0206586	30344	1393	291	24	1.79655	AC186592.3_FG002;AC205834.3_FG003;GRMZM2G082573;GRMZM2G142456;GRMZM2G329944;GRMZM2G401831;GRMZM2G436226;GRMZM2G563728;GRMZM5G826596;LOC103636656;LOC103656035;TIDP2877;Zm00001eb024560;brca2;cl24139_-2b;cl33044_1;cl5367_1b;cl6657_1;fancm1;gtb101;pial1;ubp41;uggt1;vq39
+Cluster72	vacuole organization	0.00439324	0.0206586	30344	69	291	4	6.04492	GRMZM5G885644;LOC100381565;dnaJ7;dnaJ86
+Cluster72	nuclear-transcribed mRNA catabolic process	0.00439544	0.0206586	30344	111	291	5	4.69707	GRMZM2G091449;GRMZM2G131482;LOC103630320;cl17761_1a;xrn2
+Cluster72	DNA metabolic process	0.0045507	0.0209689	30344	327	291	9	2.86995	GRMZM2G021483;GRMZM2G095905;GRMZM2G173763;IDP7282;Zm00001d031847;chr16;dcl4;pco061645;pco090939
+Cluster72	chromatin remodeling	0.00486473	0.0219848	30344	71	291	4	5.87464	Zm00001eb110770;chr126a;chr18;cl48276_1
+Cluster72	mRNA 3'-end processing	0.00533019	0.0236338	30344	37	291	3	8.45472	GRMZM2G145935;GRMZM2G161913;GRMZM2G480809
+Cluster72	intracellular protein transport	0.00547019	0.0238055	30344	399	291	10	2.61341	GRMZM2G057576;GRMZM2G058155;GRMZM2G111355;GRMZM2G311328;GRMZM2G325285;LOC103656035;cl33044_1;impb13;impb6;sag4
+Cluster72	positive regulation of macromolecule biosynthetic process	0.00574651	0.024499	30344	38	291	3	8.23223	AC198174.4_FG001;IDP7282;phd9
+Cluster72	embryo development ending in seed dormancy	0.00583806	0.024499	30344	603	291	13	2.24805	AY111877;GRMZM2G053980;IDP1654;LOC100191427;chr18;cl3247_1a;cl3247_1b;dnaJ7;dnaJ86;emp25;ppr9;taz6;tor1
+Cluster72	trichome morphogenesis	0.00608716	0.0250962	30344	224	291	7	3.25859	GRMZM2G131443;GRMZM2G161913;GRMZM5G885644;LOC100381565;chr18;rrb1;taz6
+Cluster72	tissue development	0.0062536	0.0251441	30344	283	291	8	2.9477	GRMZM2G344967;GRMZM5G889418;IDP751;arid9;cl52666_-1b;hb113;ldp1;ppr505
+Cluster72	protein ubiquitination involved in ubiquitin-dependent protein catabolic process	0.00631277	0.0251441	30344	121	291	5	4.30888	GRMZM2G312110;pco125096;upl12;upl2;upl9
+Cluster72	regulation of cellular biosynthetic process	0.00653114	0.0255803	30344	227	291	7	3.21553	AY111877;GRMZM2G034025;GRMZM2G164854;GRMZM2G321420;IDP1654;pza00752;sdg117
+Cluster72	intracellular transport	0.0074866	0.0288418	30344	418	291	10	2.49462	AY109883;GRMZM2G326677;GRMZM2G411940;GRMZM2G480002;GRMZM2G591258;LOC100193152;LOC103635328;chr124;cl52666_-1b;pza03470
+Cluster72	cellular protein metabolic process	0.00857234	0.0322644	30344	927	291	17	1.91227	AC198174.4_FG001;GRMZM2G027932;GRMZM2G099337;GRMZM2G327311;GRMZM2G475362;IDP4238;LOC103656035;cl6657_1;dnaJ78;dnaj166;mybr118;mybr134;phd19;phd29;phd32;pza03470;ski3
+Cluster72	positive regulation of organelle organization	0.00864962	0.0322644	30344	44	291	3	7.10965	GRMZM2G131443;GRMZM2G161913;ppr505
+Cluster72	mitotic sister chromatid segregation	0.00920274	0.0337913	30344	45	291	3	6.95166	GRMZM2G096092;LOC100191427;xrn2
+Cluster72	positive regulation of nitrogen compound metabolic process	0.00977608	0.0353443	30344	46	291	3	6.80054	AC198174.4_FG001;AC205730.3_FG002;cl52666_-1b
+Cluster72	response to stimulus	0.010316	0.0367314	30344	3309	291	45	1.41806	AC209463.4_FG013;AI714716;GRMZM2G015073;GRMZM2G030659;GRMZM2G039600;GRMZM2G044143;GRMZM2G053980;GRMZM2G058155;GRMZM2G070038;GRMZM2G095905;GRMZM2G113319;GRMZM2G121905;GRMZM2G152768;GRMZM2G173763;GRMZM2G311328;GRMZM2G329300;GRMZM2G412150;GRMZM2G441687;GRMZM2G480809;GRMZM2G499182;GRMZM2G563728;GRMZM5G855124;GRMZM6G933659;IDP1675;IDP4238;LOC100191427;LOC103639973;LOC109945992;chr119;cl32455_1a;ddt1;dnaJ78;hox3;ldp1;pco090939;phd47;polm3;ppr131;ppr521;sdg108;si683010e05b;si687072e08;siz1;ski3;smg1
+Cluster72	ATP metabolic process	0.0119038	0.041752	30344	317	291	8	2.63154	GRMZM2G026991;GRMZM2G030659;GRMZM2G411940;GRMZM2G454594;GRMZM2G480809;dcl4;mrpa17;mrpa22
+Cluster72	sugar mediated signaling pathway	0.0126386	0.0436774	30344	258	291	7	2.82916	AY111877;GRMZM2G091449;cl6407_1a;mocos1;pco061645;pco090939;ppr505
+Cluster72	establishment of protein localization	0.0143662	0.0489285	30344	53	291	3	5.90235	GRMZM2G429213;LOC103635328;vq39
+Cluster58	translation	8.24213e-250	1.76382e-247	30344	982	380	231	18.7841	AC206642.4_FG001;AC225147.4_FG002;AY109477;AY109733;B4FZ84;GRMZM2G001816;GRMZM2G003384;GRMZM2G008748;GRMZM2G009894;GRMZM2G009936;GRMZM2G011253;GRMZM2G013457;GRMZM2G014444;GRMZM2G016928;GRMZM2G018228;GRMZM2G018770;GRMZM2G022619;GRMZM2G023748;GRMZM2G024647;GRMZM2G027232;GRMZM2G029685;GRMZM2G030016;GRMZM2G030915;GRMZM2G032564;GRMZM2G047727;GRMZM2G051848;GRMZM2G053652;GRMZM2G053767;GRMZM2G060373;GRMZM2G063617;GRMZM2G063700;GRMZM2G064640;GRMZM2G065868;GRMZM2G067456;GRMZM2G068952;GRMZM2G073150;GRMZM2G074300;GRMZM2G077256;GRMZM2G077851;GRMZM2G078396;GRMZM2G083497;GRMZM2G084757;GRMZM2G086486;GRMZM2G086669;GRMZM2G088060;GRMZM2G088880;GRMZM2G092663;GRMZM2G094074;GRMZM2G099657;GRMZM2G102230;GRMZM2G104025;GRMZM2G108348;GRMZM2G109677;GRMZM2G120432;GRMZM2G124143;GRMZM2G132968;GRMZM2G139349;GRMZM2G140609;GRMZM2G146358;GRMZM2G147791;GRMZM2G149975;GRMZM2G152573;GRMZM2G156110;GRMZM2G160351;GRMZM2G163561;GRMZM2G166963;GRMZM2G168330;GRMZM2G168674;GRMZM2G174204;GRMZM2G178341;GRMZM2G178807;GRMZM2G181194;GRMZM2G181336;GRMZM2G315088;GRMZM2G324314;GRMZM2G360677;GRMZM2G366077;GRMZM2G411764;GRMZM2G455828;GRMZM5G803952;GRMZM5G827266;GRMZM5G852185;GRMZM5G890561;GRMZM5G899149;GRMZM6G578655;GRMZM6G772588;GRMZM6G791392;IDP243;IDP276;IDP3943;IDP3950;IDP4043;IDP469;IDP476;IDP486;IDP65;IDP65a;IDP661;IDP7161;IDP7407;IDP7491;IDP764;IDP7964;LOC100193263;LOC100194265;LOC100216869;LOC100277387;LOC100278608;LOC100280219;LOC100280556;LOC100280597;LOC100280657;LOC100280993;LOC100281960;LOC100282819;LOC100282953;LOC100282959;LOC100303826;LOC100382075;LOC103633247;LOC103639467;LOC103642077;LOC103644306;LOC110485089;LOC541695;LOC542341;LOC542610;TIDP3261;TIDP3612;Zm00001d013034;Zm00001d053864;arpp1a;arpp40;bbc1;cl17145_1b;cl1797_1e;cl1797_4;cl187_21a;cl253_2b;cl3469_8b;cl7136_2d;cl7814_5b;cl9093_1;cl9362_1;csu28a(rpS22);dek44;dpold3a;elfg3;gpm217b;gpm447;magi104697;magi32402;magi7806;magi89825;magi92568;magi94754;mch1;mch3;mta1;mta2;npi242b;npi340c;pco061640;pco066751;pco066882b;pco068393;pco068622;pco072913;pco085865;pco093173;pco097109;pco098394;pco098402;pco113532;pco113533;pco114887;pco128954a;pco131134;pco131882;pco142929;pco145462;pco145463;pco154872;pco155588b;phm4880;pza02939;pza03733;rpl13;rpl14a;rpl14b;rpl15a;rpl15b;rpl15c;rpl17a;rpl17b;rpl17c;rpl17d;rpl23a;rpl30;rpl35;rpl39;rpl44;rpl5a;rpl5b;rps12;rps12a;rps13;rps21a;rps21b;rps21d;rps22a;rps24;rps25;rps27;rps27b;rps27c;rps28;rps3;rps30;rps4;rps5;rps6a;rps6b;si486077f02(35);si603005c07;star1;uaz251b(rpS11);ubf9;umc1430;umc2029;umc2306
+Cluster58	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay	8.24793e-96	8.82528e-94	30344	148	380	71	38.3077	AC206642.4_FG001;AC225147.4_FG002;B4FZ84;GRMZM2G013457;GRMZM2G023748;GRMZM2G030016;GRMZM2G047727;GRMZM2G053652;GRMZM2G074300;GRMZM2G092663;GRMZM2G100225;GRMZM2G102230;GRMZM2G120432;GRMZM2G124143;GRMZM2G132968;GRMZM2G139349;GRMZM2G140609;GRMZM2G156110;GRMZM2G163561;GRMZM2G315088;GRMZM2G324314;GRMZM2G455828;IDP3950;IDP4043;IDP65a;IDP7161;IDP764;LOC100193263;LOC100277387;LOC100280657;LOC100280993;LOC100281960;LOC100382075;LOC103639467;LOC103644306;LOC110485089;LOC542610;TIDP3261;Zm00001d013034;arpp40;cl1797_1e;cl1797_4;cl45039_-2a;cl7814_5b;csu505(rpL7);gpm217b;magi89825;magi99589;mta2;npi242b;pco066751;pco093173;pco098394;pco101521;pco113533;pco114887;pco131882;pco145463;rpl14a;rpl14b;rpl17b;rpl17c;rpl44;rps22a;rps28;rps4;rps5;si486077f02(35);star1;ubf9;umc2306
+Cluster58	cytoplasmic translation	1.762e-75	1.2569e-73	30344	80	380	50	49.9079	GRMZM2G001816;GRMZM2G008748;GRMZM2G009894;GRMZM2G009936;GRMZM2G013457;GRMZM2G014444;GRMZM2G018228;GRMZM2G018770;GRMZM2G023748;GRMZM2G047727;GRMZM2G063617;GRMZM2G067456;GRMZM2G084757;GRMZM2G092663;GRMZM2G100225;GRMZM2G124143;GRMZM2G147791;GRMZM2G160351;GRMZM2G168674;GRMZM5G852185;GRMZM5G890561;GRMZM6G578655;IDP3943;LOC100193263;LOC100194265;LOC100280657;LOC100281960;LOC100382075;LOC103639467;LOC103642077;LOC542610;TIDP3261;Zm00001d013034;cl45039_-2a;csu505(rpL7);gpm217b;magi99589;pco072913;pco098394;pco101521;pco113533;pco114887;pco131134;pco131882;pco145463;rpl14a;rpl14b;rpl15a;rpl15b;umc2306
+Cluster58	mitotic spindle elongation	3.22318e-31	1.7244e-29	30344	56	380	24	34.2226	GRMZM2G001816;GRMZM2G014444;GRMZM2G018770;GRMZM2G023748;GRMZM2G065868;GRMZM2G067456;GRMZM2G077851;GRMZM2G102230;GRMZM2G132968;GRMZM2G156110;GRMZM2G324314;IDP4043;IDP65a;IDP764;LOC100280993;cl1797_1e;cl1797_4;cl187_21a;csu505(rpL7);magi99589;npi242b;rpl14b;rpl17b;rps5
+Cluster58	translational elongation	1.11695e-29	4.26775e-28	30344	103	380	28	21.7075	AY110625;GRMZM2G105712;LOC100282819;LOC100282953;LOC542341;Zm00001d026578;arpp0;arpp1a;arpp2a;arpp2a-2;arpp2a-3;arpp3;cl2727_2a;elfa1;elfa11;elfa12;elfa2;elfa3;elfa7;elfa9;elfg2;elfg3;gpm649;rps21b;rps21d;rps24;tufm1;umc2282
+Cluster58	ribosome biogenesis	1.19657e-29	4.26775e-28	30344	169	380	33	15.5925	GRMZM2G009894;GRMZM2G016928;GRMZM2G032564;GRMZM2G141411;GRMZM2G146358;GRMZM2G147791;GRMZM2G152573;GRMZM2G155437;GRMZM2G156986;GRMZM2G178341;GRMZM6G578655;GRMZM6G847892;IDP7491;LOC100193263;LOC100303837;TIDP3261;arpp0;cl17180_1;cl1797_1e;csu505(rpL7);dek44;magi59348;magi99589;pco068622;pco078642;pco114058;phm4880;rack1;rcl1;rpl13;rps21a;si486077f02(35);umc2282
+Cluster58	ribosomal small subunit assembly	5.63099e-29	1.72147e-27	30344	31	380	19	48.9419	B4FZ84;GRMZM2G092663;GRMZM2G099657;GRMZM2G120432;GRMZM2G124143;GRMZM2G139349;GRMZM2G156110;IDP4031;IDP4043;IDP7161;IDP764;LOC100282953;Zm00001d013034;arpp40;mch1;pco131882;rps27;rps5;rps6b
+Cluster58	centrosome duplication	3.12987e-27	8.3724e-26	30344	50	380	21	33.5381	AC225147.4_FG002;GRMZM2G001816;GRMZM2G014444;GRMZM2G018770;GRMZM2G023748;GRMZM2G067456;GRMZM2G077851;GRMZM2G132968;GRMZM2G140609;GRMZM2G163561;GRMZM2G324314;LOC100280657;LOC100280993;LOC100382075;cl187_21a;csu505(rpL7);gpm217b;magi99589;npi242b;rpl14b;rpl17b
+Cluster58	RNA methylation	8.92199e-26	2.12145e-24	30344	87	380	24	22.0283	GRMZM2G032564;GRMZM2G056350;GRMZM2G107336;GRMZM2G149865;GRMZM2G152561;GRMZM2G152573;GRMZM2G155437;cl37610_1b;cl9362_1;gpm447;hdt102;hdt103;hdt104;magi32402;pac1;pco068393;pco068622;pco078642;pco097109;pco107818;pco107819;rps25;rps30;umc2770
+Cluster58	ribosomal large subunit assembly	3.3589e-18	7.18805e-17	30344	35	380	14	31.9411	GRMZM2G001816;GRMZM2G008748;GRMZM2G014444;GRMZM2G018770;GRMZM2G027232;GRMZM2G132968;IDP3950;LOC100281960;TIDP3612;pco095316c;pco114887;pco146254b;rpl5a;rpl5b
+Cluster58	viral transcription	4.24712e-18	8.26258e-17	30344	16	380	11	54.8987	GRMZM2G023748;GRMZM2G124143;GRMZM2G315088;GRMZM2G455828;LOC110485089;LOC542610;pco066751;pco145463;rps28;rps4;si486077f02(35)
+Cluster58	positive regulation of growth rate	5.74346e-14	9.61885e-13	30344	193	380	21	8.68863	GRMZM2G016928;GRMZM2G023748;GRMZM2G067456;GRMZM2G077851;GRMZM2G094123;GRMZM2G139349;GRMZM2G140602;GRMZM2G455828;GRMZM6G791392;IDP7964;LOC100285160;cl45039_-2a;pab2;pco061701;pco097109;rpl17b;rpl17c;rpl5a;rpl5b;rps28;si946027f07
+Cluster58	growth	5.84323e-14	9.61885e-13	30344	112	380	17	12.1205	GRMZM2G094123;GRMZM2G140602;GRMZM2G152573;GRMZM2G166963;GRMZM2G174204;GRMZM5G899149;IDP243;LOC100280219;Zm00001d018411;cl253_2b;cl9362_1;gpm447;pco068393;pco095316c;rps30;rps6a;rps6b
+Cluster58	endonucleolytic cleavage in ITS1 to separate SSU-rRNA from 5.8S rRNA and LSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)	6.95897e-14	1.06373e-12	30344	31	380	11	28.3348	B4FZ84;CL13054_1;GRMZM2G014276;GRMZM2G125148;GRMZM2G139198;IDP4043;Zm00001d018411;arpp40;pco061701;rps21b;rps21d
+Cluster58	maturation of LSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)	1.41467e-13	2.01826e-12	30344	24	380	10	33.2719	AC206642.4_FG001;GRMZM2G100225;GRMZM2G174204;LOC100280219;cl45039_-2a;cl7814_5b;cl9362_1;pco078642;pco095316c;pco101521
+Cluster58	hermaphrodite genitalia development	2.3092e-13	3.08856e-12	30344	141	380	18	10.194	AC225147.4_FG002;GRMZM2G001816;GRMZM2G014444;GRMZM2G018770;GRMZM2G109425;GRMZM2G120329;GRMZM2G140602;GRMZM2G140609;GRMZM2G163561;LOC100272988;cl2727_2a;pab2;pco061701;pco146254b;pub16;rpl44;rpl5a;rpl5b
+Cluster58	rRNA export from nucleus	1.01668e-10	1.27982e-09	30344	8	380	6	59.8895	B4FZ84;GRMZM2G124143;GRMZM2G455828;IDP4043;arpp40;rps28
+Cluster58	maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)	1.43248e-10	1.70306e-09	30344	44	380	10	18.1483	GRMZM2G029685;GRMZM2G051848;GRMZM2G063700;GRMZM2G120432;GRMZM2G360677;LOC100194265;LOC542341;mch1;pco066882b;rps24
+Cluster58	formation of translation preinitiation complex	8.15539e-10	9.18554e-09	30344	38	380	9	18.9125	GRMZM2G092663;GRMZM2G476973;IDP703;TIDP3728;Zm00001d013034;cl11185_1d;pco086223;pco131882;pub10
+Cluster58	endonucleolytic cleavage to generate mature 3'-end of SSU-rRNA from (SSU-rRNA, 5.8S rRNA, LSU-rRNA)	1.78188e-09	1.90661e-08	30344	6	380	5	66.5439	B4FZ84;IDP4043;arpp40;rps21b;rps21d
+Cluster58	adaxial/abaxial pattern specification	3.21557e-09	3.27682e-08	30344	12	380	6	39.9263	GRMZM2G023748;GRMZM2G181194;LOC100280993;pco113533;rpl5a;rpl5b
+Cluster58	RNA metabolic process	1.32758e-08	1.29137e-07	30344	944	380	35	2.96064	GRMZM2G001816;GRMZM2G003384;GRMZM2G008748;GRMZM2G014444;GRMZM2G018228;GRMZM2G018770;GRMZM2G020255;GRMZM2G024647;GRMZM2G027232;GRMZM2G065868;GRMZM2G067456;GRMZM2G068952;GRMZM2G077851;GRMZM2G083497;GRMZM2G088060;GRMZM2G099657;GRMZM2G120329;GRMZM5G890561;IDP4031;IDP7491;LOC100282953;LOC100303837;cl45976_-1b;mch3;pco072913;pco098568;pco128954a;pco131134;pco142929;pco145392;pco145462;ppr182;rps12a;rps21a;rps3
+Cluster58	ribosomal large subunit biogenesis	5.62718e-08	5.23573e-07	30344	29	380	7	19.2748	GRMZM2G315088;GRMZM5G890561;LOC542610;pco131134;pco145463;rpl14a;rpl14b
+Cluster58	guanosine-containing compound catabolic process	1.59041e-07	1.41812e-06	30344	111	380	11	7.91332	AY110625;GRMZM2G140602;cl2727_2a;elfa1;elfa11;elfa12;elfa2;elfa7;elfa9;gpm649;tufm1
+Cluster58	pyrimidine ribonucleotide biosynthetic process	1.78084e-07	1.5244e-06	30344	89	380	10	8.97221	IDP4924;IDP8924;cl8889_1;cl9362_1;hdt102;hdt103;pco061701;pco068622;ppr469;umc2770
+Cluster58	GTP metabolic process	2.72717e-07	2.24467e-06	30344	117	380	11	7.50751	AY110625;GRMZM2G140602;cl2727_2a;elfa1;elfa11;elfa12;elfa2;elfa7;elfa9;gpm649;tufm1
+Cluster58	negative regulation of type I interferon production	3.56032e-07	2.82188e-06	30344	6	380	4	53.2351	GRMZM2G047727;LOC100277387;star1;ubf9
+Cluster58	single-organism metabolic process	1.09542e-06	8.37215e-06	30344	1664	380	45	2.15948	GRMZM2G009894;GRMZM2G011253;GRMZM2G023748;GRMZM2G032564;GRMZM2G076329;GRMZM2G078396;GRMZM2G124143;GRMZM2G147791;GRMZM2G149975;GRMZM2G152573;GRMZM2G181194;GRMZM2G411764;GRMZM2G455828;GRMZM5G803952;IDP243;IDP469;IDP486;IDP7407;LOC100193174;LOC100282959;LOC100303826;Zm00001eb293550;cl17145_1b;cl3469_8b;cl37610_1b;csu28a(rpS22);dek44;dpold3a;gpm447;magi7806;mch3;nap1;nfa104;pco068393;pco085865;pco142929;pco145392;phm4880;pza02939;rpl39;rps21b;rps21d;rps28;rps3;rps30
+Cluster58	regulation of transcription from RNA polymerase II promoter in response to hypoxia	1.62873e-06	1.20189e-05	30344	8	380	4	39.9263	GRMZM2G047727;LOC100277387;star1;ubf9
+Cluster58	maturation of 5.8S rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)	2.24772e-06	1.60338e-05	30344	18	380	5	22.1813	GRMZM2G174204;LOC100280219;cl9362_1;pco078642;pco095316c
+Cluster58	cell wall modification	4.06669e-06	2.80732e-05	30344	98	380	9	7.3334	GRMZM2G120432;IDP4031;IDP7161;LOC100280657;LOC100382075;gpm217b;mta2;rps21b;rps21d
+Cluster58	regulation of translational initiation	4.29238e-06	2.87053e-05	30344	53	380	7	10.5466	GRMZM2G476973;IDP703;TIDP3728;cl11185_1d;pab2;pco086223;pub10
+Cluster58	JNK cascade	4.78996e-06	3.01486e-05	30344	10	380	4	31.9411	GRMZM2G047727;LOC100277387;star1;ubf9
+Cluster58	Notch receptor processing	4.78996e-06	3.01486e-05	30344	10	380	4	31.9411	GRMZM2G047727;LOC100277387;star1;ubf9
+Cluster58	negative regulation of epidermal growth factor receptor signaling pathway	1.10684e-05	6.62744e-05	30344	12	380	4	26.6175	GRMZM2G047727;LOC100277387;star1;ubf9
+Cluster58	molting cycle, collagen and cuticulin-based cuticle	1.1149e-05	6.62744e-05	30344	61	380	7	9.16342	AC225147.4_FG002;GRMZM2G140609;GRMZM2G163561;GRMZM2G455828;rpl44;rps28;si946027f07
+Cluster58	TRIF-dependent toll-like receptor signaling pathway	2.19427e-05	0.000120403	30344	14	380	4	22.815	GRMZM2G047727;LOC100277387;star1;ubf9
+Cluster58	intracellular transport of virus	2.19427e-05	0.000120403	30344	14	380	4	22.815	GRMZM2G047727;LOC100277387;star1;ubf9
+Cluster58	nucleotide-binding oligomerization domain containing signaling pathway	2.19427e-05	0.000120403	30344	14	380	4	22.815	GRMZM2G047727;LOC100277387;star1;ubf9
+Cluster58	I-kappaB kinase/NF-kappaB signaling	2.96263e-05	0.000154635	30344	15	380	4	21.294	GRMZM2G047727;LOC100277387;star1;ubf9
+Cluster58	mitotic G1 phase	2.96263e-05	0.000154635	30344	15	380	4	21.294	GRMZM2G047727;LOC100277387;star1;ubf9
+Cluster58	response to cadmium ion	3.41358e-05	0.00017393	30344	906	380	27	2.37971	AY110625;GRMZM2G109425;arpp0;cl11185_1d;cpn1;cpn2;elfa1;elfa11;elfa12;elfa2;elfa3;elfa7;elfa9;elfg2;elfg3;nap1;nfa101a;nfa104;pco128954a;ppr469;pub16;rack1;rack2;rps12;rps12a;tufm1;umc2282
+Cluster58	ribosomal small subunit biogenesis	3.91118e-05	0.000186196	30344	16	380	4	19.9632	GRMZM2G030016;GRMZM2G053652;GRMZM2G455828;rps28
+Cluster58	ribosome assembly	3.91118e-05	0.000186196	30344	16	380	4	19.9632	GRMZM2G029685;pco066882b;rps24;rps6a
+Cluster58	rRNA processing	3.91533e-05	0.000186196	30344	308	380	14	3.62967	GRMZM2G014276;GRMZM2G030016;GRMZM2G053652;GRMZM2G053767;GRMZM2G455828;GRMZM6G847892;LOC103633469;Zm00001d018411;Zm00001eb293550;magi59348;pco061701;ppr469;rps28;rps6b
+Cluster58	T cell receptor signaling pathway	5.06416e-05	0.000235593	30344	17	380	4	18.7889	GRMZM2G047727;LOC100277387;star1;ubf9
+Cluster58	mature ribosome assembly	6.44684e-05	0.000281191	30344	18	380	4	17.745	B4FZ84;GRMZM2G099657;IDP4043;arpp40
+Cluster58	toll-like receptor 3 signaling pathway	6.44684e-05	0.000281191	30344	18	380	4	17.745	GRMZM2G047727;LOC100277387;star1;ubf9
+Cluster58	cytoplasmic translational elongation	6.56987e-05	0.000281191	30344	7	380	3	34.2226	Zm00001d026578;arpp2a-3;cl2727_2a
+Cluster58	translesion synthesis	6.56987e-05	0.000281191	30344	7	380	3	34.2226	LOC100277387;star1;ubf9
+Cluster58	embryo development ending in birth or egg hatching	7.17276e-05	0.000300975	30344	81	380	7	6.90084	GRMZM2G094123;GRMZM2G152573;gpm447;pco068393;pco097109;rps30;si946027f07
+Cluster58	activation of NF-kappaB-inducing kinase activity	0.000104141	0.000428579	30344	8	380	3	29.9447	LOC100277387;star1;ubf9
+Cluster58	endonucleolytic cleavage to generate mature 5'-end of SSU-rRNA from (SSU-rRNA, 5.8S rRNA, LSU-rRNA)	0.000122401	0.000467747	30344	21	380	4	15.21	CL13054_1;GRMZM2G014276;GRMZM2G125148;GRMZM2G139198
+Cluster58	toll-like receptor 1 signaling pathway	0.000122401	0.000467747	30344	21	380	4	15.21	GRMZM2G047727;LOC100277387;star1;ubf9
+Cluster58	toll-like receptor 2 signaling pathway	0.000122401	0.000467747	30344	21	380	4	15.21	GRMZM2G047727;LOC100277387;star1;ubf9
+Cluster58	toll-like receptor 4 signaling pathway	0.000122401	0.000467747	30344	21	380	4	15.21	GRMZM2G047727;LOC100277387;star1;ubf9
+Cluster58	MyD88-dependent toll-like receptor signaling pathway	0.000148128	0.000546542	30344	22	380	4	14.5187	GRMZM2G047727;LOC100277387;star1;ubf9
+Cluster58	translational termination	0.000148128	0.000546542	30344	22	380	4	14.5187	GRMZM2G078174;GRMZM2G124143;GRMZM2G455828;rps28
+Cluster58	erythrocyte differentiation	0.00015476	0.000551977	30344	9	380	3	26.6175	GRMZM2G001816;GRMZM2G018770;GRMZM2G120432
+Cluster58	protein import into mitochondrial inner membrane	0.00015476	0.000551977	30344	9	380	3	26.6175	pac1;pco107818;pco107819
+Cluster58	Toll signaling pathway	0.000177548	0.000612827	30344	23	380	4	13.8874	GRMZM2G047727;LOC100277387;star1;ubf9
+Cluster58	cytoplasmic translational initiation	0.000177548	0.000612827	30344	23	380	4	13.8874	TIDP3728;pab2;pco145392;pub10
+Cluster58	snRNA pseudouridine synthesis	0.000219033	0.000744015	30344	10	380	3	23.9558	GRMZM6G847892;trub1;trub2
+Cluster58	negative regulation of ubiquitin-protein ligase activity involved in mitotic cell cycle	0.000269592	0.000901447	30344	100	380	7	5.58968	GRMZM2G047727;GRMZM2G476973;IDP7865;IDP8924;LOC100277387;star1;ubf9
+Cluster58	activation of MAPK activity involved in innate immune response	0.000298375	0.000939004	30344	11	380	3	21.778	LOC100277387;star1;ubf9
+Cluster58	toll-like receptor 15 signaling pathway	0.000298375	0.000939004	30344	11	380	3	21.778	LOC100277387;star1;ubf9
+Cluster58	toll-like receptor 21 signaling pathway	0.000298375	0.000939004	30344	11	380	3	21.778	LOC100277387;star1;ubf9
+Cluster58	toll-like receptor 5 signaling pathway	0.000298375	0.000939004	30344	11	380	3	21.778	LOC100277387;star1;ubf9
+Cluster58	calcium ion homeostasis	0.000394144	0.00118798	30344	12	380	3	19.9632	LOC110485089;pco066751;si486077f02(35)
+Cluster58	ribosomal protein import into nucleus	0.000394144	0.00118798	30344	12	380	3	19.9632	GRMZM2G102230;IDP65a;impb3
+Cluster58	toll-like receptor 7 signaling pathway	0.000394144	0.00118798	30344	12	380	3	19.9632	LOC100277387;star1;ubf9
+Cluster58	SRP-dependent cotranslational protein targeting to membrane	0.000448818	0.00133399	30344	29	380	4	11.0142	GRMZM2G124143;GRMZM2G455828;pco066751;rps28
+Cluster58	transcription factor import into nucleus	0.000597056	0.00175027	30344	114	380	7	4.90323	GRMZM2G051848;GRMZM2G063700;GRMZM2G360677;LOC542341;cl37610_1b;ppr469;umc1387
+Cluster58	mitochondrial membrane organization	0.000792719	0.00224669	30344	15	380	3	15.9705	GRMZM2G476973;IDP4924;IDP8924
+Cluster58	ossification	0.000792719	0.00224669	30344	15	380	3	15.9705	LOC110485089;pco066751;si486077f02(35)
+Cluster58	protein import into nucleus	0.000797889	0.00224669	30344	87	380	6	5.50708	AC149829.2_FG003;GRMZM2G056350;LOC103633469;Zm00001eb293550;pco078642;umc2770
+Cluster58	skeletal system development	0.000966628	0.00268647	30344	16	380	3	14.9724	LOC110485089;pco066751;si486077f02(35)
+Cluster58	negative regulation of transforming growth factor beta receptor signaling pathway	0.00103895	0.00285044	30344	36	380	4	8.87251	GRMZM2G047727;LOC100277387;star1;ubf9
+Cluster58	anthocyanin-containing compound metabolic process	0.00116291	0.00311079	30344	17	380	3	14.0916	LOC110485089;pco066751;si486077f02(35)
+Cluster58	tubulin complex assembly	0.00116291	0.00311079	30344	17	380	3	14.0916	GRMZM2G109425;LOC100272988;tfcb1
+Cluster58	protein transmembrane import into intracellular organelle	0.00133355	0.00352321	30344	96	380	6	4.99079	AC149829.2_FG003;GRMZM2G125148;cl37610_1b;impb12;impb3;ppr469
+Cluster58	peptidyl-tyrosine phosphorylation	0.00162668	0.00424523	30344	19	380	3	12.6083	GRMZM2G476973;IDP4924;IDP8924
+Cluster58	DNA-templated transcription, elongation	0.00174877	0.00450888	30344	69	380	5	5.78642	GRMZM2G315088;IDP7407;LOC542610;pco145463;si603005c07
+Cluster58	hemopoiesis	0.00189608	0.00483048	30344	20	380	3	11.9779	GRMZM2G030016;GRMZM2G053652;GRMZM2G076329
+Cluster58	inductive cell migration	0.00219169	0.00550787	30344	21	380	3	11.4075	GRMZM2G001816;GRMZM2G014444;GRMZM2G018770
+Cluster58	body morphogenesis	0.00221344	0.00550787	30344	44	380	4	7.25933	GRMZM2G140602;pab2;rpl5a;rpl5b
+Cluster58	maturation of SSU-rRNA	0.00251436	0.00614507	30344	22	380	3	10.889	GRMZM2G116190;GRMZM2G124143;Zm00001eb293550
+Cluster58	nematode larval development	0.00252695	0.00614507	30344	75	380	5	5.32351	GRMZM2G023748;GRMZM2G094123;GRMZM2G140602;LOC100285160;si946027f07
+Cluster58	neurotrophin TRK receptor signaling pathway	0.00260913	0.00627363	30344	46	380	4	6.94371	GRMZM2G047727;LOC100277387;star1;ubf9
+Cluster58	plant-type cell wall organization	0.00267492	0.00636036	30344	231	380	9	3.11114	GRMZM2G120432;IDP4031;IDP7161;LOC100280657;LOC100382075;gpm217b;mta2;rps21b;rps21d
+Cluster58	nucleosome assembly	0.00278676	0.00655347	30344	111	380	6	4.31636	GRMZM2G168674;IDP3943;cl37610_1b;nap1;nfa101a;nfa104
+Cluster58	sensory perception of sound	0.00286488	0.00666396	30344	23	380	3	10.4156	LOC110485089;pco066751;si486077f02(35)
+Cluster58	fibroblast growth factor receptor signaling pathway	0.00305078	0.00702007	30344	48	380	4	6.65439	GRMZM2G047727;LOC100277387;star1;ubf9
+Cluster58	cell proliferation	0.00354461	0.00806963	30344	287	380	10	2.78232	GRMZM2G140602;IDP3950;LOC100284728;nap1;nfa104;pco078642;rpl5a;rpl5b;trub1;trub2
+Cluster58	biological regulation	0.00412239	0.00928623	30344	1741	380	35	1.60531	AC225147.4_FG002;GRMZM2G011253;GRMZM2G018228;GRMZM2G064640;GRMZM2G065868;GRMZM2G083497;GRMZM2G084757;GRMZM2G098764;GRMZM2G116190;GRMZM2G140609;GRMZM2G160351;GRMZM2G163561;GRMZM2G168330;GRMZM2G178341;LOC100282953;TIDP3261;Zm00001d018411;cl1797_1e;cl1797_4;cl3469_8b;cl44864_1a;cl8889_1;cpn1;cpn2;mch3;pco072913;rpl14a;rpl14b;rpl15a;rpl15b;rpl15c;rps21a;rps21b;rps21d;rps6a
+Cluster58	gynoecium development	0.00506031	0.0112803	30344	28	380	3	8.55564	GRMZM2G074898;LOC100283730;TIDP3612
+Cluster58	purine ribonucleoside triphosphate catabolic process	0.00601157	0.0132626	30344	463	380	13	2.24208	AY110625;GRMZM2G140602;GRMZM2G152561;LOC103633469;cl2727_2a;elfa1;elfa11;elfa12;elfa2;elfa7;elfa9;gpm649;tufm1
+Cluster58	purine ribonucleotide catabolic process	0.00644224	0.0140677	30344	467	380	13	2.22288	AY110625;GRMZM2G140602;GRMZM2G152561;LOC103633469;cl2727_2a;elfa1;elfa11;elfa12;elfa2;elfa7;elfa9;gpm649;tufm1
+Cluster58	epidermal growth factor receptor signaling pathway	0.00762988	0.0164929	30344	62	380	4	5.15178	GRMZM2G047727;LOC100277387;star1;ubf9
+Cluster58	regulation of biological process	0.00866351	0.0185327	30344	1570	380	31	1.57671	CL13054_1;GRMZM2G003384;GRMZM2G030915;GRMZM2G032564;GRMZM2G092663;GRMZM2G139198;GRMZM2G152561;GRMZM2G152573;GRMZM2G166963;GRMZM2G168674;GRMZM6G578655;IDP243;IDP3943;Zm00001d013034;arpp1a;cl253_2b;cl37610_1b;cl7136_2d;gpm447;magi104697;magi7806;mch1;mta1;pco068393;pco131882;pco142929;rcl1;rps27;rps27b;rps3;rps30
+Cluster58	pseudouridine synthesis	0.00874672	0.0185327	30344	34	380	3	7.04582	GRMZM6G847892;trub1;trub2
+Cluster58	DNA damage response, signal transduction by p53 class mediator resulting in cell cycle arrest	0.0110473	0.0229527	30344	69	380	4	4.62914	GRMZM2G047727;LOC100277387;star1;ubf9
+Cluster58	antigen processing and presentation of exogenous peptide antigen via MHC class I, TAP-dependent	0.0110473	0.0229527	30344	69	380	4	4.62914	GRMZM2G047727;LOC100277387;star1;ubf9
+Cluster58	determination of adult lifespan	0.0112705	0.0231913	30344	107	380	5	3.73143	AC225147.4_FG002;GRMZM2G109425;GRMZM2G140609;GRMZM2G163561;LOC100272988
+Cluster58	protein targeting to mitochondrion	0.0116039	0.0236498	30344	70	380	4	4.56301	GRMZM2G149865;pac1;pco078642;ppr469
+Cluster58	apoptotic process	0.012411	0.0250561	30344	197	380	7	2.8374	GRMZM2G013457;GRMZM2G060106;GRMZM2G074300;GRMZM2G476973;IDP4924;IDP8924;LOC103639467
+Cluster58	positive regulation of multicellular organism growth	0.0146135	0.029227	30344	41	380	3	5.84288	GRMZM2G063617;GRMZM2G120329;rpl44
+Cluster58	regulation of growth	0.0166116	0.0329156	30344	43	380	3	5.57111	GRMZM2G174204;GRMZM5G899149;LOC100280219
+Cluster58	positive regulation of ligase activity	0.0205123	0.0402718	30344	83	380	4	3.84832	GRMZM2G047727;LOC100277387;star1;ubf9
+Cluster58	negative regulation of ligase activity	0.0221707	0.0427435	30344	85	380	4	3.75777	GRMZM2G047727;LOC100277387;star1;ubf9
+Cluster58	positive regulation of ubiquitin-protein ligase activity involved in regulation of mitotic cell cycle transition	0.0221707	0.0427435	30344	85	380	4	3.75777	GRMZM2G047727;LOC100277387;star1;ubf9
+Cluster58	defense response signaling pathway, resistance gene-independent	0.0234803	0.0448642	30344	49	380	3	4.88894	LOC110485089;pco066751;si486077f02(35)
+Cluster158	epidermal cell differentiation	1.4036e-32	5.78283e-30	30344	769	452	68	5.93632	AC218972.3_FG004;AC233893.1_FG006;GRMZM2G000632;GRMZM2G017013;GRMZM2G073928;GRMZM2G099944;GRMZM2G113655;GRMZM2G114153;GRMZM2G119759;GRMZM2G157481;GRMZM2G162702;GRMZM2G173759;GRMZM2G177242;GRMZM2G370081;IDP48;IDP7590;K7VT58;Zm00001d020461;Zm00001d028811;Zm00001d047683;Zm00001d047694;Zm00001eb096900;Zm00001eb097100;Zm00001eb216660;bak5;bk4;cel11;cel12;cel22;cesa1;cesa2;cesa4;cesa7;cesa9;cl11683_1;cl2242_11;cl692_1a;cobl3;cobl4;csu395a;csu661;erd3;flr10;flr8;gl6;hin4;kw7;mmp168;pco137023;pco139734;pco143640(566);pco145505;pmt1;pzb01647;rboh1;rboh8;rfz1;thx44;tub2;tub4;tub6;umc1248;umc1369;umc2364;umc2389;wi2;wik1;xth1
+Cluster158	root hair elongation	2.29406e-30	4.72577e-28	30344	634	452	60	6.35326	AC218972.3_FG004;AC233893.1_FG006;GRMZM2G017013;GRMZM2G073928;GRMZM2G099944;GRMZM2G157481;GRMZM2G162702;GRMZM2G370081;IDP497;IDP7590;TIDP3581;Zm00001d005775;Zm00001d020461;Zm00001d028811;Zm00001d047694;Zm00001eb096900;Zm00001eb097100;Zm00001eb216660;bak3;bak5;cel11;cel12;cel22;cesa1;cesa11;cesa2;cesa4;cesa6;cesa7;cesa8;cesa9;cl11683_1;cl2242_11;cl2557_1b;cobl3;cobl4;csu661;erd3;flr10;flr8;iaa11;kw7;mmp168;pco137023;pco139734;pgl44;pmt1;pzb01647;rboh1;rboh8;rfz1;thx44;tub2;tub3;tub4;tub6;umc1369;umc2364;wi2;wik1
+Cluster158	cell tip growth	5.75226e-27	7.89977e-25	30344	341	452	43	8.46542	GRMZM2G099944;GRMZM2G173759;GRMZM2G370081;IDP497;TIDP3581;XP_008657194;Zm00001d005775;Zm00001d020461;Zm00001d028811;Zm00001d047694;Zm00001eb096900;Zm00001eb097100;cel11;cel12;cel22;cesa1;cesa11;cesa2;cesa4;cesa6;cesa7;cesa8;cesa9;cl2242_11;cl2557_1b;cl8951_1b;cobl3;cobl4;csu661;erd3;iaa11;kw7;pmt1;pzb01647;thx44;tub2;tub3;tub4;tub6;umc1369;umc2364;wi2;wik1
+Cluster158	anthocyanin accumulation in tissues in response to UV light	2.53169e-25	2.60764e-23	30344	374	452	43	7.71847	GRMZM2G073928;GRMZM2G099944;GRMZM2G107082;GRMZM2G370081;IDP497;TIDP3581;Zm00001d005775;Zm00001d020461;Zm00001d028811;Zm00001d047694;Zm00001eb096900;Zm00001eb097100;cel11;cel12;cel22;cesa1;cesa11;cesa2;cesa4;cesa6;cesa7;cesa8;cesa9;cl2242_11;cl2557_1b;cobl3;cobl4;csu661;cts5;erd3;iaa11;kw7;pmt1;pzb01647;thx44;tub2;tub3;tub4;tub6;umc1369;umc2364;wi2;wik1
+Cluster158	multidimensional cell growth	2.08356e-24	1.71685e-22	30344	352	452	41	7.81944	GRMZM2G073928;GRMZM2G099944;GRMZM2G370081;IDP497;TIDP3581;Zm00001d005775;Zm00001d020461;Zm00001d028811;Zm00001d047694;Zm00001eb096900;Zm00001eb097100;bak3;bk4;cesa1;cesa11;cesa2;cesa4;cesa6;cesa7;cesa8;cesa9;cl2242_11;cobl3;cobl4;csu661;erd3;iaa11;kw7;pco137023;pco139734;pmt1;pzb01647;thx44;tub2;tub3;tub4;tub6;umc1369;umc2364;wi2;wik1
+Cluster158	plant-type secondary cell wall biogenesis	7.77942e-23	5.34187e-21	30344	163	452	29	11.9439	GRMZM2G001079;GRMZM2G030252;GRMZM2G113655;GRMZM2G177242;GRMZM2G458538;K7VT58;LOC100191546;Zm00001d005775;Zm00001d010976;Zm00001d031913;Zm00001eb096900;Zm00001eb097100;cesa1;cesa11;cesa2;cesa4;cesa6;cesa7;cesa8;cesa9;cobl3;cobl4;csu395a;pco098921;pco143640(566);pco145505;thx44;umc1248;xt5
+Cluster158	cell wall organization	2.64599e-21	1.55736e-19	30344	294	452	35	7.99199	AC209664.3_FG002;GRMZM2G001079;GRMZM2G076276;GRMZM2G107854;GRMZM2G113655;GRMZM2G150404;GRMZM2G173759;GRMZM2G370081;IDP2142;IDP48;LOC103640007;XP_008657194;Zm00001d005775;Zm00001d010976;Zm00001eb096900;Zm00001eb097100;cesa1;cesa11;cesa2;cesa4;cesa5;cesa6;cesa7;cesa8;cesa9;cl34424_1;cl8951_1b;csu395a;kw7;lrx8;pco130820;pgl109;pgl44;xt5;xth1
+Cluster158	plant-type primary cell wall biogenesis	6.59429e-19	3.39606e-17	30344	22	452	13	39.6693	Zm00001d005775;Zm00001eb096900;Zm00001eb097100;cesa1;cesa11;cesa2;cesa4;cesa5;cesa6;cesa7;cesa8;cesa9;thx44
+Cluster158	cellulose biosynthetic process	2.02538e-16	9.27176e-15	30344	109	452	20	12.3179	GRMZM2G150404;LOC103640007;Zm00001d005775;Zm00001eb096900;Zm00001eb097100;arm33;bk4;cesa1;cesa11;cesa2;cesa4;cesa5;cesa6;cesa7;cesa8;cesa9;flr10;flr8;thx44;wik1
+Cluster158	Golgi organization	6.04037e-16	2.48863e-14	30344	486	452	37	5.11093	GRMZM2G099944;GRMZM2G130052;GRMZM2G173759;GRMZM2G476637;XP_008657194;Zm00001d005775;Zm00001d006040;Zm00001eb096900;Zm00001eb097100;bak3;cel12;cel22;cesa1;cesa11;cesa2;cesa4;cesa7;cesa9;cl11581_1a;cl2242_11;cl8951_1b;cobl3;cobl4;flr10;flr8;glu18;pco123556;pco137023;pco139734;pgl44;rfz1;thx44;tub2;tub3;tub4;tub6;wi2
+Cluster158	regulation of meristem growth	7.31255e-15	2.73888e-13	30344	526	452	37	4.72227	AC209664.3_FG002;AC218972.3_FG004;AC233893.1_FG006;AY107018;GRMZM2G076276;GRMZM2G099944;GRMZM2G107854;GRMZM2G119759;GRMZM2G177242;GRMZM2G370081;GRMZM2G476637;IDP2142;IDP7590;bak3;cel11;cel12;cel22;cl11581_1a;cl11683_1;cl2242_11;cl2557_1b;kw7;mmp168;pat32;pat7;pco119626;pco130820;pco137705;pox3;tub2;tub3;tub4;tub6;umc1658;umc2364;wi2;wik1
+Cluster158	seed coat development	2.7599e-14	9.47567e-13	30344	33	452	12	24.4119	Zm00001d005775;Zm00001eb096900;Zm00001eb097100;cesa1;cesa2;cesa4;cesa6;cesa7;cesa8;cesa9;myb128;sm1
+Cluster158	brassinosteroid biosynthetic process	4.78045e-14	1.51504e-12	30344	314	452	28	5.98636	AC218972.3_FG004;AC233893.1_FG006;GRMZM2G064366;GRMZM2G099944;GRMZM2G177242;IDP7590;K7VT58;cel11;cel12;cel22;cl10049_-2;cl11683_1;cl2242_11;cl50078_1;mmp168;pco137023;pco139734;pco143640(566);pco145505;pox3;rfz1;tub2;tub3;tub4;tub6;umc1248;umc2389;wi2
+Cluster158	glucuronoxylan biosynthetic process	1.06927e-13	3.1467e-12	30344	70	452	15	14.3856	AC209664.3_FG002;GRMZM2G001079;GRMZM2G076276;GRMZM2G107854;GRMZM2G113655;IDP2142;LOC100191546;Zm00001d010976;Zm00001d028824;csu395a;pco098921;pco119626;pco130820;umc2341;xt5
+Cluster158	auxin polar transport	1.28366e-13	3.5258e-12	30344	302	452	27	6.00193	AC218972.3_FG004;AC233893.1_FG006;GRMZM2G073928;IDP497;TIDP3581;Zm00001d005775;cel11;cel12;cel22;cesa1;cesa11;cesa2;cesa4;cesa9;cl11683_1;cl2557_1b;cobl3;cobl4;iaa11;mmp168;pco137023;pco139734;rfz1;saur25;thx44;vpp1;whp1
+Cluster158	cortical microtubule organization	3.22192e-13	8.29644e-12	30344	50	452	13	17.4545	IDP6915;Zm00001d005775;Zm00001eb096900;Zm00001eb097100;cel12;cel22;cesa1;cesa2;cesa4;cesa6;cesa7;cesa8;cesa9
+Cluster158	homogalacturonan biosynthetic process	1.41471e-12	3.42859e-11	30344	44	452	12	18.3089	AC209664.3_FG002;GRMZM2G076276;GRMZM2G107854;IDP2142;Zm00001d020461;csu661;erd3;pco119626;pco130820;pmt1;pzb01647;umc1369
+Cluster158	anatomical structure formation involved in morphogenesis	2.39142e-12	5.47369e-11	30344	945	452	46	3.26784	AC218972.3_FG004;AC233893.1_FG006;GRMZM2G000632;GRMZM2G017013;GRMZM2G054152;GRMZM2G083546;GRMZM2G113655;GRMZM2G114153;GRMZM2G119759;GRMZM2G157481;GRMZM2G162702;GRMZM2G370081;GRMZM2G430995;IDP48;IDP7590;Zm00001d007902;Zm00001d017987;Zm00001d028811;Zm00001d047683;Zm00001d047694;Zm00001eb090200;abi39;bak5;bsk9;cl11683_1;cl50626_1;cl692_1a;cobl3;cobl4;csu395a;expb17;expb6;flr10;flr8;kw7;pco081548;pco137023;pco139734;rboh1;rfz1;rz567b(klc);thx44;tub4;umc2193;vln7;wik1
+Cluster158	protein polymerization	2.00585e-11	4.34954e-10	30344	42	452	11	17.5824	GRMZM2G099944;cl2242_11;tua2;tua4;tua5;tub2;tub3;tub4;tub5;tub6;wi2
+Cluster158	regulation of carbohydrate biosynthetic process	2.64226e-11	5.44305e-10	30344	16	452	8	33.5664	Zm00001d005775;bk4;cesa1;cesa11;cesa2;cesa4;cesa9;thx44
+Cluster158	regulation of hormone levels	2.03693e-10	3.99626e-09	30344	65	452	12	12.3937	GRMZM2G370081;Zm00001d020461;Zm00001d028811;Zm00001d047694;csu661;erd3;kw7;pmt1;pzb01647;umc1369;umc2364;wik1
+Cluster158	plant-type cell wall biogenesis	3.95046e-10	7.39813e-09	30344	368	452	25	4.56065	AC218972.3_FG004;AC233893.1_FG006;GRMZM2G000632;GRMZM2G073928;IDP497;TIDP3581;Zm00001d047683;Zm00001eb371500;arm33;cel11;cel12;cel22;cl11683_1;cl2557_1b;cl9926_1;flr10;flr8;mmp168;pat32;pat7;pco137023;pco139734;rfz1;wik1;xth1
+Cluster158	xylem development	4.96193e-10	8.88833e-09	30344	315	452	23	4.90176	AC209664.3_FG002;AC218972.3_FG004;AC233893.1_FG006;GRMZM2G009144;GRMZM2G076276;GRMZM2G107854;GRMZM2G476637;IDP2142;LOC100272604;Zm00001d005775;cel11;cel12;cel22;cl11581_1a;cl11683_1;mmp168;myb128;pco116267;pco119626;pco130820;thx44;umc2364;xth1
+Cluster158	microtubule-based movement	1.22421e-09	2.10156e-08	30344	111	452	14	8.46719	GRMZM2G099944;GRMZM5G869246;LOC103643373;cl2242_11;cl26329_1;mmc0312a;pco093770(474);pco131529(452);tua4;tub2;tub3;tub4;tub6;wi2
+Cluster158	microtubule-based process	1.51938e-09	2.50393e-08	30344	61	452	11	12.1059	GRMZM2G099944;cl2242_11;tua2;tua4;tua5;tub2;tub3;tub4;tub5;tub6;wi2
+Cluster158	rhamnogalacturonan I side chain metabolic process	1.58291e-09	2.5083e-08	30344	16	452	7	29.3706	Zm00001d005775;Zm00001eb096900;Zm00001eb097100;cesa6;cesa7;cesa8;thx44
+Cluster158	alcohol biosynthetic process	4.0323e-09	6.15299e-08	30344	239	452	19	5.33691	AC218972.3_FG004;AC233893.1_FG006;GRMZM2G064366;GRMZM2G125768;GRMZM2G177242;IDP7590;K7VT58;Zm00001d007902;cl10049_-2;cl11683_1;cl50078_1;mmp168;pco137023;pco139734;pco143640(566);pco145505;rfz1;tlc5;umc1248
+Cluster158	mucilage biosynthetic process	9.05285e-09	1.33206e-07	30344	12	452	6	33.5664	Zm00001eb096900;Zm00001eb097100;cesa6;cesa7;cesa8;sm1
+Cluster158	plant-type cell wall organization	8.21585e-08	1.16722e-06	30344	231	452	17	4.9405	AY111178;GRMZM2G119759;GRMZM2G177242;cel11;cel12;cel22;expb17;expb6;pat32;pat7;pco137023;pco139734;pox3;rfz1;umc2193;umc2389;wik1
+Cluster158	small molecule biosynthetic process	8.97822e-08	1.23301e-06	30344	351	452	21	4.01649	GRMZM2G167872;IDP253;Zm00001d049303;chi6;cl10273_1a;cop2;csu59a;fls1;hct6;omt1;omt2;pco090908;pco123975;saur25;sfat1;sfat2;si614021b09a;sm1;tgd1;uaz288a(ppi);umc1739
+Cluster158	xylem and phloem pattern formation	1.00701e-07	1.33835e-06	30344	207	452	16	5.189	AC218972.3_FG004;AC233893.1_FG006;GRMZM2G113655;GRMZM2G119759;Zm00001d028824;Zm00001eb371500;cel11;cel12;cel22;cl11683_1;cl692_1a;csu395a;mmp168;umc2341;umc2364;wik1
+Cluster158	pectin biosynthetic process	2.09261e-07	2.69424e-06	30344	43	452	8	12.4898	AC209664.3_FG002;GRMZM2G011031;GRMZM2G076276;GRMZM2G107854;IDP2142;cl34424_1;pco119626;pco130820
+Cluster158	animal organ development	3.02543e-07	3.77721e-06	30344	1788	452	55	2.06505	AC218972.3_FG004;AC233893.1_FG006;GRMZM2G000632;GRMZM2G051949;GRMZM2G054152;GRMZM2G066219;GRMZM2G084806;GRMZM2G113655;GRMZM2G114153;GRMZM2G122302;GRMZM2G128934;GRMZM2G148884;GRMZM2G157481;GRMZM2G162702;GRMZM2G352132;GRMZM2G476637;GRMZM5G872373;IDP48;Zm00001d020461;Zm00001d028811;Zm00001d028824;Zm00001d047683;Zm00001d047694;abi39;bak5;bhlh165;bhlh41;cl11581_1a;cl11683_1;cl692_1a;cobl3;cobl4;csu395a;csu661;erd3;flr10;flr8;gl6;kw7;mads76;mmp168;pco114187;pco123556;pco137023;pco137705;pco139734;pgl44;pmt1;pzb01647;rfz1;snrkII3;thx44;umc1369;umc1658;umc2341
+Cluster158	sterol biosynthetic process	5.43504e-07	6.58599e-06	30344	206	452	15	4.88831	AC218972.3_FG004;AC233893.1_FG006;GRMZM2G064366;GRMZM2G177242;IDP7590;Zm00001d006040;Zm00001d007902;cl10049_-2;cl11683_1;mmp168;pco137023;pco139734;rfz1;sqsh1;tlc5
+Cluster158	cell wall polysaccharide metabolic process	1.31557e-06	1.54861e-05	30344	38	452	7	12.3666	Zm00001eb096900;Zm00001eb097100;cesa6;cesa7;cesa8;cl2557_1b;pme20
+Cluster158	shoot system development	2.60144e-06	2.97721e-05	30344	149	452	12	5.40666	GRMZM2G060760;GRMZM2G113655;Zm00001d020461;csu395a;csu661;erd3;hct6;pco137023;pco139734;pmt1;pzb01647;umc1369
+Cluster158	pollen exine formation	3.46906e-06	3.86284e-05	30344	270	452	16	3.97824	GRMZM2G001079;GRMZM2G080231;GRMZM2G122618;GRMZM2G132866;IDP497;IDP8093;Zm00001d010976;Zm00001d020461;csu661;erd3;hct6;pmt1;pzb01647;stsl4;umc1369;umc2364
+Cluster158	response to fructose	4.57309e-06	4.95819e-05	30344	185	452	13	4.71744	GRMZM2G017013;GRMZM2G054152;GRMZM2G157481;cel22;cesa1;cesa2;cesa4;cesa9;cobl3;cobl4;gpm893;pco110217;pco137705
+Cluster158	water transport	5.64431e-06	5.96271e-05	30344	134	452	11	5.5109	GRMZM2G017013;GRMZM2G157481;cesa1;cesa2;cesa4;cesa9;cobl3;cobl4;flr10;flr8;pco137705
+Cluster158	lignin biosynthetic process	8.59602e-06	8.8539e-05	30344	140	452	11	5.27472	Zm00001d005775;bk4;cesa1;cesa11;cesa2;cesa4;cesa9;glu18;hct6;omt2;thx44
+Cluster158	microtubule nucleation	1.01712e-05	0.000102208	30344	294	452	16	3.65348	AC218972.3_FG004;AC233893.1_FG006;GRMZM2G064366;GRMZM2G073928;GRMZM2G121649;GRMZM2G146951;GRMZM2G161696;cl10049_-2;cl11683_1;iaa11;mmp168;pat32;pat7;pco114025;pza03469;umc2561
+Cluster158	carbohydrate metabolic process	1.2032e-05	0.000118028	30344	843	452	30	2.38907	A0A1D6JWI7;AY107018;GRMZM2G003354;GRMZM2G052357;GRMZM2G127117;GRMZM2G129929;GRMZM2G429118;IDP73;IDP8481;LOC100191546;LOC103647598;TIDP3300;Zm00001eb216660;bk4;bnlg2190;cel11;cel12;cel22;cl10536_1a;exo3;fut6;glu18;glu9;hin4;pco142893;pgl109;pgl44;umc1711;umc2786;xth1
+Cluster158	starch metabolic process	1.36633e-05	0.000130913	30344	147	452	11	5.02354	AC218972.3_FG004;AC233893.1_FG006;LOC103643373;cel11;cel12;cl11683_1;cobl3;cobl4;mmp168;pco098921;wik1
+Cluster158	hydrogen peroxide biosynthetic process	1.55193e-05	0.000145317	30344	149	452	11	4.95611	GRMZM2G054152;GRMZM2G076276;GRMZM2G107854;IDP2142;IDP48;Zm00001d005775;pco130820;pco135182;rboh1;rboh8;thx44
+Cluster158	cytoskeleton organization	1.8832e-05	0.000172417	30344	211	452	13	4.13614	GRMZM2G099944;LOC103643373;Zm00001eb371500;cl2242_11;cl26329_1;csu334;mmc0312a;pco093770(474);pco131529(452);tub3;tub4;umc2253;vln7
+Cluster158	hyperosmotic salinity response	2.24184e-05	0.000200791	30344	537	452	22	2.75032	TIDP3581;Zm00001eb096900;Zm00001eb097100;bak3;cdpk20;cel12;cel22;cesa1;cesa11;cesa2;cesa4;cesa6;cesa7;cesa8;cesa9;pmpm5;pox3;rboh1;rboh8;si486092d04c;ugt1;umc2389
+Cluster158	polarity specification of adaxial/abaxial axis	2.75615e-05	0.000241603	30344	251	452	14	3.74446	AC218972.3_FG004;AC233893.1_FG006;AY107018;GRMZM2G073928;GRMZM2G119759;GRMZM2G476637;cel11;cel12;cel22;cl11581_1a;cl11683_1;mmp168;umc2364;wik1
+Cluster158	protein desumoylation	3.01523e-05	0.000258807	30344	160	452	11	4.61538	GRMZM2G054152;GRMZM2G076276;GRMZM2G107854;IDP2142;IDP48;Zm00001d005775;pco130820;pco135182;rboh1;rboh8;thx44
+Cluster158	response to sucrose	4.403e-05	0.000363174	30344	482	452	20	2.78559	GRMZM2G049424;GRMZM2G054152;GRMZM2G173209;IDP8093;LOC100284975;Zm00007a00006475;abi39;chi6;csu59a;fls1;gcsh2;glu18;gpm893;pco081548;pco110217;ppt1;sm1;tgd1;umc2364;whp1
+Cluster158	guanosine-containing compound catabolic process	4.40745e-05	0.000363174	30344	111	452	9	5.4432	GRMZM2G099944;cl2242_11;cl692_1a;tua4;tub2;tub3;tub4;tub6;wi2
+Cluster158	response to desiccation	5.62688e-05	0.000454564	30344	142	452	10	4.72766	Zm00001d020461;aldh17;csu661;erd3;iaa11;pmt1;pox3;pzb01647;umc1369;umc2389
+Cluster158	GTP metabolic process	6.6607e-05	0.000521819	30344	117	452	9	5.16406	GRMZM2G099944;cl2242_11;cl692_1a;tua4;tub2;tub3;tub4;tub6;wi2
+Cluster158	phenylpropanoid biosynthetic process	6.71272e-05	0.000521819	30344	145	452	10	4.62984	GRMZM2G049424;IDP7721;LOC100273043;LOC100284975;Zm00007a00006475;chi6;fns1;pco081548;sm1;umc2364
+Cluster158	anthocyanin-containing compound biosynthetic process	8.48105e-05	0.000647073	30344	211	452	12	3.81798	GRMZM2G049424;IDP7721;IDP8093;Zm00007a00006475;chi6;fls1;pco081548;ppt1;si486092d04c;ugt1;umc2364;whp1
+Cluster158	response to salt stress	9.43812e-05	0.000707001	30344	1177	452	35	1.9963	GRMZM2G017013;GRMZM2G099944;GRMZM2G130052;GRMZM2G157481;IDP7787;Zm00001d020461;aldh17;bk4;cl2242_11;cobl3;cobl4;csu661;erd3;flr10;flr8;glu18;mets2;pco137023;pco137705;pco139734;pmpm5;pmt1;pzb01647;rfz1;si618049b08;sm2;snrkII3;thx44;tub2;tub3;tub4;tub6;umc1369;vpp1;wi2
+Cluster158	trichoblast differentiation	9.64392e-05	0.000709517	30344	50	452	6	8.05593	GRMZM2G177242;K7VT58;pco143640(566);pco145505;pox3;umc1248
+Cluster158	unidimensional cell growth	0.000126072	0.000911258	30344	254	452	13	3.43593	AC218972.3_FG004;AC233893.1_FG006;GRMZM2G030252;GRMZM2G054152;GRMZM2G099944;GRMZM2G119759;GRMZM2G430995;Zm00001d017987;Zm00001d031913;cl11683_1;cl50626_1;tlc5;wik1
+Cluster158	cell wall modification involved in multidimensional cell growth	0.000157689	0.00110115	30344	19	452	4	14.1332	cel11;cel12;cel22;cl2557_1b
+Cluster158	long-term memory	0.000157689	0.00110115	30344	19	452	4	14.1332	GRMZM2G100809;GRMZM2G103357;LOC100381743;pco068000
+Cluster158	feeding behavior	0.000173916	0.0011557	30344	8	452	3	25.1748	GRMZM2G121649;pza03469;umc2561
+Cluster158	formation by symbiont of syncytium involving giant cell for nutrient acquisition from host	0.000173916	0.0011557	30344	8	452	3	25.1748	GRMZM2G121649;pza03469;umc2561
+Cluster158	synaptic vesicle exocytosis	0.000173916	0.0011557	30344	8	452	3	25.1748	GRMZM2G100809;GRMZM2G103357;pco068000
+Cluster158	xyloglucan biosynthetic process	0.000184792	0.00120848	30344	36	452	5	9.32399	GRMZM2G000632;GRMZM2G430995;Zm00001d028811;Zm00001d047683;Zm00001d047694
+Cluster158	meristem initiation	0.000191411	0.00123221	30344	265	452	13	3.2933	AC218972.3_FG004;AC233893.1_FG006;AY107018;GRMZM2G119759;GRMZM2G476637;cel11;cel12;cel22;cl11581_1a;cl11683_1;mmp168;umc2364;wik1
+Cluster158	positive regulation of microtubule polymerization	0.000257989	0.00163525	30344	9	452	3	22.3776	GRMZM2G121649;pza03469;umc2561
+Cluster158	seed dormancy process	0.000266502	0.00166362	30344	311	452	14	3.02205	GRMZM2G073928;GRMZM2G076276;GRMZM2G099944;GRMZM2G107854;IDP2142;abi39;cl2242_11;pco119626;pco130820;tub2;tub3;tub4;tub6;wi2
+Cluster158	cellular cation homeostasis	0.000280609	0.00172554	30344	112	452	8	4.7952	GRMZM2G017013;GRMZM2G157481;GRMZM2G162702;GRMZM2G171028;bak5;mde1;pco137705;si606019d07
+Cluster158	circumnutation	0.000364483	0.00220834	30344	10	452	3	20.1398	GRMZM2G121176;Zm00001d017987;cl50626_1
+Cluster158	regulation of cell size	0.000392454	0.00234335	30344	249	452	12	3.23531	AC218972.3_FG004;AC233893.1_FG006;GRMZM2G073928;cel11;cl11683_1;cl2557_1b;cobl3;cobl4;mmp168;pco137023;pco139734;rfz1
+Cluster158	proteasomal protein catabolic process	0.00040078	0.00235888	30344	90	452	7	5.22144	GRMZM2G099944;cl2242_11;tub2;tub3;tub4;tub6;wi2
+Cluster158	response to cadmium ion	0.000571553	0.00331063	30344	906	452	27	2.00064	GRMZM2G099944;GRMZM2G130052;GRMZM2G147500;GRMZM2G173209;cdpk20;cesa1;cesa2;cesa4;cesa9;cl2242_11;cl692_1a;cobl3;cobl4;flr10;flr8;gpm893;mets2;omt1;omt2;pco110217;tua5;tub2;tub3;tub4;tub6;umc1314;wi2
+Cluster158	actin filament-based movement	0.000578557	0.00331063	30344	156	452	9	3.87304	GRMZM2G161696;GRMZM2G430995;Zm00001eb216660;arm33;bnlg1160;flr10;flr8;hin4;si618049b08
+Cluster158	cellular lipid metabolic process	0.000758406	0.00428032	30344	162	452	9	3.7296	IDP253;IDP8093;Zm00001eb259940;aomt3;fls1;sfat1;sfat2;sqsh1;umc1739
+Cluster158	leaf development	0.000827596	0.0046077	30344	164	452	9	3.68411	GRMZM2G051949;GRMZM2G107082;Zm00001d028824;cts5;grftf1;snrkII3;umc2341;umc2364;vpp1
+Cluster158	meiotic chromosome segregation	0.00100941	0.00554502	30344	105	452	7	4.47552	GRMZM2G076276;GRMZM2G107854;IDP2142;flr10;flr8;pco119626;pco130820
+Cluster158	regulation of multicellular organismal development	0.00105644	0.00572703	30344	241	452	11	3.06415	AC218972.3_FG004;AC233893.1_FG006;GRMZM2G119759;GRMZM2G370081;cdpk20;cl11683_1;kw7;mmp168;pco137705;umc1658;wik1
+Cluster158	methylation	0.00114917	0.0061488	30344	361	452	14	2.60349	Zm00001d020461;Zm00001d049303;aomt3;cel12;cl10273_1a;csu661;erd3;mets2;omt1;omt2;pmt1;pzb01647;si614021b09a;umc1369
+Cluster158	activation of MAPKK activity	0.00120542	0.00636707	30344	173	452	9	3.49245	AC218972.3_FG004;AC233893.1_FG006;GRMZM2G073928;GRMZM2G119759;GRMZM2G162702;bak5;mmp168;perk13;wik1
+Cluster158	positive regulation of growth	0.00125555	0.00654792	30344	32	452	4	8.39159	AC218972.3_FG004;AC233893.1_FG006;cl11683_1;mmp168
+Cluster158	cellular amino acid metabolic process	0.00129408	0.00666451	30344	325	452	13	2.68531	IDP253;Zm00001eb216660;chi6;cl10273_1a;cop2;hin4;omt1;omt2;sfat1;sfat2;si614021b09a;umc1739;whp1
+Cluster158	regulation of chromosome organization	0.0014705	0.00747959	30344	112	452	7	4.1958	GRMZM2G076276;GRMZM2G107854;IDP2142;flr10;flr8;pco119626;pco130820
+Cluster158	cellular nitrogen compound metabolic process	0.00168948	0.00848863	30344	976	452	27	1.85716	GRMZM2G097739;GRMZM2G114153;GRMZM2G148229;GRMZM2G172652;GRMZM2G370081;GRMZM2G452633;IDP253;Zm00001d049303;chi6;cl10049_-2;cl10273_1a;cl24104_1a;cl25446_1;eps1;gpm566c;omt1;omt2;pco135182;pco148653;sfat1;sfat2;si614021b09a;umc1739;umc2253;vpp1;vpp6;whp1
+Cluster158	regulation of secondary growth	0.00176503	0.00876135	30344	35	452	4	7.67231	AC218972.3_FG004;AC233893.1_FG006;cl11683_1;mmp168
+Cluster158	post-Golgi vesicle-mediated transport	0.00191128	0.00937439	30344	17	452	3	11.847	GRMZM2G100809;GRMZM2G103357;pco068000
+Cluster158	coumarin biosynthetic process	0.00198544	0.00957659	30344	186	452	9	3.24836	GRMZM2G117707;IDP8093;Zm00001d006040;omt1;omt2;pal2;si486092d04c;sm2;ugt1
+Cluster158	wax biosynthetic process	0.001999	0.00957659	30344	60	452	5	5.5944	GRMZM2G107082;IDP7787;cer8;cts5;gl1
+Cluster158	flower morphogenesis	0.00227973	0.010796	30344	227	452	10	2.95739	AC218972.3_FG004;AC233893.1_FG006;GRMZM2G119759;GRMZM2G476637;cl11581_1a;cl11683_1;iaa11;mmp168;umc2364;wik1
+Cluster158	cell cycle	0.00272809	0.0127724	30344	440	452	15	2.28862	GRMZM2G051949;GRMZM2G099944;GRMZM2G132774;cl2242_11;cl26329_1;mmc0312a;tua2;tua4;tua5;tub2;tub3;tub4;tub5;tub6;wi2
+Cluster158	sister chromatid cohesion	0.00343118	0.0158837	30344	165	452	8	3.25492	GRMZM2G076276;GRMZM2G107854;IDP2142;abi39;flr10;flr8;pco119626;pco130820
+Cluster158	cell wall modification	0.00351341	0.0160836	30344	98	452	6	4.11017	AC218972.3_FG004;AC233893.1_FG006;IDP7590;cl11683_1;mmp168;pme20
+Cluster158	response to abscisic acid	0.00370591	0.0167784	30344	833	452	23	1.85361	AC218972.3_FG004;AC233893.1_FG006;GRMZM2G083546;GRMZM2G130052;IDP7590;IDP7787;Zm00001d007902;Zm00001d020461;abi39;aldh17;arftf23;bsk9;cl11683_1;csu661;dnaj144;erd3;mmp168;pco135182;pmpm5;pmt1;pzb01647;si687023g02a;umc1369
+Cluster158	xylan biosynthetic process	0.00410111	0.0182974	30344	287	452	11	2.57303	GRMZM2G009144;Zm00001d005775;cesa11;cl9926_1;flr10;flr8;pal2;pco098921;pox3;si618049b08;thx44
+Cluster158	response to UV-B	0.00413023	0.0182974	30344	329	452	12	2.44861	GRMZM2G049424;IDP8093;LOC100273043;LOC100284975;Zm00007a00006475;chi6;fls1;pal2;pco081548;sm1;umc2364;whp1
+Cluster158	anaphase	0.00425605	0.0186542	30344	171	452	8	3.14071	AC218972.3_FG004;AC233893.1_FG006;GRMZM2G121649;Zm00001d007902;cl11683_1;mmp168;pza03469;umc2561
+Cluster158	cellulose catabolic process	0.00483817	0.0209824	30344	46	452	4	5.83763	cel11;cel12;cel22;glu18
+Cluster158	cellular response to alcohol	0.00512319	0.021987	30344	140	452	7	3.35664	GRMZM2G161696;bak3;bsk9;flr10;flr8;perk13;umc2364
+Cluster158	calcium ion transport	0.00564517	0.0239774	30344	108	452	6	3.7296	GRMZM2G157481;cobl3;cobl4;pco137023;pco139734;rfz1
+Cluster158	positive regulation of secondary metabolite biosynthetic process	0.00584387	0.0243875	30344	344	452	12	2.34184	GRMZM2G060760;GRMZM2G130052;GRMZM2G469898;IDP8093;cdpk20;cl9926_1;hct6;pal2;pco114073b;si486092d04c;sm2;ugt1
+Cluster158	galactose metabolic process	0.00591931	0.0243875	30344	25	452	3	8.05593	GRMZM2G000632;Zm00001d047683;hin3
+Cluster158	root epidermal cell differentiation	0.00591931	0.0243875	30344	25	452	3	8.05593	GRMZM2G000632;Zm00001d047683;bk4
+Cluster158	cell wall pectin biosynthetic process	0.00651783	0.0265876	30344	50	452	4	5.37062	IDP253;sfat1;sfat2;umc1739
+Cluster158	positive regulation of flavonoid biosynthetic process	0.00666985	0.026941	30344	350	452	12	2.30169	GRMZM2G060760;GRMZM2G130052;GRMZM2G469898;IDP8093;cdpk20;cl9926_1;hct6;pal2;pco114073b;si486092d04c;sm2;ugt1
+Cluster158	regulation of phenylpropanoid metabolic process	0.00712795	0.0283054	30344	443	452	14	2.12158	GRMZM2G060760;GRMZM2G073928;GRMZM2G130052;GRMZM2G469898;IDP8093;cdpk20;cl9926_1;hct6;pal2;pco114073b;si486092d04c;sm2;ugt1;whp1
+Cluster158	cytokinin-activated signaling pathway	0.00714504	0.0283054	30344	149	452	7	3.15389	GRMZM2G173759;XP_008657194;cel11;cel12;cel22;cl8951_1b;iaa11
+Cluster158	response to cytokinin	0.00726946	0.028524	30344	268	452	10	2.50495	GRMZM2G162702;Zm00001d020461;bak5;bk4;csu661;erd3;pmt1;pzb01647;snrkII3;umc1369
+Cluster158	glucuronoxylan metabolic process	0.0076404	0.0296634	30344	270	452	10	2.4864	GRMZM2G009144;Zm00001d005775;cesa11;cl9926_1;flr10;flr8;pal2;pox3;si618049b08;thx44
+Cluster158	gibberellic acid mediated signaling pathway	0.00770383	0.0296634	30344	229	452	9	2.6384	GRMZM2G073928;GRMZM2G099944;cl2242_11;pco081548;tub2;tub3;tub4;tub6;wi2
+Cluster158	single-organism carbohydrate catabolic process	0.00805292	0.0307204	30344	83	452	5	4.04414	IDP8481;cel11;cel12;cel22;cl2557_1b
+Cluster158	phosphatidylinositol metabolic process	0.00815822	0.0308366	30344	28	452	3	7.19279	Zm00001eb216660;hin4;mmp66
+Cluster158	transmembrane receptor protein tyrosine kinase signaling pathway	0.00859532	0.0321934	30344	118	452	6	3.41353	AC233893.1_FG006;AY109506;GRMZM2G073928;GRMZM2G119759;IDP7590;pco081548
+Cluster158	cell adhesion	0.0089412	0.0331871	30344	119	452	6	3.38484	GRMZM2G027825;GRMZM2G113655;IDP48;Zm00001d048945;csu395a;pmt1
+Cluster158	chromatin silencing by small RNA	0.00908597	0.0334234	30344	156	452	7	3.01237	GRMZM2G076276;GRMZM2G107854;IDP2142;pat32;pco090908;pco119626;pco130820
+Cluster158	pattern specification process	0.00931793	0.0339733	30344	86	452	5	3.90307	cobl3;cobl4;pco137023;pco139734;rfz1
+Cluster158	regulation of defense response	0.00969648	0.0350434	30344	56	452	4	4.7952	LOC103643373;bsk9;prh106;rz567b(klc)
+Cluster158	brassinosteroid mediated signaling pathway	0.0100262	0.03592	30344	159	452	7	2.95553	GRMZM2G161696;bak3;bsk9;flr10;flr8;perk13;umc2364
+Cluster158	microtubule bundle formation	0.0103083	0.0364741	30344	57	452	4	4.71107	GRMZM2G121649;pza03469;umc2364;umc2561
+Cluster158	response to nematode	0.0103579	0.0364741	30344	417	452	13	2.09287	GRMZM2G121649;GRMZM2G122618;LOC100381743;Zm00001eb090200;cel11;cel12;cel22;grftf1;pme20;ppt1;pza03469;stp23;umc2561
+Cluster158	polysaccharide biosynthetic process	0.0107135	0.0374065	30344	89	452	5	3.7715	GRMZM2G370081;TIDP3299;Zm00001d028811;Zm00001d047694;kw7
+Cluster158	extracellular matrix organization	0.0108324	0.0375037	30344	31	452	3	6.49672	bnlg2190;csu59a;tgd1
+Cluster158	response to cold	0.0116927	0.0401451	30344	869	452	22	1.69956	GRMZM2G099944;GRMZM2G157481;Zm00001d020461;cdpk20;cl2242_11;csu661;erd3;mads76;pmpm5;pmt1;prh106;pzb01647;si618049b08;thx44;tub2;tub3;tub4;tub6;umc1369;umc2389;wi2;xth1
+Cluster158	receptor-mediated endocytosis	0.0118231	0.0402571	30344	32	452	3	6.29369	GRMZM2G100809;GRMZM2G103357;pco068000
+Cluster158	positive regulation of flower development	0.0121165	0.040918	30344	165	452	7	2.84806	GRMZM2G107082;GRMZM2G476637;arftf23;cl11581_1a;cts5;mads76;umc2364
+Cluster158	root hair cell differentiation	0.0124761	0.0417899	30344	291	452	10	2.30697	GRMZM2G113655;GRMZM2G114153;GRMZM2G119759;GRMZM2G173759;IDP48;XP_008657194;cl8951_1b;csu395a;umc2389;xth1
+Cluster158	alcohol metabolic process	0.0128007	0.0421328	30344	207	452	8	2.5945	GRMZM2G081841;GRMZM2G141214;GRMZM2G147772;bnlg2190;fps2;pco098921;php20537b;sqsh1
+Cluster158	multicellular organism reproduction	0.0128642	0.0421328	30344	33	452	3	6.10298	GRMZM2G075294;Zm00001d028824;umc2341
+Cluster158	cytokinesis by cell plate formation	0.0128853	0.0421328	30344	337	452	11	2.19128	AC218972.3_FG004;AC233893.1_FG006;GRMZM2G121649;GRMZM2G122302;Zm00001d007902;cl11683_1;mmp168;pat32;pza03469;thx44;umc2561
+Cluster158	monocarboxylic acid metabolic process	0.0143853	0.0466673	30344	132	452	6	3.05149	IDP253;IDP8093;hct6;sfat1;sfat2;umc1739
+Cluster158	seed germination	0.0147776	0.0475655	30344	437	452	13	1.99708	AY107018;GRMZM2G073928;GRMZM2G076276;GRMZM2G107854;IDP2142;pco081548;pco119626;pco130820;perk13;rboh1;rboh13;rboh8;umc2364
+Cluster158	plant-type cell wall cellulose metabolic process	0.0151173	0.0482817	30344	97	452	5	3.46045	AC218972.3_FG004;AC233893.1_FG006;IDP7590;cl11683_1;mmp168
+Cluster158	secondary metabolic process	0.0153902	0.0487752	30344	134	452	6	3.00594	Zm00001d049303;cl10273_1a;iqd21;iqd28;omt1;si614021b09a
+Cluster158	response to nitrate	0.0155382	0.0488681	30344	586	452	16	1.83298	AY111178;GRMZM2G009144;Zm00001eb090200;bk4;flr10;flr8;fls1;pox3;rboh1;rboh8;sfp2;si618049b08;sm2;snrkII3;stp23;umc2389
+Cluster152	very long-chain fatty acid metabolic process	7.42851e-23	3.16455e-20	30344	105	526	26	14.2847	GRMZM2G033566;GRMZM2G045215;GRMZM2G048962;GRMZM2G053977;GRMZM2G063464;GRMZM2G070178;GRMZM2G088919;GRMZM2G132331;GRMZM2G374313;GRMZM2G414791;GRMZM2G465046;GRMZM5G854500;GRMZM6G247892;Zm00001d011661;ad1;cer2;csu861;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40;plt52
+Cluster152	cuticle development	1.63657e-21	3.48589e-19	30344	143	526	28	11.2956	GRMZM2G033566;GRMZM2G045215;GRMZM2G048962;GRMZM2G053977;GRMZM2G063464;GRMZM2G070178;GRMZM2G088919;GRMZM2G132331;GRMZM2G374313;GRMZM2G414791;GRMZM2G465046;GRMZM5G854500;Zm00001d011661;ad1;cer2;cl36083_1c;csu861;gl13;hb146;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40;plt52
+Cluster152	lipid metabolic process	1.03197e-16	1.46539e-14	30344	721	526	50	4.00057	AC209987.4_FG002;GRMZM2G000435;GRMZM2G030831;GRMZM2G033566;GRMZM2G045215;GRMZM2G048175;GRMZM2G048962;GRMZM2G063464;GRMZM2G070178;GRMZM2G088919;GRMZM2G124759;GRMZM2G137507;GRMZM2G139565;GRMZM2G152962;GRMZM2G374475;GRMZM2G384780;GRMZM2G403313;GRMZM2G414791;GRMZM2G430392;GRMZM2G435120;GRMZM2G465046;GRMZM2G478414;GRMZM5G835276;IDP2364;IDP6733;IDP7387;IDP8262;LOC100283469;LOC100382365;LOC109940988;Zm00001d011661;Zm00001d020725;Zm00001d047275;chls4;chls5;csu861;fad1;fad15;fad17;gpm859;pco081097b;plt10;plt3;plt33;plt36;plt37;plt38;plt49;pop3;umc1562
+Cluster152	suberin biosynthetic process	6.26384e-15	6.67099e-13	30344	112	526	20	10.3015	GRMZM2G035023;GRMZM2G051005;GRMZM2G350020;GRMZM5G854500;LOC100501739;LOC100501810;ad1;asft2;cl308_1;cl309_1;cyp44;hct10;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40
+Cluster152	response to other organism	1.22791e-13	1.04618e-11	30344	200	526	24	6.92259	GRMZM2G033566;GRMZM2G034318;GRMZM2G045215;GRMZM2G048962;GRMZM2G063464;GRMZM2G070178;GRMZM2G088919;GRMZM2G132331;GRMZM2G137507;GRMZM2G152962;GRMZM2G374475;GRMZM2G384780;GRMZM2G414791;GRMZM2G465046;GRMZM2G478414;GRMZM5G835276;IDP6733;IDP8262;LOC100382365;Zm00001d011661;csu861;pco081097b;prp16;stsl8
+Cluster152	sterol biosynthetic process	2.36823e-13	1.68144e-11	30344	206	526	24	6.72096	AC235540.1_FG002;GRMZM2G006505;GRMZM2G106177;GRMZM2G394321;GRMZM2G403276;GRMZM2G422373;GRMZM5G854500;Zm00001d013035;Zm00001d013037;Zm00001d020963;ad1;aic2;cl227_1b;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40;pan1;skus12;tar2
+Cluster152	anthocyanin accumulation in tissues in response to UV light	8.4906e-13	5.16714e-11	30344	374	526	31	4.78164	GRMZM2G006505;GRMZM2G088919;GRMZM2G128315;GRMZM2G132331;GRMZM2G414791;GRMZM2G435120;GRMZM5G854500;LOC100381917;Zm00001d006828;Zm00001d011661;Zm00001d033234;ad1;aic2;burp8;er1;gpm859;hb146;iaa3;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40;mmp16;pan1;si707015f08;skus12;xth6
+Cluster152	multidimensional cell growth	9.79597e-13	5.21635e-11	30344	352	526	30	4.91661	GRMZM2G006505;GRMZM2G088919;GRMZM2G128315;GRMZM2G132331;GRMZM2G414791;GRMZM2G435120;GRMZM5G854500;Zm00001d006828;Zm00001d011661;Zm00001d013037;ad1;aic2;burp8;er1;ereb144;ereb39;gpm859;iaa3;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40;pan1;si707015f08;skus12;xth6
+Cluster152	response to hormone	1.10984e-12	5.25325e-11	30344	221	526	24	6.26478	GRMZM2G033566;GRMZM2G045215;GRMZM2G048962;GRMZM2G063464;GRMZM2G070178;GRMZM2G088919;GRMZM2G132331;GRMZM2G137507;GRMZM2G152962;GRMZM2G374475;GRMZM2G384780;GRMZM2G414791;GRMZM2G465046;GRMZM2G478414;GRMZM5G835276;IDP6733;IDP7387;IDP8262;LOC100382365;Zm00001d011661;arftf20;bzip120;csu861;pco081097b
+Cluster152	wax biosynthetic process	1.55789e-12	6.63662e-11	30344	60	526	14	13.4606	GRMZM2G096952;GRMZM5G854500;Zm00001d042953;ad1;cer2;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40;ms13
+Cluster152	cell tip growth	2.48579e-12	9.62677e-11	30344	341	526	29	4.90604	GRMZM2G006505;GRMZM2G088919;GRMZM2G128315;GRMZM2G132331;GRMZM2G414791;GRMZM2G435120;GRMZM2G443715;GRMZM5G854500;Zm00001d006828;Zm00001d011661;ad1;aic2;burp8;gpm859;iaa3;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40;mmp16;pan1;pco115279b;si707015f08;skus12;xth6
+Cluster152	root hair elongation	2.74924e-12	9.75981e-11	30344	634	526	40	3.63963	AC235540.1_FG002;GRMZM2G006505;GRMZM2G088919;GRMZM2G128315;GRMZM2G132331;GRMZM2G394321;GRMZM2G414791;GRMZM2G422373;GRMZM2G426294;GRMZM2G435120;GRMZM5G854500;LOC100381917;Zm00001d006828;Zm00001d011661;Zm00001d033234;ad1;aic2;burp8;er1;flr1;flr7;gpm859;iaa3;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40;mmp16;pan1;pco077003;pco106247;pgl46;rboh5;si707015f08;skus12;xth6
+Cluster152	multi-organism process	7.3417e-12	2.40582e-10	30344	1166	526	56	2.77062	GRMZM2G033566;GRMZM2G045215;GRMZM2G048962;GRMZM2G063464;GRMZM2G067000;GRMZM2G070178;GRMZM2G086587;GRMZM2G088919;GRMZM2G111423;GRMZM2G119168;GRMZM2G132331;GRMZM2G137507;GRMZM2G152962;GRMZM2G369445;GRMZM2G374475;GRMZM2G384780;GRMZM2G414791;GRMZM2G465046;GRMZM2G478414;GRMZM5G833760;GRMZM5G835276;GRMZM5G854500;IDP6733;IDP7387;IDP8262;LOC100279398;LOC100382365;Zm00001d004389;Zm00001d011661;Zm00001eb422110;ad1;bzip25;chn11;csu861;dir11;ereb240;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40;mmp16;myb69;pco081097b;pmei38;pop3;prp16;saur67;si496011d04;si618024b05;stsl8;wrky10;wrky119
+Cluster152	plant-type cell wall biogenesis	1.61184e-11	4.90461e-10	30344	368	526	29	4.54608	AC235540.1_FG002;GRMZM2G006505;GRMZM2G088919;GRMZM2G128315;GRMZM2G132331;GRMZM2G394321;GRMZM2G414791;GRMZM2G422373;GRMZM5G854500;Zm00001d011661;ad1;burp8;er1;flr1;flr7;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40;mmp16;pan1;sbt43;sbt8;si707015f08;xth4
+Cluster152	epidermal cell differentiation	7.54956e-11	2.14407e-09	30344	769	526	42	3.15072	AC211164.5_FGT004;AC235540.1_FG002;GRMZM2G006505;GRMZM2G128315;GRMZM2G394321;GRMZM2G403276;GRMZM2G422373;GRMZM2G426294;GRMZM2G435120;GRMZM5G854500;LOC100381917;TIDP3740;Zm00001d006828;Zm00001d033234;ad1;aic2;burp8;csu221;er1;flr1;flr7;gpm859;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40;llg3;pan1;pco077003;pco106247;prp16;rboh5;si707015f08;skus12;umc2588;xth31;xth4;xth6
+Cluster152	anatomical structure formation involved in morphogenesis	1.26211e-10	3.26616e-09	30344	945	526	47	2.86915	GRMZM2G006505;GRMZM2G116846;GRMZM2G119168;GRMZM2G327266;GRMZM2G363813;GRMZM2G376927;GRMZM2G394321;GRMZM2G403276;GRMZM2G422373;GRMZM2G426294;GRMZM2G435120;GRMZM5G854500;LOC100381917;LOC103627589;Zm00001d006828;Zm00001d033234;Zm00001d046866;ad1;aro2;burp8;caspl39;cxe18;expa3;expa5;expb2;expb5;expb8;flr1;flr7;gpm859;hb4;idd30;idd31;kcs19;kcs37;kcs39;kcs40;llg3;lrx5;mctp16;mctp5;npf11;pan1;pco077003;rboh5;tar2;umc2588
+Cluster152	lipid catabolic process	1.44827e-10	3.26616e-09	30344	150	526	18	6.92259	GRMZM2G033566;GRMZM2G033820;GRMZM2G045215;GRMZM2G048962;GRMZM2G063464;GRMZM2G070178;GRMZM2G088919;GRMZM2G132331;GRMZM2G152962;GRMZM2G414791;GRMZM2G465046;GRMZM5G835276;IDP6733;IDP7387;Zm00001d011661;Zm00001d013461;csu861;pco081097b
+Cluster152	sulfur amino acid metabolic process	1.45654e-10	3.26616e-09	30344	33	526	10	17.4813	GRMZM5G854500;ad1;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40
+Cluster152	auxin polar transport	1.45674e-10	3.26616e-09	30344	302	526	25	4.77551	AC235540.1_FG002;GRMZM2G006505;GRMZM2G088919;GRMZM2G128315;GRMZM2G132331;GRMZM2G394321;GRMZM2G414791;GRMZM2G422373;LOC109940988;Zm00001d011661;aic2;burp8;cl36083_1c;er1;geb7;gl13;iaa3;mmp16;pan1;saur2;saur30;saur31;saur67;si707015f08;xth6
+Cluster152	sulfur compound biosynthetic process	2.0316e-10	4.32732e-09	30344	34	526	10	16.9671	GRMZM5G854500;ad1;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40
+Cluster152	polysaccharide biosynthetic process	4.33054e-10	8.78482e-09	30344	89	526	14	9.07455	GRMZM2G135332;GRMZM2G459645;GRMZM5G854500;Zm00001d006828;Zm00001d043011;ad1;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40
+Cluster152	regulation of lipid metabolic process	5.15089e-10	9.974e-09	30344	37	526	10	15.5914	GRMZM5G854500;ad1;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40
+Cluster152	response to salicylic acid	5.6061e-10	1.03835e-08	30344	322	526	25	4.4789	GRMZM2G045215;GRMZM2G048962;GRMZM2G063464;GRMZM2G070178;GRMZM2G088919;GRMZM2G132331;GRMZM2G137507;GRMZM2G325238;GRMZM2G384780;GRMZM2G465046;GRMZM2G478414;IDP8262;LOC100191837;LOC103627589;csu861;fdl1;gpm45;myb148;myb164;myb48;myb50;myb63;myb69;mybr44;npf11
+Cluster152	cellulose metabolic process	2.01324e-09	3.29862e-08	30344	42	526	10	13.7353	GRMZM5G854500;ad1;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40
+Cluster152	lipoate metabolic process	2.01324e-09	3.29862e-08	30344	42	526	10	13.7353	GRMZM5G854500;ad1;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40
+Cluster152	vitamin metabolic process	2.01324e-09	3.29862e-08	30344	42	526	10	13.7353	GRMZM5G854500;ad1;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40
+Cluster152	lipid transport	2.21415e-09	3.49343e-08	30344	118	526	15	7.33325	AC155352.2_FG010;GRMZM2G012148;GRMZM5G822180;Zm00001d038532;plt10;plt20;plt3;plt33;plt36;plt37;plt38;plt42;plt49;plt5;plt52
+Cluster152	cell wall organization	2.37935e-09	3.62001e-08	30344	294	526	23	4.51302	GRMZM2G443715;GRMZM5G854500;Zm00001d006828;ad1;geb7;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40;lrx5;pco115279b;pgl46;si687017e07;xth2;xth31;xth32;xth4;xth6;xth9
+Cluster152	oxidoreduction coenzyme metabolic process	2.8186e-09	4.14042e-08	30344	56	526	11	11.3316	GRMZM2G430392;GRMZM5G854500;ad1;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40
+Cluster152	acetyl-CoA metabolic process	4.66292e-09	6.62135e-08	30344	89	526	13	8.42637	GRMZM2G077769;GRMZM2G403276;GRMZM5G854500;IDP7646;ad1;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40
+Cluster152	brassinosteroid biosynthetic process	8.31391e-09	1.14249e-07	30344	314	526	23	4.22557	AC235540.1_FG002;GRMZM2G006505;GRMZM2G059887;GRMZM2G341934;GRMZM2G394321;GRMZM2G403276;GRMZM2G422373;GRMZM5G854500;ad1;aic2;cl36083_1c;gl13;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40;pan1;pco106247;pco147721a
+Cluster152	flavonoid biosynthetic process	1.51329e-08	1.96255e-07	30344	156	526	16	5.91674	GRMZM2G035023;GRMZM2G051005;GRMZM2G057086;GRMZM5G854500;LOC109940988;ad1;cyp8;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40;sk1
+Cluster152	aromatic amino acid family metabolic process	1.52028e-08	1.96255e-07	30344	51	526	10	11.3114	GRMZM5G854500;ad1;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40
+Cluster152	glycine catabolic process	1.85328e-08	2.32204e-07	30344	52	526	10	11.0939	GRMZM5G854500;ad1;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40
+Cluster152	coenzyme biosynthetic process	2.81804e-08	3.42995e-07	30344	69	526	11	9.19667	GRMZM2G430392;GRMZM5G854500;ad1;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40
+Cluster152	unsaturated fatty acid biosynthetic process	3.93368e-08	4.65486e-07	30344	125	526	14	6.46108	GRMZM5G854500;ad1;fad1;fad15;fad17;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40;sacd8
+Cluster152	response to lithium ion	4.29527e-08	4.94537e-07	30344	31	526	8	14.8873	GRMZM2G045215;GRMZM2G048962;GRMZM2G063464;GRMZM2G070178;GRMZM2G088919;GRMZM2G132331;GRMZM2G465046;csu861
+Cluster152	oxylipin biosynthetic process	6.70588e-08	7.21113e-07	30344	92	526	12	7.52455	GRMZM5G854500;ad1;gpm45;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40;lox11
+Cluster152	response to auxin	6.72553e-08	7.21113e-07	30344	499	526	28	3.23701	GRMZM2G030831;LOC100283469;aic2;caspl39;iaa3;myb164;myb48;myb50;myb69;saur2;saur26;saur27;saur28;saur29;saur30;saur31;saur33;saur37;saur42;saur53;saur65;saur66;saur67;xth31;xth32;xth4;xth6;zhd10
+Cluster152	auxin-activated signaling pathway	6.77101e-08	7.21113e-07	30344	297	526	21	4.07896	GRMZM2G427451;LOC100381917;Zm00001d033234;aas6;aic2;arftf20;hb4;iaa3;saur2;saur26;saur27;saur28;saur29;saur30;saur31;saur33;saur37;saur42;saur65;saur66;saur67
+Cluster152	animal organ development	7.65225e-08	7.95088e-07	30344	1788	526	63	2.03264	AW215946;GRMZM2G003234;GRMZM2G019583;GRMZM2G021607;GRMZM2G033820;GRMZM2G061396;GRMZM2G077769;GRMZM2G082823;GRMZM2G082940;GRMZM2G106177;GRMZM2G119168;GRMZM2G133032;GRMZM2G138431;GRMZM2G146015;GRMZM2G158141;GRMZM2G171440;GRMZM2G177866;GRMZM2G319947;GRMZM2G343351;GRMZM2G376927;GRMZM2G394321;GRMZM2G403276;GRMZM2G426294;GRMZM2G427451;GRMZM2G435120;GRMZM5G812170;IDP2364;IDP7646;IDP839;TIDP3740;Zm00001d006828;Zm00001d017455;Zm00001d046866;Zm00001eb247140;abi2;arftf20;aro2;b1;bhlh109;bhlh155;bhlh30;bhlh84;cchh25;cko5;csu221;epf6;flr1;flr7;gpm859;hb4;idd30;idd31;llg3;mctp16;mctp5;pco077003;pco099019;pgl46;saur26;tar2;tsh1;xth4;zmm29
+Cluster152	fatty acid biosynthetic process	9.26492e-08	9.39728e-07	30344	155	526	15	5.58273	GRMZM5G854500;GRMZM6G247892;ad1;cer2;cl227_1b;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40;lox11;si496011d04
+Cluster152	cell wall pectin metabolic process	1.9134e-07	1.8956e-06	30344	101	526	12	6.85405	AC235540.1_FG002;GRMZM2G006505;GRMZM2G387935;GRMZM2G394321;GRMZM2G422373;LOC100191837;cl36083_1c;gl13;pan1;pme15;rte1;skus12
+Cluster152	alcohol biosynthetic process	2.30436e-07	2.23104e-06	30344	239	526	18	4.34472	AC235540.1_FG002;GRMZM2G006505;GRMZM2G106177;GRMZM2G394321;GRMZM2G403276;GRMZM2G422373;GRMZM5G854500;ad1;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40;pan1;tar2
+Cluster152	xyloglucan metabolic process	2.97149e-07	2.81301e-06	30344	27	526	7	14.9562	GRMZM2G107373;xth2;xth31;xth32;xth4;xth6;xth9
+Cluster152	response to wounding	6.11684e-07	5.66473e-06	30344	623	526	30	2.77792	GRMZM2G082940;GRMZM2G096952;GRMZM2G124759;GRMZM2G128315;GRMZM2G325238;GRMZM5G854500;LOC100191837;LOC100381917;LOC103627589;LOC109940988;ad1;chn12;chn16;chn18;er1;ereb107;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40;lox11;lrx5;npf11;si707015f08;stsl8;traf7
+Cluster152	hydrogen peroxide catabolic process	6.26007e-07	5.67402e-06	30344	156	526	14	5.17715	A0A1D6H658;AC211164.5_FGT004;GRMZM2G042347;GRMZM2G080689;GRMZM2G116846;GRMZM2G341934;GRMZM2G380247;GRMZM2G382379;IDP6767;LOC100272496;TIDP3136;pco106247;px18;umc2588
+Cluster152	regulation of anthocyanin biosynthetic process	7.68218e-07	6.81793e-06	30344	59	526	9	8.7999	GRMZM2G128315;GRMZM2G148536;GRMZM2G149798;GRMZM2G149809;IDP6841;LOC109940988;er1;pco079405;pco107293
+Cluster152	sporopollenin biosynthetic process	8.28619e-07	7.20391e-06	30344	31	526	7	13.0264	GRMZM2G350020;LOC100501739;LOC100501810;cl308_1;cl309_1;cyp44;cyp8
+Cluster152	plant-type cell wall cellulose metabolic process	9.93435e-07	8.46407e-06	30344	97	526	11	6.54196	AC235540.1_FG002;GRMZM2G006505;GRMZM2G394321;GRMZM2G422373;LOC100191837;cl36083_1c;gl13;pan1;pme15;rte1;skus12
+Cluster152	cell wall modification	1.10176e-06	9.16577e-06	30344	98	526	11	6.47521	AC235540.1_FG002;GRMZM2G006505;GRMZM2G394321;GRMZM2G422373;caspl39;caspl5;pan1;pme15;pme19;xth31;xth4
+Cluster152	stomatal complex morphogenesis	1.11883e-06	9.16577e-06	30344	352	526	21	3.44163	AC235540.1_FG002;GRMZM2G033566;GRMZM2G045215;GRMZM2G048962;GRMZM2G063464;GRMZM2G070178;GRMZM2G088919;GRMZM2G128315;GRMZM2G132331;GRMZM2G422373;GRMZM2G465046;Zm00001d042953;abcg1;cko5;csu861;er1;hb146;lrx5;sbt43;sbt8;si707015f08
+Cluster152	very long-chain fatty acid biosynthetic process	1.34223e-06	1.07885e-05	30344	47	526	8	9.81927	GRMZM2G350020;LOC100501739;LOC100501810;cl308_1;cl309_1;cyp44;hcd1;myb69
+Cluster152	cellular response to hydrogen peroxide	1.42318e-06	1.12273e-05	30344	167	526	14	4.83614	A0A1D6H658;AC211164.5_FGT004;GRMZM2G042347;GRMZM2G080689;GRMZM2G116846;GRMZM2G341934;GRMZM2G380247;GRMZM2G382379;IDP6767;LOC100272496;TIDP3136;pco106247;px18;umc2588
+Cluster152	response to karrikin	2.25665e-06	1.74788e-05	30344	561	526	27	2.77644	GRMZM2G021427;GRMZM2G035023;GRMZM2G068917;GRMZM2G096952;GRMZM5G854500;LOC100381917;LOC100382168;LOC100501808;Zm00001d033234;Zm00001d042953;Zm00001d045458;Zm00001d052205;ad1;aic2;caspl5;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40;ms13;myb69;skus12;tom6
+Cluster152	calcium ion transport	2.90371e-06	2.20889e-05	30344	108	526	11	5.87565	GRMZM5G854500;ad1;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40;si618024b05
+Cluster152	oxidation-reduction process	3.63222e-06	2.71461e-05	30344	1917	526	61	1.83567	A0A1D6H658;AC209987.4_FG002;AC211164.5_FGT004;GRMZM2G020500;GRMZM2G030831;GRMZM2G042347;GRMZM2G053977;GRMZM2G057086;GRMZM2G067000;GRMZM2G078299;GRMZM2G080689;GRMZM2G116846;GRMZM2G319062;GRMZM2G341934;GRMZM2G350020;GRMZM2G363813;GRMZM2G374313;GRMZM2G380247;GRMZM2G382379;GRMZM2G403313;GRMZM2G427451;GRMZM2G559822;GRMZM6G247892;IDP3776;IDP6767;IDP7298;LOC100272496;LOC100501739;LOC100501810;TIDP3136;Zm00001d004389;Zm00001d020963;adh4;cer2;cko5;cl227_1b;cl308_1;cl309_1;cyp12;cyp44;cyp8;fad1;fad15;fad17;glpdh1;lac12;lac22;lac9;lox11;mmp37;pco106247;pco147721a;px18;rboh5;sacd8;skus12;skus18;umc1995;umc2348;umc2588;xth2
+Cluster152	lipid biosynthetic process	4.1168e-06	3.02372e-05	30344	91	526	10	6.33936	GRMZM5G854500;ad1;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40
+Cluster152	cellular amino acid biosynthetic process	6.4674e-06	4.66969e-05	30344	190	526	14	4.25071	GRMZM2G329484;GRMZM2G389903;GRMZM5G854500;ad1;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40;pco087106a;tar2
+Cluster152	regulation of meristem growth	6.62956e-06	4.70699e-05	30344	526	526	25	2.74184	AC235540.1_FG002;GRMZM2G006505;GRMZM2G030831;GRMZM2G077769;GRMZM2G125441;GRMZM2G394321;GRMZM2G403276;GRMZM2G422373;IDP7646;LOC100279398;Zm00001d006828;aic2;burp8;cyp8;er1;geb7;hb146;mctp16;mctp5;mmp16;pan1;px18;sbt43;sbt8;umc2588
+Cluster152	post-embryonic animal morphogenesis	7.02558e-06	4.90639e-05	30344	494	526	24	2.80267	AC235540.1_FG002;GRMZM2G006505;GRMZM2G045215;GRMZM2G048962;GRMZM2G063464;GRMZM2G070178;GRMZM2G132331;GRMZM2G135332;GRMZM2G394321;GRMZM2G422373;GRMZM2G465046;Zm00001d042953;abcg1;aic2;csu861;er1;hb146;iaa3;lrx5;sbt43;sbt8;traf7;traf8;umc1135
+Cluster152	regulation of phenylpropanoid metabolic process	1.20076e-05	8.13105e-05	30344	443	526	22	2.86488	AC209987.4_FG002;GRMZM2G035023;GRMZM2G051005;GRMZM2G057086;GRMZM2G128315;GRMZM2G148536;GRMZM2G149798;GRMZM2G149809;GRMZM2G152962;GRMZM5G835276;IDP6733;IDP7387;LOC103633203;LOC109940988;Zm00001d045568;cyp8;er1;hct10;pco079405;pco081097b;pme15;pme19
+Cluster152	iron-sulfur cluster assembly	1.20248e-05	8.13105e-05	30344	149	526	12	4.64603	GRMZM5G854500;ad1;caspl39;caspl5;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40
+Cluster152	response to nitrate	1.45163e-05	9.66244e-05	30344	586	526	26	2.55955	AC155352.2_FG010;AC209987.4_FG002;AC211164.5_FGT004;GRMZM2G325238;GRMZM2G341934;LOC100191837;LOC103627589;Zm00001e040617;Zm00001eb170950;bzip25;flr1;flr7;npf11;pco106247;pco147721a;plt42;plt49;pmei29;pmei38;px18;rboh5;rte1;si947006e03a;stp5;stsl8;umc2588
+Cluster152	regulation of proton transport	2.03612e-05	0.000133444	30344	157	526	12	4.40929	GRMZM5G854500;ad1;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40;pgl46;umc2270
+Cluster152	cellular response to chemical stimulus	2.42071e-05	0.000155611	30344	242	526	15	3.57572	GRMZM2G088919;GRMZM2G132331;GRMZM2G137507;GRMZM2G374475;GRMZM2G384780;GRMZM2G414791;GRMZM2G478414;IDP7387;IDP8262;LOC100382365;Zm00001d011661;dir11;ereb27;ereb32;umc1118
+Cluster152	nitrate transport	2.44741e-05	0.000155611	30344	333	526	18	3.11828	AC155352.2_FG010;AC211164.5_FGT004;GRMZM2G325238;LOC100191837;LOC103627589;Zm00001e040617;flr1;flr7;npf11;pco106247;plt42;plt49;pmei29;pmei38;rboh5;rte1;si947006e03a;umc2588
+Cluster152	carotenoid biosynthetic process	3.05801e-05	0.000191575	30344	114	526	10	5.06037	GRMZM5G854500;ad1;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40
+Cluster152	regulation of cell size	3.36783e-05	0.000207927	30344	249	526	15	3.47519	AC235540.1_FG002;GRMZM2G006505;GRMZM2G128315;GRMZM2G394321;GRMZM2G422373;LOC100381917;Zm00001d011661;Zm00001d033234;aic2;burp8;er1;geb7;mmp16;pan1;si707015f08
+Cluster152	response to blue light	3.54843e-05	0.000213629	30344	193	526	13	3.88573	GRMZM5G854500;LOC100381917;Zm00001d033234;ad1;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40;umc2270
+Cluster152	response to oxidative stress	3.56048e-05	0.000213629	30344	408	526	20	2.82785	A0A1D6H658;AC211164.5_FGT004;GRMZM2G042347;GRMZM2G080689;GRMZM2G082940;GRMZM2G116846;GRMZM2G341934;GRMZM2G380247;GRMZM2G382379;IDP6767;LOC100272496;LOC100381917;LOC109940988;TIDP3136;mctp16;mctp5;pco106247;px18;si945006c11b;umc2588
+Cluster152	regulation of organ growth	3.95657e-05	0.000234097	30344	12	526	4	19.2294	saur2;saur30;saur31;saur67
+Cluster152	plant ovule development	5.23231e-05	0.000305338	30344	353	526	18	2.94161	GRMZM2G033566;GRMZM2G088919;GRMZM2G128315;GRMZM2G414791;GRMZM2G422373;GRMZM5G854500;Zm00001d011661;ad1;er1;hb146;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40
+Cluster152	plant-type cell wall organization	5.72404e-05	0.000329519	30344	231	526	14	3.49626	GRMZM2G021427;GRMZM2G128315;GRMZM2G327266;GRMZM2G341934;GRMZM2G403276;burp8;expa3;expa5;expb2;expb5;expb8;pco106247;px18;si707015f08
+Cluster152	cell wall biogenesis	6.25785e-05	0.000355446	30344	78	526	8	5.91674	GRMZM2G168669;plt52;xth2;xth31;xth32;xth4;xth6;xth9
+Cluster152	chlorophyll biosynthetic process	8.77319e-05	0.000486214	30344	129	526	10	4.47195	GRMZM5G854500;ad1;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40
+Cluster152	defense response to bacterium	8.78838e-05	0.000486214	30344	729	526	28	2.21573	AC155352.2_FG010;GRMZM2G116846;GRMZM5G854500;LOC100191837;LOC103627589;ad1;bzip25;cl36083_1c;er1;flr1;gl13;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40;lrx5;npf11;pmei29;pmei38;sacd8;si707015f08;tar2;umc1397;wrky119
+Cluster152	negative regulation of catalytic activity	9.09007e-05	0.000496457	30344	105	526	9	4.9447	GRMZM2G139565;pme15;pme19;pmei22;pmei29;pmei38;sbt43;sbt8;umc2562
+Cluster152	post-embryonic animal organ development	9.48626e-05	0.000511538	30344	694	526	27	2.24435	AC235540.1_FG002;GRMZM2G422373;GRMZM5G854500;LOC100381917;Zm00001d033234;ad1;aic2;burp8;cer2;er1;hb146;iaa3;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40;lrx5;pan1;skus12;traf7;traf8;xth31;xth32
+Cluster152	positive regulation of secondary metabolite biosynthetic process	0.000122387	0.000651713	30344	344	526	17	2.85087	AC209987.4_FG002;GRMZM2G035023;GRMZM2G051005;GRMZM2G057086;GRMZM2G152962;GRMZM5G835276;IDP6733;IDP7387;LOC103633203;Zm00001d045568;cl36083_1c;cyp8;gl13;hct10;pco081097b;pme15;pme19
+Cluster152	alkaloid metabolic process	0.000130158	0.000684533	30344	110	526	9	4.71994	GRMZM2G053977;GRMZM2G152962;GRMZM2G374313;GRMZM5G835276;IDP3776;IDP6733;IDP7387;pco081097b;stsl8
+Cluster152	regulation of secondary metabolite biosynthetic process	0.000131992	0.000685713	30344	65	526	7	6.21258	GRMZM2G128315;GRMZM2G148536;GRMZM2G149798;GRMZM2G149809;LOC109940988;er1;pco079405
+Cluster152	positive regulation of flavonoid biosynthetic process	0.00015042	0.000772034	30344	350	526	17	2.802	AC209987.4_FG002;GRMZM2G035023;GRMZM2G051005;GRMZM2G057086;GRMZM2G152962;GRMZM5G835276;IDP6733;IDP7387;LOC103633203;Zm00001d045568;cl36083_1c;cyp8;gl13;hct10;pco081097b;pme15;pme19
+Cluster152	defense response to fungus, incompatible interaction	0.000163002	0.000826651	30344	139	526	10	4.15023	GRMZM2G024024;GRMZM2G148536;GRMZM2G149798;GRMZM2G149809;Zm00001eb217970;cl36083_1c;gl13;sag12;traf7;traf8
+Cluster152	response to brassinosteroid	0.000173663	0.00086446	30344	196	526	12	3.53193	GRMZM2G139565;IDP839;LOC100381917;Zm00001d045458;Zm00001d045568;Zm00001d052205;caspl39;iaa3;xth31;xth32;xth4;zhd10
+Cluster152	cellular glucan metabolic process	0.000174515	0.00086446	30344	48	526	6	7.21103	xth2;xth31;xth32;xth4;xth6;xth9
+Cluster152	hyperosmotic salinity response	0.000203437	0.000996141	30344	537	526	22	2.36339	GRMZM2G001977;GRMZM2G045215;GRMZM2G048962;GRMZM2G063464;GRMZM2G070178;GRMZM2G088919;GRMZM2G132331;GRMZM2G341934;GRMZM2G465046;LOC100191837;LOC103627589;LOC103633203;Zm00001d037637;cl36083_1c;csu861;cxe18;gl13;gpm45;npf11;nzp2;pco106247;rboh5
+Cluster152	microtubule nucleation	0.000214533	0.00103853	30344	294	526	15	2.94328	AC235540.1_FG002;GRMZM2G006505;GRMZM2G123940;GRMZM2G128315;GRMZM2G394321;GRMZM2G422373;Zm00001d045458;cl33342_1;er1;iaa3;pan1;sacd8;sbt43;sbt8;si707015f08
+Cluster152	pollen exine formation	0.000292906	0.001402	30344	270	526	14	2.99124	GRMZM2G035023;GRMZM2G051005;GRMZM2G102521;GRMZM2G128315;GRMZM2G414791;aas6;geb7;kcs15;kcs31;kcs33;kcs36;plt52;skus12;stsl8
+Cluster152	response to mechanical stimulus	0.000351984	0.00166606	30344	76	526	7	5.31339	GRMZM2G435120;ereb107;gpm859;xth31;xth32;xth4;xth6
+Cluster152	signaling	0.000362855	0.00169864	30344	755	526	27	2.06302	GRMZM2G033566;GRMZM2G045215;GRMZM2G048962;GRMZM2G063464;GRMZM2G070178;GRMZM2G088919;GRMZM2G132331;GRMZM2G137507;GRMZM2G152962;GRMZM2G316807;GRMZM2G361388;GRMZM2G374475;GRMZM2G384780;GRMZM2G414791;GRMZM2G465046;GRMZM2G478414;GRMZM5G835276;IDP6733;IDP7387;IDP8262;LOC100382365;Zm00001d011661;csu861;pco081097b;stsl9;umc1118;umc2270
+Cluster152	lignin catabolic process	0.000371427	0.00171987	30344	36	526	5	8.01225	lac12;lac22;lac9;skus12;skus18
+Cluster152	jasmonic acid biosynthetic process	0.000398384	0.00182486	30344	246	526	13	3.04856	GRMZM2G082940;GRMZM2G124759;GRMZM5G854500;ad1;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40;lox11
+Cluster152	response to salt stress	0.00040499	0.00183538	30344	1177	526	37	1.81348	AC211164.5_FGT004;GRMZM2G096952;GRMZM2G116846;GRMZM2G148536;GRMZM2G149798;GRMZM2G149809;GRMZM2G323757;GRMZM5G854500;TIDP3279;Zm00001e040617;Zm00001eb116230;Zm00001eb217970;ad1;adh4;chn12;chn16;ereb32;ereb6;flr1;flr7;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40;ms13;myb50;myb69;pco147721a;pmei29;pmei38;si945006c11b;umc1397;umc2588
+Cluster152	response to chitin	0.000415187	0.00186178	30344	1093	526	35	1.84729	AC235540.1_FG002;GRMZM2G001977;GRMZM2G006505;GRMZM2G080320;GRMZM2G180054;GRMZM2G325238;GRMZM2G394321;GRMZM2G422373;GRMZM2G435120;GRMZM2G443715;LOC100381917;Zm00001d045568;aro2;bzip25;cl36083_1c;cxe18;er1;ereb107;flr1;gl13;gpm859;lox11;myb50;myb69;nzp2;pan1;pco106247;pco115279b;pmei29;pmei38;si707015f08;traf7;traf8;xth32;xth4
+Cluster152	abscisic acid transport	0.000509524	0.00223771	30344	22	526	4	10.4888	LOC103627589;Zm00001eb170950;cl36083_1c;gl13
+Cluster152	stamen filament development	0.000509524	0.00223771	30344	22	526	4	10.4888	iaa3;lox11;xth31;xth32
+Cluster152	anther development	0.000598136	0.00260006	30344	108	526	8	4.2732	GRMZM2G083474;burp8;cer2;pan1;px18;sbt43;sbt8;umc2588
+Cluster152	sexual reproduction	0.000776478	0.00334121	30344	63	526	6	5.49412	GRMZM2G021427;GRMZM2G327266;expb2;expb5;expb8;gpm45
+Cluster152	Golgi organization	0.000942625	0.00401558	30344	486	526	19	2.2553	GRMZM2G443715;GRMZM5G854500;Zm00001d020963;ad1;flr1;flr7;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40;lox11;pco115279b;pgl46;pmei29;pmei38
+Cluster152	cutin biosynthetic process	0.000955006	0.00402804	30344	44	526	5	6.55548	GRMZM2G030636;GRMZM2G035023;GRMZM2G057086;cer2;ereb15
+Cluster152	starch metabolic process	0.00110012	0.00459463	30344	147	526	9	3.53193	AC235540.1_FG002;GRMZM2G006505;GRMZM2G128315;GRMZM2G394321;GRMZM2G422373;burp8;pan1;sbt43;sbt8
+Cluster152	cutin transport	0.00130129	0.00537251	30344	13	526	3	13.3127	GRMZM2G096952;Zm00001d042953;ms13
+Cluster152	response to far red light	0.0013116	0.00537251	30344	213	526	11	2.9792	GRMZM5G854500;ad1;aic2;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40
+Cluster152	response to red light	0.00159321	0.0064543	30344	186	526	10	3.10152	GRMZM5G854500;ad1;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40
+Cluster152	cellular metabolic process	0.001606	0.0064543	30344	4751	526	108	1.31137	AC198923.4_FG002;AC233850.1_FG001;AC233883.1_FG006;GRMZM2G000166;GRMZM2G002536;GRMZM2G012148;GRMZM2G015872;GRMZM2G017400;GRMZM2G026911;GRMZM2G030831;GRMZM2G031620;GRMZM2G034206;GRMZM2G034318;GRMZM2G063733;GRMZM2G068917;GRMZM2G073764;GRMZM2G077553;GRMZM2G078299;GRMZM2G083474;GRMZM2G085509;GRMZM2G092968;GRMZM2G095798;GRMZM2G096048;GRMZM2G097884;GRMZM2G098056;GRMZM2G108615;GRMZM2G117347;GRMZM2G125441;GRMZM2G129083;GRMZM2G131650;GRMZM2G134235;GRMZM2G148536;GRMZM2G149798;GRMZM2G149809;GRMZM2G151720;GRMZM2G163304;GRMZM2G168669;GRMZM2G310031;GRMZM2G358386;GRMZM2G363813;GRMZM2G366142;GRMZM2G369445;GRMZM2G370193;GRMZM2G371524;GRMZM2G375310;GRMZM2G394203;GRMZM2G396541;GRMZM2G403313;GRMZM2G426294;GRMZM2G458448;GRMZM2G469939;GRMZM2G470103;GRMZM2G476322;GRMZM2G536238;GRMZM2G559822;GRMZM5G822180;GRMZM5G846550;GRMZM5G859526;GRMZM5G866432;GRMZM5G876638;IDP7559;LOC100191895;LOC100284547;LOC100382168;LOC100501808;LOC103636980;Zm00001d026513;Zm00001d038532;Zm00001d046866;Zm00001eb217970;adh4;bhlh155;burp1;cesa16;cl11215_-2b;csu1138;cyp12;gpm470;hrg1;llg3;ltp2;mmp37;pco079405;pgl46;plt42;plt45;plt5;pmei22;rop6;saur28;saur29;saur30;saur33;saur37;saur42;saur65;saur66;saur67;smr3;smr9;stp5;tom6;umc1708;umc1767;umc1768;wip1;wrky10;wrky100
+Cluster152	trichoblast differentiation	0.00171137	0.00681349	30344	50	526	5	5.76882	AC211164.5_FGT004;GRMZM2G341934;GRMZM2G403276;GRMZM5G805485;umc2588
+Cluster152	response to alcohol	0.00218492	0.00861828	30344	132	526	8	3.49626	LOC100381917;Zm00001d045458;Zm00001d045568;Zm00001d052205;caspl39;iaa3;xth32;xth4
+Cluster152	induced systemic resistance	0.00245221	0.00958385	30344	33	526	4	6.99251	GRMZM2G148536;GRMZM2G149798;GRMZM2G149809;pco079405
+Cluster152	vegetative to reproductive phase transition of meristem	0.00251885	0.00975483	30344	530	526	19	2.06807	GRMZM2G119168;GRMZM5G854500;ad1;chn12;gpm45;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40;lac12;lac22;mctp16;mctp5;rboh5;skus18
+Cluster152	response to carbohydrate	0.00282685	0.010849	30344	658	526	22	1.92879	AC235540.1_FG002;GRMZM2G006505;GRMZM2G024024;GRMZM2G180054;GRMZM2G325238;GRMZM2G394321;GRMZM2G422373;GRMZM2G435120;LOC100381917;Zm00001d045568;aro2;bzip25;ereb107;flr1;gpm859;myb50;myb69;pan1;pmei29;pmei38;traf7;traf8
+Cluster152	pectin catabolic process	0.00305345	0.011614	30344	35	526	4	6.59294	mmp16;pme15;pme19;si687017e07
+Cluster152	response to gibberellin	0.00309611	0.0116721	30344	171	526	9	3.03622	GRMZM2G089596;LOC100283908;myb50;myb69;umc1365;xth31;xth32;xth4;zhd10
+Cluster152	lignin biosynthetic process	0.0031445	0.0117505	30344	140	526	8	3.29647	GRMZM2G035023;GRMZM2G051005;GRMZM2G057086;GRMZM2G068917;IDP6767;cyp8;hct10;skus18
+Cluster152	regulation of plant-type hypersensitive response	0.00317516	0.0117619	30344	1053	526	31	1.69832	AC155352.2_FG010;AC209987.4_FG002;GRMZM2G024024;GRMZM2G124759;GRMZM2G152962;GRMZM2G443715;GRMZM5G835276;IDP6733;IDP7387;LOC103633203;Zm00001d045568;aic2;aro2;bzip25;cl36083_1c;cxe18;flr1;geb7;gl13;pco081097b;pco106247;pco115279b;pgip1;pme15;pme19;pmei29;pmei38;rboh5;sk1;traf7;traf8
+Cluster152	single-organism carbohydrate catabolic process	0.00322825	0.0118555	30344	83	526	6	4.17023	GRMZM2G323757;Zm00001eb116230;burp8;chn16;mmp16;si687017e07
+Cluster152	regulation of multicellular organismal development	0.00342893	0.0124848	30344	241	526	11	2.63307	AC235540.1_FG002;GRMZM2G006505;GRMZM2G077769;GRMZM2G394321;GRMZM2G403276;GRMZM2G422373;IDP7646;Zm00001d006828;burp8;cyp8;pan1
+Cluster152	systemic acquired resistance	0.00387331	0.0139833	30344	471	526	17	2.08216	AC155352.2_FG010;GRMZM2G006505;GRMZM2G024024;GRMZM2G148536;GRMZM2G149798;GRMZM2G149809;GRMZM2G325238;LOC100382168;LOC100501808;Zm00001d004389;Zm00001e040617;aas6;mctp16;mctp5;pco079405;si707015f08;stp5
+Cluster152	defense response by callose deposition	0.00396744	0.0142028	30344	115	526	7	3.51146	aro2;er1;mate40;rboh5;si707015f08;traf7;traf8
+Cluster152	specification of floral organ number	0.00411444	0.0146063	30344	61	526	5	4.72854	GRMZM2G128315;pgip1;pgip2;si707015f08;umc2562
+Cluster152	defense response to fungus	0.00423747	0.0149187	30344	639	526	21	1.89586	AC155352.2_FG010;AC211164.5_FGT004;GRMZM2G082940;GRMZM2G116846;GRMZM2G119168;GRMZM2G124759;GRMZM2G128315;GRMZM2G154114;GRMZM2G325238;er1;ereb240;ereb32;flr1;flr7;pco106247;pmei29;pmei38;pop3;rboh5;umc2588;wrky119
+Cluster152	response to jasmonic acid	0.00437299	0.0152696	30344	398	526	15	2.17418	GRMZM2G082940;LOC100191837;LOC103627589;LOC109940988;er1;lox11;lrx5;myb50;myb69;mybr44;npf11;si707015f08;stsl8;stsl9;umc1397
+Cluster152	cellular response to water deprivation	0.00451171	0.0155699	30344	250	526	11	2.53828	GRMZM2G033566;GRMZM2G045215;GRMZM2G048962;GRMZM2G063464;GRMZM2G070178;GRMZM2G124759;GRMZM2G465046;chn12;chn16;csu861;si947006e03a
+Cluster152	chitin catabolic process	0.00454271	0.0155699	30344	39	526	4	5.91674	chn11;chn12;chn16;chn18
+Cluster152	transmembrane receptor protein tyrosine kinase signaling pathway	0.00456863	0.0155699	30344	118	526	7	3.42218	AC235540.1_FG002;GRMZM2G363813;GRMZM2G422373;GRMZM2G427451;IDP7298;Zm00001d045013;pan1
+Cluster152	polarity specification of adaxial/abaxial axis	0.00464711	0.0157116	30344	251	526	11	2.52817	GRMZM2G006505;GRMZM2G128315;GRMZM2G394321;GRMZM2G422373;LOC100279398;er1;mctp16;mctp5;si707015f08;traf7;traf8
+Cluster152	response to copper ion	0.0047263	0.0158536	30344	63	526	5	4.57843	lac12;lac22;lac9;skus12;skus18
+Cluster152	regulation of anion channel activity	0.005001	0.016644	30344	184	526	9	2.82171	AC211164.5_FGT004;GRMZM2G119168;IDP3776;cl36083_1c;gl13;pco106247;pco147721a;rboh5;umc2588
+Cluster152	fatty acid metabolic process	0.00540014	0.0176959	30344	65	526	5	4.43755	GRMZM2G020500;GRMZM2G350020;cl308_1;ereb15;sacd8
+Cluster152	regulation of hormone levels	0.00540014	0.0176959	30344	65	526	5	4.43755	GRMZM2G061396;GRMZM2G435120;Zm00001d006828;gpm859;skus12
+Cluster152	gibberellic acid mediated signaling pathway	0.0069617	0.0226107	30344	229	526	10	2.51914	GRMZM2G001977;GRMZM2G128315;GRMZM2G476322;IDP3776;cl309_1;cxe18;er1;ereb15;nzp2;si707015f08
+Cluster152	steroid biosynthetic process	0.00700615	0.0226107	30344	44	526	4	5.24438	GRMZM2G085509;GRMZM2G358655;Zm00001d013035;Zm00001d013037
+Cluster152	negative regulation of growth	0.00708644	0.0226979	30344	23	526	3	7.52455	AC211164.5_FGT004;GRMZM2G116846;umc2588
+Cluster152	plant-type secondary cell wall biogenesis	0.00777	0.0247016	30344	163	526	8	2.83132	A0A1D6PYQ0;GRMZM2G076307;GRMZM2G403276;ereb6;lac12;lac22;skus12;skus18
+Cluster152	post-embryonic development	0.00841522	0.0265547	30344	349	526	13	2.14884	GRMZM2G082940;GRMZM2G146015;GRMZM2G152189;GRMZM2G167212;GRMZM2G171440;GRMZM2G427451;IDP7646;Zm00001d017455;flr1;flr7;lbd39;pco099019;pgl46
+Cluster152	syncytium formation	0.00897095	0.0279845	30344	25	526	3	6.92259	GRMZM2G021427;aic2;mmp16
+Cluster152	cellular response to iron ion starvation	0.00899971	0.0279845	30344	352	526	13	2.13053	AC211164.5_FGT004;GRMZM2G325238;GRMZM2G341934;LOC103627589;Zm00001e040617;npf11;pco106247;pco147721a;plt42;rboh5;rte1;si947006e03a;umc2588
+Cluster152	dipeptide transport	0.00951378	0.0291573	30344	48	526	4	4.80735	LOC100191837;LOC103627589;Zm00001eb170950;npf11
+Cluster152	tripeptide transport	0.00951378	0.0291573	30344	48	526	4	4.80735	LOC100191837;LOC103627589;Zm00001eb170950;npf11
+Cluster152	regulation of multicellular organismal process	0.00987933	0.0300614	30344	170	526	8	2.71474	GRMZM2G033820;GRMZM2G119287;GRMZM2G133032;GRMZM2G343351;GRMZM2G376927;IDP2364;TIDP3740;si618024b05
+Cluster152	anaphase	0.0102122	0.030854	30344	171	526	8	2.69886	AC235540.1_FG002;GRMZM2G006505;GRMZM2G077769;GRMZM2G128315;GRMZM2G394321;IDP7646;geb7;umc1135
+Cluster152	response to sucrose	0.0106698	0.0320093	30344	482	526	16	1.91496	GRMZM2G030831;GRMZM5G854500;Zm00001d037637;ad1;cl36083_1c;gl13;hb102;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40;si945006c11b
+Cluster152	activation of MAPKK activity	0.010903	0.0324249	30344	173	526	8	2.66766	GRMZM2G006505;GRMZM2G128315;GRMZM2G394321;GRMZM2G422373;er1;pan1;pco077003;si707015f08
+Cluster152	cell wall pectin biosynthetic process	0.0109605	0.0324249	30344	50	526	4	4.61506	GRMZM2G035023;GRMZM2G051005;asft2;hct10
+Cluster152	cellular response to alcohol	0.0112851	0.0331549	30344	140	526	7	2.88441	GRMZM2G123940;GRMZM2G128315;GRMZM2G139565;Zm00001d020725;cl33342_1;flr1;flr7
+Cluster152	reproductive structure development	0.0121122	0.0353412	30344	79	526	5	3.65115	GRMZM2G082940;IDP7646;Zm00001d017455;arftf20;pco099019
+Cluster152	cellodextrin metabolic process	0.0122983	0.0353991	30344	28	526	3	6.18088	GRMZM2G323757;Zm00001eb116230;chn16
+Cluster152	floral meristem determinacy	0.0122983	0.0353991	30344	28	526	3	6.18088	hb4;traf7;traf8
+Cluster152	cellular process	0.012493	0.0357183	30344	1210	526	32	1.52564	AY110310;GRMZM2G030850;GRMZM2G082823;GRMZM2G111423;GRMZM2G131749;GRMZM2G152962;GRMZM2G180054;GRMZM2G316807;GRMZM2G319947;GRMZM2G376927;GRMZM2G436730;GRMZM5G835276;IDP6733;TIDP3412;Zm00001d009566;Zm00001d010649;Zm00001d017455;Zm00001eb247140;lbd39;lrx1;mate9;nbcs16;pco081097b;pco099019;plt20;plt33;plt36;saur53;stsl9;umc1365;umc2562;xth9
+Cluster152	root hair cell differentiation	0.0132772	0.0377072	30344	291	526	11	2.18065	GRMZM2G001977;GRMZM2G033566;GRMZM2G045215;GRMZM2G077553;GRMZM2G443715;hb146;nzp2;pco115279b;prp16;xth31;xth4
+Cluster152	cell wall macromolecule catabolic process	0.0133844	0.0377599	30344	53	526	4	4.35383	GRMZM2G024024;chn11;xth31;xth32
+Cluster152	response to light stimulus	0.0138969	0.0389479	30344	217	526	9	2.3926	GRMZM2G116846;GRMZM5G854500;ad1;gata16;gata28;kcs39;kcs40;myb69;ppck4
+Cluster152	response to ozone	0.0140479	0.0391137	30344	113	526	6	3.06309	aas6;cl36083_1c;flr1;flr7;gl13;umc1397
+Cluster152	response to nematode	0.0148786	0.0410987	30344	417	526	14	1.93677	GRMZM2G116846;LOC100191837;LOC103627589;TIDP3136;Zm00001d042953;Zm00001eb170950;abcg1;aic2;mate40;npf11;pme15;pme19;stp5;tom6
+Cluster152	response to ethylene	0.0149537	0.0410987	30344	544	526	17	1.80276	GRMZM2G089596;GRMZM2G148536;GRMZM2G149798;GRMZM2G149809;LOC103633203;arftf20;aro2;cl36083_1c;dogt1;flr1;gl13;myb50;myb69;nzp2;pco079405;sag12;tar2
+Cluster152	positive regulation of gibberellic acid mediated signaling pathway	0.016243	0.0442438	30344	31	526	3	5.58273	GRMZM2G001977;cxe18;nzp2
+Cluster152	isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway	0.0163058	0.0442438	30344	261	526	10	2.21028	GRMZM5G854500;ad1;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40
+Cluster152	determination of bilateral symmetry	0.0167533	0.0451703	30344	224	526	9	2.31783	GRMZM2G006505;GRMZM2G128315;GRMZM2G394321;GRMZM2G422373;er1;mctp16;mctp5;si707015f08;umc1135
+Cluster152	salicylic acid biosynthetic process	0.0173037	0.0463609	30344	510	526	16	1.80983	AC155352.2_FG010;GRMZM2G006505;GRMZM2G024024;GRMZM2G124759;GRMZM2G325238;GRMZM2G443715;bzip25;cl36083_1c;flr1;gl13;pco115279b;pmei29;pmei38;rboh5;traf7;traf8
+Cluster152	phospholipid metabolic process	0.0176974	0.0465375	30344	32	526	3	5.40827	GRMZM2G033820;Zm00001d013461;glpdh1
+Cluster152	positive regulation of growth	0.0176974	0.0465375	30344	32	526	3	5.40827	AC235540.1_FG002;GRMZM2G394321;pan1
+Cluster152	xylan catabolic process	0.0176974	0.0465375	30344	32	526	3	5.40827	GRMZM2G323757;Zm00001eb116230;chn16
+Cluster152	embryo development ending in seed dormancy	0.0189786	0.0493284	30344	603	526	18	1.72204	GRMZM2G026911;GRMZM2G119168;GRMZM2G323757;GRMZM5G854500;Zm00001d013035;Zm00001d013037;ad1;geb7;kcs15;kcs19;kcs31;kcs33;kcs36;kcs37;kcs39;kcs40;mctp16;mctp5
+Cluster152	ergosterol biosynthetic process	0.0192219	0.0493284	30344	33	526	3	5.24438	Zm00001d013035;Zm00001d013037;pco073706b
+Cluster152	regulation of auxin polar transport	0.0192219	0.0493284	30344	33	526	3	5.24438	LOC100381917;Zm00001d033234;umc1135
+Cluster152	transpiration	0.0192219	0.0493284	30344	33	526	3	5.24438	GRMZM2G128315;abcg1;er1
+Cluster152	asymmetric cell division	0.0193861	0.049452	30344	156	526	7	2.58857	GRMZM2G128315;GRMZM2G451746;er1;geb7;pan1;sbt43;sbt8
