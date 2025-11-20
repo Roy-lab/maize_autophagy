@@ -1,1 +1,1 @@
-[{"name":"app.R","content":"\n","type":"text"}]
+[{"name":"app.R","content":"library(shiny)\n# your other libraries\n\n## ---- UI ----\nui <- fluidPage(\n  # ...\n)\n\n## ---- server ----\nserver <- function(input, output, session) {\n  # ...\n}\n\n## ---- app object ----\napp <- shinyApp(ui = ui, server = server)\n\n## ---- return the app ----\napp\n","type":"text"}]
