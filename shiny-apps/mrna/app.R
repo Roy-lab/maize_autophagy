@@ -8,8 +8,8 @@ library(tidygraph)
 library(pracma)
 
 # ---- Load helper functions ----
-# MUST be in the same directory as app.R
-source("aux_functions_otegui.R")
+# must be in the same directory as app.R
+source("aux_functions_otegui_runtime.R")
 
 # ---- Load data ----
 # MUST be in the same directory as app.R
