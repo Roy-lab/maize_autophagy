@@ -1,7 +1,12 @@
 # aux_functions_otegui_runtime.R
 # Runtime helpers for the ShinyLive app (no hard paths)
 
-library(tidyverse)
+library(dplyr)
+library(tidyr)
+library(readr)
+library(stringr)
+library(purrr)
+library(tibble)
 library(tidygraph)
 library(pracma)
 library(DT)

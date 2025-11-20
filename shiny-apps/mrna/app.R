@@ -3,7 +3,12 @@
 # ---- Required packages ----
 library(shiny)
 library(DT)
-library(tidyverse)
+library(dplyr)
+library(tidyr)
+library(readr)
+library(stringr)
+library(purrr)
+library(tibble)
 library(tidygraph)
 library(pracma)
 
