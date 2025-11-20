@@ -36,10 +36,15 @@ if (file.exists("net_data.Rdata")) {
 
 searchForModule <- function(Module, moduleID) {
   modIdx <- which(Module$module == moduleID)
+
+  if (length(modIdx) == 0 || is.na(moduleID)) {
+    return(character(0))
+  }
+
   gene_in_module <- Module$gene_list[[modIdx]]
   regulators <- Module$regulators[[modIdx]]$regulator
   mod_genes <- c(gene_in_module, regulators)
-  return(mod_genes)
+  unique(mod_genes)
 }
 
 searchForGene <- function(Net, Module, gene) {
@@ -47,17 +52,24 @@ searchForGene <- function(Net, Module, gene) {
     filter(feature %in% gene) %>%
     pull(module)
   moduleIDs <- unique(moduleIDs[!is.na(moduleIDs)])
-  genes <- list()
-  for (ID in moduleIDs) {
-    new_genes <- searchForModule(Module, ID)
-    genes <- append(unlist(genes), unlist(new_genes))
+  genes <- character(0)
+
+  if (length(moduleIDs) > 0) {
+    for (ID in moduleIDs) {
+      new_genes <- searchForModule(Module, ID)
+      if (length(new_genes) > 0) {
+        genes <- c(genes, new_genes)
+      }
+    }
   }
 
   neighbors <- Net %N>%
     filter(feature %in% gene) %>%
     pull(neighbors)
 
-  genes <- append(unlist(genes), unlist(unlist(neighbors)))
+  if (length(neighbors) > 0) {
+    genes <- c(genes, unlist(neighbors))
+  }
   unique(genes)
 }
 
