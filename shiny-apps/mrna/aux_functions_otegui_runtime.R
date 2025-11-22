@@ -25,6 +25,10 @@ if (file.exists("net_data.Rdata")) {
 ## ---- Single app default ----
 default_gene <- "atg12"
 
+induce_subgraph <- function(graph, nodes) {
+  # nodes can be logical, character, or integer indices – pass directly to igraph
+  igraph::induced_subgraph(graph, vids = nodes)
+}
 
 ## ==========================================================
 ## 1. SEARCH HELPERS
@@ -179,7 +183,7 @@ computeEnrichment <- function(Module, gl, num_genes) {
 
 
 ## ===========================================================
-## 3. SUBGRAPH HELPERS (NO STEINER TREE)
+## 3. SUBGRAPH HELPERS
 ## ===========================================================
 
 induceSubraph <- function(Net, genes) {
