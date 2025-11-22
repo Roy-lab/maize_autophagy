@@ -1,28 +1,40 @@
-## ================================================================
-## Runtime helper functions for ShinyLive mRNA app
+## ============================================================
+## Runtime helpers for ShinyLive mRNA network app
+## ============================================================
 
-## ---- Libraries ----
-library(dplyr)
-library(tidyr)
-library(purrr)
-library(stringr)
-library(tibble)
-library(tidygraph)
-library(pracma)
+suppressPackageStartupMessages({
+  library(dplyr)
+  library(tidyr)
+  library(purrr)
+  library(stringr)
+  library(tibble)
+  library(tidygraph)
+})
 
 ## ---- Load precomputed network data ----
+## net_data.Rdata must define at least:
+##   Net (tbl_graph), Module (module annotation table),
+##   enrich_2_module (module–GO mapping),
+##   genes (gene universe), enriched_go_terms, module_ids
 if (file.exists("net_data.Rdata")) {
-  load("net_data.Rdata")  # should define Net, Module, enrich_2_module, genes, etc.
+  load("net_data.Rdata")
 } else {
-  stop("net_data.Rdata not found in app directory. Build it on the cluster first.")
+  stop("net_data.Rdata not found in app directory.")
 }
 
-## ---- Set app default for a  default_gene ----
+## ---- Single app default ----
 default_gene <- "atg12"
 
-## -------------------------------------------------------------
-## Search functions
-## -------------------------------------------------------------
+
+## ==========================================================
+## 1. SEARCH HELPERS
+## ==========================================================
+
+# Module table is assumed to have:
+#  - module (ID)
+#  - gene_list : list-column of genes per module
+#  - regulators : list-column of regulator info (optional)
+#  - GO : list-column of GO info (optional)
 
 searchForModule <- function(Module, moduleID) {
   modIdx <- which(Module$module == moduleID)
@@ -44,14 +56,17 @@ searchForModule <- function(Module, moduleID) {
 }
 
 searchForGene <- function(Net, Module, gene) {
-  moduleIDs <- Net %N%
+  # which modules does this gene belong to?
+  moduleIDs <- Net %>%
+    activate(nodes) %>%
+    as_tibble() %>%
     filter(feature %in% gene) %>%
     pull(module)
 
   moduleIDs <- unique(moduleIDs[!is.na(moduleIDs)])
-
   genes_out <- character(0)
 
+  # add module members
   if (length(moduleIDs) > 0) {
     for (ID in moduleIDs) {
       new_genes <- searchForModule(Module, ID)
@@ -61,7 +76,10 @@ searchForGene <- function(Net, Module, gene) {
     }
   }
 
-  neighbors <- Net %N%
+  # add neighbors from Net$neighbors list-column if present
+  neighbors <- Net %>%
+    activate(nodes) %>%
+    as_tibble() %>%
     filter(feature %in% gene) %>%
     pull(neighbors)
 
@@ -73,12 +91,18 @@ searchForGene <- function(Net, Module, gene) {
 }
 
 searchForGeneList <- function(Net, Module, gene_list, search_additional) {
+  node_df <- Net %>%
+    activate(nodes) %>%
+    as_tibble()
+
   gene_list <- unique(gene_list[nzchar(gene_list)])
+  gene_list <- intersect(gene_list, node_df$feature)
+
   if (length(gene_list) == 0) {
     return(character(0))
   }
 
-  result_list <- Net %N%
+  result_list <- node_df %>%
     filter(feature %in% gene_list) %>%
     pull(feature)
 
@@ -87,11 +111,11 @@ searchForGeneList <- function(Net, Module, gene_list, search_additional) {
     mod_genes <- character(0)
 
     moduleIDs <- unique(c(
-      Net %N%
+      node_df %>%
         filter(feature %in% result_list, module != -9999) %>%
         pull(module),
       unlist(
-        Net %N%
+        node_df %>%
           filter(feature %in% result_list) %>%
           pull(enriched_modules)
       )
@@ -112,7 +136,7 @@ searchForGeneList <- function(Net, Module, gene_list, search_additional) {
 
   ## Expand by neighbors
   if ("neigh" %in% search_additional) {
-    neighbors <- Net %N%
+    neighbors <- node_df %>%
       filter(feature %in% result_list) %>%
       pull(neighbors)
 
@@ -123,6 +147,11 @@ searchForGeneList <- function(Net, Module, gene_list, search_additional) {
 
   unique(result_list)
 }
+
+
+## ===========================================================
+## 2. ENRICHMENT
+## ===========================================================
 
 computeEnrichment <- function(Module, gl, num_genes) {
   gl <- unique(gl[nzchar(gl)])
@@ -148,42 +177,18 @@ computeEnrichment <- function(Module, gl, num_genes) {
     ungroup()
 }
 
-## -------------------------------------------------------------
-## Diffusion-related helpers
-## -------------------------------------------------------------
 
-diffScoreSubgraph <- function(Net, min_targets, top_regs) {
-  nodes <- Net %N%
-    as_tibble() %>%
-    arrange(desc(score)) %>%
-    filter(regulator == "scr", degree >= min_targets)
+## ===========================================================
+## 3. SUBGRAPH HELPERS (NO STEINER TREE)
+## ===========================================================
 
-  if (nrow(nodes) == 0) {
-    return(Net %>% induce_subgraph(feature %in% character(0)))
-  }
-
-  n_take <- min(top_regs, nrow(nodes))
-  topN   <- nodes %>% slice_head(n = n_take)
-
-  genes <- unlist(topN$neighbors)
+induceSubraph <- function(Net, genes) {
   genes <- unique(genes[nzchar(genes)])
-
   if (length(genes) == 0) {
     return(Net %>% induce_subgraph(feature %in% character(0)))
   }
-
-  induceSubraph(Net, genes) %E>%
-    mutate(color_code = "#666")
-}
-
-## ------------------------------------------------------------
-## Subgraph functions
-## ------------------------------------------------------------
-
-induceSubraph <- function(Net, list) {
-  list <- unique(list[nzchar(list)])
   Net %>%
-    convert(to_subgraph, feature %in% list)
+    induce_subgraph(feature %in% genes)
 }
 
 moduleSubgraph <- function(Net, Module, module_id) {
@@ -193,7 +198,8 @@ moduleSubgraph <- function(Net, Module, module_id) {
     return(Net %>% induce_subgraph(feature %in% character(0)))
   }
 
-  induceSubraph(Net, mod_genes) %E>%
+  induceSubraph(Net, mod_genes) %>%
+    activate(edges) %>%
     mutate(color_code = "#666")
 }
 
@@ -204,193 +210,21 @@ geneSubgraph <- function(Net, Module, gene) {
     return(Net %>% induce_subgraph(feature %in% character(0)))
   }
 
-  induceSubraph(Net, list_genes) %E>%
+  induceSubraph(Net, list_genes) %>%
+    activate(edges) %>%
     mutate(color_code = "#666")
 }
 
-## --- Steiner tree helpers ---
-
-getDistMatrix <- function(Net, gene_list) {
-  gene_id <- Net %N%
-    filter(feature %in% gene_list) %>%
-    pull(id)
-
-  gene_name <- Net %N%
-    filter(feature %in% gene_list) %>%
-    pull(feature)
-
-  dist_matrix <- Net %N% as_tibble() %>% select(feature)
-
-  for (idx in seq_along(gene_id)) {
-    root <- gene_id[idx]
-    name <- gene_name[idx]
-
-    dist_matrix <- Net %N%
-      mutate(dist = bfs_dist(root)) %>%
-      as_tibble() %>%
-      select(feature, dist) %>%
-      rename(!!name := dist) %>%
-      right_join(dist_matrix, by = "feature")
-  }
-
-  dist_matrix %>%
-    mutate(across(-feature, ~ replace(.x, .x == 0, nrow(dist_matrix) + 1)))
-}
-
-buildSteinerTrees <- function(Net, gene_list) {
-  if (length(gene_list) < 2) {
-    return(Net %>% induce_subgraph(feature %in% gene_list))
-  }
-
-  Net_u <- Net %>% convert(to_undirected)
-  dist_matrix <- getDistMatrix(Net_u, gene_list)
-  gene_names  <- colnames(dist_matrix)[-1]
-
-  dist2graph <- tibble(
-    gene_names = gene_names,
-    Dist       = Inf,
-    Closest    = ""
-  )
-
-  steiner_tree <- tbl_graph()
-  restrict_dist_matrix <- dist_matrix %>%
-    filter(feature %in% gene_names)
-
-  # initialize
-  for (i in 2:ncol(restrict_dist_matrix)) {
-    gene <- colnames(restrict_dist_matrix)[i]
-    idx  <- which(dist2graph$gene_names == gene)
-
-    col_vals <- restrict_dist_matrix[[i]]
-    if (all(is.na(col_vals))) {
-      dist2graph$Closest[idx] <- gene
-      dist2graph$Dist[idx]    <- nrow(dist_matrix) + 1
-    } else {
-      dist <- min(col_vals, na.rm = TRUE)
-      match_idx <- which(col_vals == dist)[1]
-      closest   <- restrict_dist_matrix$feature[match_idx]
-      dist2graph$Dist[idx]    <- dist
-      dist2graph$Closest[idx] <- closest
-    }
-  }
-
-  pick <- dist2graph %>%
-    arrange(Dist) %>%
-    slice(1)
-
-  path_2_add <- c(pick$gene_names, pick$Closest)
-
-  nodes_2_add <- Net_u %N%
-    filter(feature %in% path_2_add) %>%
-    pull(id)
-
-  if (length(nodes_2_add) < 2) {
-    steiner_tree <- Net_u %>% induce_subgraph(feature %in% path_2_add)
-  } else {
-    steiner_tree <- Net_u %>%
-      convert(to_shortest_path, nodes_2_add[1], nodes_2_add[2])
-  }
-
-  nodes <- steiner_tree %N>% as_tibble() %>%  pull(feature)
-
-  dist_matrix <- dist_matrix %>%
-    select(-intersect(gene_list, nodes))
-  dist2graph <- dist2graph %>%
-    filter(gene_names %in% setdiff(gene_names, nodes))
-
-  while (length(intersect(nodes, gene_names)) < length(gene_names) &&
-         nrow(dist2graph) > 0) {
-
-    restrict_dist_matrix <- dist_matrix %>%
-      filter(feature %in% nodes)
-
-    for (i in 2:ncol(restrict_dist_matrix)) {
-      gene <- colnames(restrict_dist_matrix)[i]
-      idx  <- which(dist2graph$gene_names == gene)
-
-      col_vals <- restrict_dist_matrix[[i]]
-      if (all(is.na(col_vals))) {
-        dist2graph$Closest[idx] <- gene
-        dist2graph$Dist[idx]    <- nrow(dist_matrix) + 1
-      } else {
-        dist <- min(col_vals, na.rm = TRUE)
-        match_idx <- which(col_vals == dist)[1]
-        closest   <- restrict_dist_matrix$feature[match_idx]
-        dist2graph$Dist[idx]    <- dist
-        dist2graph$Closest[idx] <- closest
-      }
-    }
-
-    pick <- dist2graph %>%
-      arrange(Dist) %>%
-      slice(1)
-
-    path_2_add <- c(pick$gene_names, pick$Closest)
-
-    nodes_2_add <- Net_u %N%
-      filter(feature %in% path_2_add) %>%
-      pull(id)
-
-    if (length(nodes_2_add) == 1) {
-      node_info <- Net_u %N%
-        filter(id %in% nodes_2_add) %>%
-        as_tibble()
-      steiner_tree <- steiner_tree %>% bind_nodes(node_info)
-    } else {
-      Path <- Net_u %>%
-        convert(to_shortest_path, nodes_2_add[1], nodes_2_add[2])
-      steiner_tree <- steiner_tree %>%
-        graph_join(Path)
-    }
-
-    nodes <- steiner_tree %N>% pull(feature)
-
-    dist_matrix <- dist_matrix %>%
-      select(setdiff(colnames(dist_matrix), nodes))
-    dist2graph <- dist2graph %>%
-      filter(gene_names %in% setdiff(gene_names, nodes))
-  }
-
-  steiner_tree
-}
-
 geneListSubgraph <- function(Net, Module, gene_list, search_additional) {
-  gene_list <- unique(gene_list[nzchar(gene_list)])
-
-  if (length(gene_list) == 0) {
-    return(Net %>% induce_subgraph(feature %in% character(0)))
-  }
-
-  st <- NULL
-
-  if ("stein" %in% search_additional && length(gene_list) > 1) {
-    st <- buildSteinerTrees(Net, gene_list) %E>%
-      mutate(is_steiner = TRUE)
-    if (gorder(st) > 0) {
-      gene_list <- st %N% pull(feature)
-    }
-  }
-
   list_genes <- searchForGeneList(Net, Module, gene_list, search_additional)
 
   if (length(list_genes) == 0) {
     return(Net %>% induce_subgraph(feature %in% character(0)))
   }
 
-  sub_graph <- induceSubraph(Net, list_genes)
-
-  if (!is.null(st) && gorder(st) > 0 && "stein" %in% search_additional) {
-    sub_graph <- graph_join(sub_graph, st) %E>%
-      mutate(
-        is_steiner = replace_na(is_steiner, FALSE),
-        color_code = if_else(is_steiner, "#fb8072", "#666")
-      )
-  } else {
-    sub_graph <- sub_graph %E>%
-      mutate(color_code = "#666")
-  }
-
-  sub_graph
+  induceSubraph(Net, list_genes) %>%
+    activate(edges) %>%
+    mutate(color_code = "#666")
 }
 
 goSubgraph <- function(Net, Module, enrich_2_module, go_term) {
@@ -419,44 +253,81 @@ goSubgraph <- function(Net, Module, enrich_2_module, go_term) {
     return(Net %>% induce_subgraph(feature %in% character(0)))
   }
 
-  induceSubraph(Net, mod_genes) %E>%
+  induceSubraph(Net, mod_genes) %>%
+    activate(edges) %>%
     mutate(color_code = "#666")
 }
 
-graph2NodeEdgeTables <- function(Net) {
-  graph_nodes <- Net %N%
-    as_tibble() %>%
-    mutate(id = id - 1)
+diffScoreSubgraph <- function(Net, min_targets, top_regs) {
+  node_df <- Net %>%
+    activate(nodes) %>%
+    as_tibble()
 
-  graph_edges <- Net %E%
-    as_tibble() %>%
-    mutate(from = from - 1, to = to - 1)
+  nodes <- node_df %>%
+    arrange(desc(score)) %>%
+    filter(regulator == "scr", degree >= min_targets)
+
+  if (nrow(nodes) == 0) {
+    return(Net %>% induce_subgraph(feature %in% character(0)))
+  }
+
+  n_take <- min(top_regs, nrow(nodes))
+  topN   <- nodes %>% slice_head(n = n_take)
+
+  genes <- unlist(topN$neighbors)
+  genes <- unique(genes[nzchar(genes)])
+
+  if (length(genes) == 0) {
+    return(Net %>% induce_subgraph(feature %in% character(0)))
+  }
+
+  induceSubraph(Net, genes) %>%
+    activate(edges) %>%
+    mutate(color_code = "#666")
+}
+
+
+## ============================================================
+## 4. NODE/EDGE TABLES
+## ============================================================
+
+graph2NodeEdgeTables <- function(Net) {
+  graph_nodes <- Net %>%
+    activate(nodes) %>%
+    as_tibble()
+
+  graph_edges <- Net %>%
+    activate(edges) %>%
+    as_tibble()
 
   list(graph_nodes, graph_edges)
 }
 
-## -------------------------------------------------------------
-## Print / table helpers
-## -------------------------------------------------------------
+
+## ================================================================
+## 5. PRINTING / MODULE INFO
+## ================================================================
 
 printNodeInfo <- function(Net, node_name) {
   if (is.na(node_name) || !nzchar(node_name)) {
     return(" ")
   }
 
-  node_data <- Net %N%
-    filter(feature == node_name) %>%
-    as_tibble()
+  node_data <- Net %>%
+    activate(nodes) %>%
+    as_tibble() %>%
+    filter(feature == node_name)
 
   if (nrow(node_data) == 0) {
     return(sprintf("Node %s not found in network.", node_name))
   }
 
-  node_id <- node_data %>% pull(id)
+  node_id <- node_data$id
 
   neighbors <- setdiff(
     Net %>%
-      convert(to_local_neighborhood, node_id) %N%
+      convert(to_local_neighborhood, node_id) %>%
+      activate(nodes) %>%
       as_tibble() %>%
       pull(feature),
     node_name
@@ -471,6 +342,13 @@ printNodeInfo <- function(Net, node_name) {
   )
 }
 
+module_go <- function(enrich_2_module, module_id) {
+  enrich_2_module %>%
+    filter(module == module_id) %>%
+    pull(go) %>%
+    unique()
+}
+
 printModuleInfo <- function(Module, module_id, gene_list, genes) {
   if (is.na(module_id)) {
     return(" ")
@@ -478,7 +356,7 @@ printModuleInfo <- function(Module, module_id, gene_list, genes) {
 
   gene_list <- unique(gene_list[nzchar(gene_list)])
 
-  mod_local <- if (!purrr::is_empty(gene_list)) {
+  mod_local <- if (length(gene_list) > 0) {
     computeEnrichment(Module, gene_list, length(genes))
   } else {
     Module
@@ -513,18 +391,18 @@ printModuleInfo <- function(Module, module_id, gene_list, genes) {
   }
 
   ## GO terms
-  module_go <- module_info %>%
+  module_go_tbl <- module_info %>%
     select(GO) %>%
     unnest(GO, keep_empty = TRUE)
 
-  if (nrow(module_go) == 0 || all(is.na(module_go$go))) {
+  if (nrow(module_go_tbl) == 0 || all(is.na(module_go_tbl$go))) {
     go_text <- "No enriched GO terms<br/>"
   } else {
     go_text <- ""
-    for (i in seq_len(nrow(module_go))) {
-      g   <- module_go$go[i]
-      pv  <- module_go$go_correct_pvalue[i]
-      gg  <- module_go$go_genes[[i]]
+    for (i in seq_len(nrow(module_go_tbl))) {
+      g   <- module_go_tbl$go[i]
+      pv  <- module_go_tbl$go_correct_pvalue[i]
+      gg  <- module_go_tbl$go_genes[[i]]
       gg  <- paste(unlist(gg), collapse = ", ")
       go_text <- sprintf(
         "%sGo Term: %s &emsp;P-Value: %.02e<br/>GO Genes: %s<br/>",
@@ -537,7 +415,7 @@ printModuleInfo <- function(Module, module_id, gene_list, genes) {
   enrich_p <- NA_real_
   corr_p   <- NA_real_
 
-  if (!purrr::is_empty(gene_list)) {
+  if (length(gene_list) > 0) {
     gene_list_str <- paste(
       intersect(module_info$gene_list[[1]], gene_list),
       collapse = ", "
@@ -546,7 +424,7 @@ printModuleInfo <- function(Module, module_id, gene_list, genes) {
     corr_p   <- module_info$corrected_pval
   }
 
-  if (purrr::is_empty(gene_list)) {
+  if (length(gene_list) == 0) {
     sprintf(
       "Module Name: %s<br/>Module Genes: %s<br/><br/>Enriched Regulators:<br/>%s<br/>Enriched GO:<br/>%s<br/><br/>",
       module_id,
@@ -581,7 +459,8 @@ printAllModuleInfo <- function(SubNet, Module, gene_list, genes) {
     return("No nodes/modules in this subgraph.")
   }
 
-  unique_modules <- SubNet %N%
+  unique_modules <- SubNet %>%
+    activate(nodes) %>%
     as_tibble() %>%
     pull(module) %>%
     unique()
@@ -603,10 +482,16 @@ printAllModuleInfo <- function(SubNet, Module, gene_list, genes) {
   paste(texts, collapse = " ")
 }
 
+
+## ================================================================
+## 6. MISC HELPERS
+## ================================================================
+
 getModuleID <- function(Net, node_name) {
-  module_id <- Net %N%
-    filter(feature == node_name) %>%
+  module_id <- Net %>%
+    activate(nodes) %>%
     as_tibble() %>%
+    filter(feature == node_name) %>%
     pull(module)
 
   if (length(module_id) == 0) {
@@ -616,117 +501,18 @@ getModuleID <- function(Net, node_name) {
   module_id
 }
 
-prepNodeTable <- function(Nodes_Table, disp_num) {
-  Nodes_Table %>%
-    mutate(
-      .tidygraph_node_index = NULL,
-      enriched_modules      = NULL
-    ) %>%
-    rowwise() %>%
-    mutate(
-      go = paste(
-        unlist(setdiff(go[1:disp_num], NA)),
-        collapse = " <br/>"
-      ),
-      neighbors = paste(unlist(neighbors), collapse = " | ")
-    ) %>%
-    ungroup() %>%
-    select(-any_of(c("geneSuper", "expression", "Ortholog 1-1"))) %>%
-    rename("Gene Name" = "feature") %>%
-    mutate(
-      id        = NULL,
-      regulator = NULL
-    ) %>%
-    {
-      out <- .
-      out$module[out$module == -9999] <- NA
-      out
-    }
+prepNodeTable <- function(Nodes_Table, disp_num = 5) {
+  Nodes_Table
 }
 
 prepModuleTable <- function(Module_Table, method, disp_num = 5) {
-  GO <- Module_Table %>%
-    select(module, GO) %>%
-    unnest(GO, keep_empty = TRUE) %>%
-    group_by(module) %>%
-    slice_head(n = disp_num)
-
-  GO <- GO %>%
-    rowwise() %>%
-    mutate(
-      GO = if (!is.na(go)) {
-        sprintf(
-          "GO term: %s<br/>module corrected p-value: %.02e<br/>Module Genes: %s<br/>",
-          go,
-          go_correct_pvalue,
-          paste(unlist(go_genes), collapse = " | ")
-        )
-      } else {
-        ""
-      }
-    ) %>%
-    select(module, GO) %>%
-    group_by(module) %>%
-    nest(GO = "GO") %>%
-    rowwise() %>%
-    mutate(GO = paste(unlist(as.list(GO)), collapse = "<br/><br/>"))
-
-  regulators_tbl <- Module_Table %>%
-    select(module, regulators) %>%
-    unnest(regulators, keep_empty = TRUE) %>%
-    rowwise() %>%
-    mutate(
-      Regulators = if (!is.na(regulator)) {
-        sprintf(
-          "enriched regulator: %s<br/>regulator corrected p-value: %.02e<br/>regulator targets: %s<br/>",
-          regulator,
-          reg_correct_pvalue,
-          paste(unlist(reg_target_genes), collapse = " | ")
-        )
-      } else {
-        ""
-      }
-    ) %>%
-    select(module, Regulators) %>%
-    group_by(module) %>%
-    nest(Regulators = "Regulators") %>%
-    rowwise() %>%
-    mutate(Regulators = paste(unlist(as.list(Regulators)), collapse = "<br/><br/>"))
-
-  if (method == "list") {
-    Module_Table <- Module_Table %>%
-      select(module, `Genes on List`, gene_list, corrected_pval) %>%
-      rowwise() %>%
-      mutate(
-        Genes = paste(sort(unlist(gene_list)), collapse = " | "),
-        `Genes on List` = paste(sort(unlist(`Genes on List`)), collapse = " | ")
-      ) %>%
-      select(module, `Genes on List`, Genes, corrected_pval) %>%
-      left_join(GO, by = "module") %>%
-      left_join(regulators_tbl, by = "module") %>%
-      rename(`Gene List enrichment p-value` = corrected_pval)
-  } else {
-    Module_Table <- Module_Table %>%
-      select(module, gene_list) %>%
-      rowwise() %>%
-      mutate(Genes = paste(sort(unlist(gene_list)), collapse = " | ")) %>%
-      select(module, Genes) %>%
-      left_join(GO, by = "module") %>%
-      left_join(regulators_tbl, by = "module")
-  }
-
-  Module_Table %>%
-    mutate(
-      module = sprintf(
-        '<a href="#" onclick=Shiny.setInputValue("module_id_info", %s);">%s</a>',
-        module, module
-      )
-    )
+  Module_Table
 }
 
 regulators <- function(Net) {
-  Net %N%
-    filter(regulator == "scr" | regulator == TRUE) %>%
-    as_tibble()
+  Net %>%
+    activate(nodes) %>%
+    as_tibble() %>%
+    filter(regulator == "scr" | regulator == TRUE)
 }
 

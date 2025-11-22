@@ -1,42 +1,44 @@
+# =============================================================
 # app.R - ShinyLive runtime app for maize autophagy mRNA network
+# =============================================================
 
-## ---- Runtime libraries ----
-library(shiny)
-library(DT)
-library(dplyr)
-library(tidyr)
-library(purrr)
-library(stringr)
-library(tibble)
-library(tidygraph)
-library(pracma)
-library(igraph)
+suppressPackageStartupMessages({
+  library(shiny)
+  library(DT)
+  library(dplyr)
+  library(tidyr)
+  library(purrr)
+  library(stringr)
+  library(tibble)
+  library(tidygraph)
+  library(igraph)
+})
 
-## ---- Helpers + precomputed data (net_data.Rdata) ----
+## ---- Helpers & precomputed data ----
 source("aux_functions_otegui_runtime.R")
-# aux_functions_otegui_runtime.R loads net_data.Rdata
-# and defines: Net, Module, enrich_2_module, genes, etc.
+# Loads:
+#   Net, Module, enrich_2_module, genes, enriched_go_terms, module_ids, default_gene
 
 ## ---- Global vectors for UI choices ----
-node_df      <- Net %N% as_tibble()
+
+node_df <- Net %>%
+  activate(nodes) %>%
+  as_tibble()
+
 all_features <- node_df$feature
 
-# Regulators for dropdown (scr or TRUE)
 regulator_ids <- node_df %>%
   filter(regulator %in% c(TRUE, "scr")) %>%
   pull(feature)
 
-# Module IDs (if not already in RData)
 if (!exists("module_ids")) {
-  module_ids <- sort(unique(Module$module[Module$module != -9999]))
+  module_ids <- sort(unique(node_df$module[node_df$module != -9999]))
 }
 
-# GO terms (if not already in RData)
 if (!exists("enriched_go_terms") && exists("enrich_2_module")) {
   enriched_go_terms <- sort(unique(enrich_2_module$go))
 }
 
-# Gene universe for enrichment (fallback if not present)
 if (!exists("genes")) {
   genes <- all_features
 }
@@ -116,11 +118,10 @@ ui <- fluidPage(
         ),
         checkboxGroupInput(
           "gene_list_options",
-          "Gene list expansion (search_additional):",
+          "Gene list expansion:",
           choices = c(
-            "Include modules of genes"   = "mod",
-            "Include neighbors"          = "neigh",
-            "Include Steiner tree paths" = "stein"
+            "Include modules of genes" = "mod",
+            "Include neighbors"        = "neigh"
           ),
           selected = c("mod", "neigh")
         )
@@ -166,14 +167,14 @@ ui <- fluidPage(
 ## -------------------------------------------------------
 server <- function(input, output, session) {
 
-  ## ---- Helper: safely parse gene list text ----
+  ## Helper: parse gene list text
   parse_gene_list <- function(txt) {
     if (is.null(txt) || !nzchar(txt)) return(character(0))
     gl <- unique(strsplit(txt, "[,\\s]+")[[1]])
     gl[nzchar(gl)]
   }
 
-  ## ---- Core reactive: build subgraph + outputs from query ----
+  ## Core reactive: run  query and make subgraph & tables
   query_result <- eventReactive(input$run_query, {
 
     mode       <- input$query_type
@@ -181,7 +182,7 @@ server <- function(input, output, session) {
     subNet     <- NULL
     node_html  <- NULL
 
-    ## 1) GENE QUERY
+    ## 1) GENE
     if (mode == "gene") {
       g <- trimws(input$gene)
       validate(need(nzchar(g), "Please enter a gene."))
@@ -194,7 +195,7 @@ server <- function(input, output, session) {
       gene_list <- g
       node_html <- printNodeInfo(Net, g)
 
-    ## 2) MODULE QUERY
+    ## 2) MODULE
     } else if (mode == "module") {
       m <- input$module_id
       validate(need(!is.null(m) && !is.na(m), "Please select a module ID."))
@@ -202,7 +203,7 @@ server <- function(input, output, session) {
       subNet    <- moduleSubgraph(Net, Module, m)
       gene_list <- searchForModule(Module, m)
 
-    ## 3) REGULATOR QUERY
+    ## 3) REGULATOR
     } else if (mode == "regulator") {
       r <- trimws(input$regulator)
       validate(need(nzchar(r), "Please enter/select a regulator."))
@@ -215,7 +216,7 @@ server <- function(input, output, session) {
       gene_list <- r
       node_html <- printNodeInfo(Net, r)
 
-    ## 4) GO-TERM QUERY
+    ## 4) GO TERM
     } else if (mode == "go") {
       go <- input$go_term
       validate(need(nzchar(go), "Please select a GO term."))
@@ -223,7 +224,7 @@ server <- function(input, output, session) {
       subNet    <- goSubgraph(Net, Module, enrich_2_module, go)
       gene_list <- NULL
 
-    ## 5) GENE LIST QUERY
+    ## 5) GENE LIST
     } else if (mode == "gene_list") {
       gl <- parse_gene_list(input$gene_list)
       validate(need(length(gl) > 0, "Could not parse any genes."))
@@ -233,7 +234,6 @@ server <- function(input, output, session) {
       gene_list <- gl
     }
 
-    ## Ensure we have a graph
     validate(need(!is.null(subNet), "No subgraph could be constructed."))
 
     if (gorder(subNet) == 0) {
@@ -262,7 +262,7 @@ server <- function(input, output, session) {
       genes     = genes
     )
 
-    ## Module enrichment table
+    ## Enrichment table
     modules_tbl <- tibble()
     if (length(gl_for_enrich) > 0) {
       modules_tbl <- computeEnrichment(Module, gl_for_enrich, num_genes = length(genes)) %>%
@@ -281,7 +281,7 @@ server <- function(input, output, session) {
     )
   })
 
-  ## ---- Network plot ----
+  ## Network plot
   output$subgraph_plot <- renderPlot({
     res <- query_result()
     g   <- res$subNet
@@ -319,7 +319,7 @@ server <- function(input, output, session) {
     )
   })
 
-  ## ---- Text outputs ----
+  ## Text outputs
   output$node_text <- renderUI({
     res <- query_result()
     if (is.null(res$node_html)) return(NULL)
@@ -331,7 +331,7 @@ server <- function(input, output, session) {
     HTML(res$module_html)
   })
 
-  ## ---- Tables ----
+  ## Tables
   output$nodes_table <- renderDT({
     res <- query_result()
     req(nrow(res$nodes_tbl) > 0)
