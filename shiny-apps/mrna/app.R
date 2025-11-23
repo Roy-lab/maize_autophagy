@@ -29,8 +29,6 @@ go_terms      <- enriched_go_terms
 app_theme <- bs_theme(
   version      = 4,
   bootswatch   = "flatly",
-  base_font    = font_google("Source Sans Pro"),
-  heading_font = font_google("Source Sans Pro"),
   primary      = "#1E88E5"
 )
 
@@ -110,7 +108,7 @@ ui <- fluidPage(
           "gene",
           "Gene (feature id)",
           value = default_gene,
-          placeholder = "e.g. atg12"
+          placeholder = "atg12"
         ),
         helpText("Gene should match the 'feature' column in the mRNA network.")
       ),
@@ -164,7 +162,7 @@ ui <- fluidPage(
           "gene_list",
           label       = NULL,
           rows        = 5,
-          placeholder = "e.g. atg12, atg8, atg5"
+          placeholder = "atg12, atg8, atg5"
         ),
         checkboxGroupInput(
           "gene_list_options",
