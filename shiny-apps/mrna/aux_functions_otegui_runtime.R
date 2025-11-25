@@ -1,6 +1,6 @@
-## ============================================================
+## =====================================================
 ## Runtime helpers for ShinyLive mRNA network app
-## ============================================================
+## =====================================================
 
 suppressPackageStartupMessages({
   library(dplyr)
@@ -25,9 +25,36 @@ if (file.exists("net_data.Rdata")) {
 ## ---- Single app default ----
 default_gene <- "atg12"
 
-## ============================================================
+## ====================================================
 ## 1. BASIC HELPERS
-## ============================================================
+## ====================================================
+
+# Noode features in the full network
+get_net_features <- function(Net) {
+  Net %N>% as_tibble() %>% pull(feature) %>% as.character()
+}
+
+# Table of module & feature pairs
+module_gene_long <- function(Module) {
+  Module %>%
+    dplyr::select(module, gene_list) %>%
+    tidyr::unnest_longer(gene_list, values_to = "feature") %>%
+    dplyr::mutate(
+      module  = as.integer(module),
+      feature = as.character(feature)
+    )
+}
+
+# All genes for one module ID
+module_genes <- function(Module, module_id) {
+  Module %>%
+    dplyr::filter(module == !!module_id) %>%
+    dplyr::pull(gene_list) %>%
+    unlist() %>%
+    as.character() %>%
+    unique()
+}
+
 
 ## Return all module IDs as a character vector
 get_module_ids <- function(Module) {
@@ -90,20 +117,21 @@ if (!exists("enriched_go_terms")) {
   }
 }
 
-## ============================================================
+## ====================================================
 ## 2. SEARCH HELPERS
-## ============================================================
+## ====================================================
 
 ## Return all features in a given module
 searchForModule <- function(Module, module_id) {
-  mcol  <- get_module_col(Module)
-  fcol  <- get_module_feature_col(Module)
+  # Genes assigned to this module
+  gene_in_module <- module_genes(Module, moduleID)
 
-  Module %>%
-    filter(.data[[mcol]] == module_id) %>%
-    pull(.data[[fcol]]) %>%
-    as.character() %>%
-    unique()
+  # Regulators for this module (if any)
+  regs_tbl <- Module$regulators[[which(Module$module == moduleID)]]
+  regs <- if (!is.null(regs_tbl)) regs_tbl$regulator else character(0)
+
+  unique(c(gene_in_module, regs))
+
 }
 
 ## Return genes associated with a single query gene
@@ -115,60 +143,48 @@ searchForGene <- function(Net, Module, gene) {
 }
 
 ## Main helper: starting from a gene list, expand to modules / neighbors
-searchForGeneList <- function(Net,
-                              Module,
-                              gene_list,
-                              search_additional = c("mod", "neigh")) {
-  if (is.null(gene_list) || length(gene_list) == 0L) {
-    return(character(0))
-  }
+searchForGeneList <- function(Net, Module, gene_list, search_additional) {
 
-  gene_list <- unique(gene_list[nzchar(gene_list)])
+  # Start with genes in network
+  result_list <- Net %N>%
+    dplyr::filter(feature %in% gene_list) %>%
+    dplyr::pull(feature)
 
-  node_df <- Net %N>% as_tibble()
-  present <- intersect(gene_list, node_df$feature)
-
-  if (length(present) == 0L) {
-    return(character(0))
-  }
-
-  result_genes <- present
-
-  ## Expand by module membership
+  # Expand by modules
   if ("mod" %in% search_additional) {
-    mcol <- get_module_col(Module)
-    fcol <- get_module_feature_col(Module)
-
-    mod_ids <- Module %>%
-      filter(.data[[fcol]] %in% present) %>%
-      pull(.data[[mcol]]) %>%
+    mod_ids <- Net %N>%
+      dplyr::filter(feature %in% gene_list) %>%
+      dplyr::pull(module) %>%
       unique()
+    mod_ids <- mod_ids[!is.na(mod_ids)]
 
-    if (length(mod_ids) > 0L) {
-      mod_genes <- Module %>%
-        filter(.data[[mcol]] %in% mod_ids) %>%
-        pull(.data[[fcol]])
-      result_genes <- union(result_genes, mod_genes)
+    for (ID in mod_ids) {
+      result_list <- c(
+        result_list,
+        searchForModule(Module, ID)
+      )
     }
   }
 
-  ## Expand by 1-step neighbors in the network
+  # Expand by neighbors
   if ("neigh" %in% search_additional) {
-    ig <- as.igraph(Net)
-    seed_nodes <- which(V(ig)$feature %in% present)
-    if (length(seed_nodes) > 0L) {
-      neigh_idx   <- unique(unlist(ego(ig, order = 1, nodes = seed_nodes, mode = "all")))
-      neigh_genes <- V(ig)$feature[neigh_idx]
-      result_genes <- union(result_genes, neigh_genes)
-    }
+    more_neigh <- Net %N>%
+      dplyr::filter(feature %in% gene_list) %>%
+      dplyr::pull(neighbors)
+
+    result_list <- c(result_list, unlist(more_neigh))
   }
 
-  unique(result_genes)
+  # Later to add Steiner options it would go here
+
+  unique(result_list)
 }
 
-## ============================================================
+
+
+## ====================================================
 ## 3. SUBGRAPH CONSTRUCTION
-## ============================================================
+## ====================================================
 
 ## Core safe inducer, to avoid "feature not found" errors
 induceSubraph <- function(Net, features) {
@@ -272,9 +288,9 @@ diffScoreSubgraph <- function(Net, diff_scores, threshold = 0) {
   induceSubraph(Net, keep_features)
 }
 
-## ============================================================
+## =====================================================
 ## 4. NODE / EDGE TABLES
-## ============================================================
+## =====================================================
 
 graph2NodeEdgeTables <- function(SubNet) {
   node_tbl <- SubNet %N>% as_tibble()
@@ -289,9 +305,9 @@ graph2NodeEdgeTables <- function(SubNet) {
   list(nodes = node_tbl, edges = edge_tbl)
 }
 
-## ============================================================
+## =====================================================
 ## 5. NARRATIVE HELPERS
-## ============================================================
+## =====================================================
 
 ## Basic node-level HTML summary
 printNodeInfo <- function(Net, gene) {
@@ -410,9 +426,9 @@ printAllModuleInfo <- function(SubNet,
   paste(parts, collapse = "<br/><br/>")
 }
 
-## ============================================================
+## =====================================================
 ## 6. ENRICHMENT
-## ============================================================
+## =====================================================
 
 ## Simple hypergeometric enrichment of query gene list against modules
 computeEnrichment <- function(Module, gl, num_genes) {
@@ -456,9 +472,9 @@ computeEnrichment <- function(Module, gl, num_genes) {
   }
 }
 
-## ============================================================
+## =====================================================
 ## 7. SMALL UTILITIES
-## ============================================================
+## =====================================================
 
 ## Get module id(s) for a given gene
 getModuleID <- function(Module, gene) {
