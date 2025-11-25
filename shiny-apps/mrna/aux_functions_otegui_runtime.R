@@ -143,9 +143,13 @@ searchForGene <- function(Net, Module, gene) {
 }
 
 ## Main helper: starting from a gene list, expand to modules / neighbors
-searchForGeneList <- function(Net, Module, gene_list, search_additional) {
+searchForGeneList <- function(Net, Module, gene_list, search_additional= c("mod", "neigh")) {
 
-  # Start with genes in network
+  # Normalize options
+  search_additional <- intersect(search_additional,
+                                 c("mod", "neigh"))
+
+  # Start with genes actually present in the network
   result_list <- Net %N>%
     dplyr::filter(feature %in% gene_list) %>%
     dplyr::pull(feature)
@@ -164,8 +168,6 @@ searchForGeneList <- function(Net, Module, gene_list, search_additional) {
         searchForModule(Module, ID)
       )
     }
-  }
-
   # Expand by neighbors
   if ("neigh" %in% search_additional) {
     more_neigh <- Net %N>%
@@ -175,9 +177,8 @@ searchForGeneList <- function(Net, Module, gene_list, search_additional) {
     result_list <- c(result_list, unlist(more_neigh))
   }
 
-  # Later to add Steiner options it would go here
-
   unique(result_list)
+
 }
 
 
@@ -227,7 +228,13 @@ geneListSubgraph <- function(Net,
                              Module,
                              gene_list,
                              search_additional = c("mod", "neigh")) {
-  genes <- searchForGeneList(Net, Module, gene_list, search_additional)
+  genes <- searchForGeneList(
+    Net           = Net,
+    Module        = Module,
+    gene_list     = gene_list,
+    search_additional = search_additional
+  )
+
   induceSubraph(Net, genes)
 }
 
