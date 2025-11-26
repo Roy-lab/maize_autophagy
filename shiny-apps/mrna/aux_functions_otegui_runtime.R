@@ -123,14 +123,31 @@ if (!exists("enriched_go_terms")) {
 
 ## Return all features in a given module
 searchForModule <- function(Module, module_id) {
-  # Genes assigned to this module
-  gene_in_module <- module_genes(Module, moduleID)
+  row <- Module %>%
+    dplyr::filter(.data$module == !!module_id) %>%
+    dplyr::slice_head(n = 1)
 
-  # Regulators for this module (if any)
-  regs_tbl <- Module$regulators[[which(Module$module == moduleID)]]
-  regs <- if (!is.null(regs_tbl)) regs_tbl$regulator else character(0)
+  if (nrow(row) == 0L) {
+    return(character(0))
+  }
 
-  unique(c(gene_in_module, regs))
+  # Module genes
+  genes <- character(0)
+  if (!is.null(row$gene_list[[1]])) {
+    genes <- as.character(row$gene_list[[1]])
+  }
+
+  # Regulators for this module if any
+  regs <- character(0)
+  if (!is.null(row$regulators[[1]])) {
+    regs_tbl <- row$regulators[[1]]
+    if ("regulator" %in% names(regs_tbl)) {
+      regs <- as.character(regs_tbl$regulator)
+    }
+  }
+
+  unique(c(genes, regs))
+
 
 }
 
@@ -145,33 +162,60 @@ searchForGene <- function(Net, Module, gene) {
 ## Main helper: starting from a gene list, expand to modules / neighbors
 searchForGeneList <- function(Net, Module, gene_list, search_additional= c("mod", "neigh")) {
 
+  # Normalize gene list
+  if (is.null(gene_list)) return(character(0))
+  gene_list <- unique(as.character(gene_list[nzchar(gene_list)]))
+  if (!length(gene_list)) return(character(0))
+
+  # Only keep genes that exist in the network
+  node_df <- Net %N% as_tibble()
+  if (!("feature" %in% names(node_df))) {
+    stop("Node data does not contain a 'feature' column.")
+  }
+
+  present <- intersect(gene_list, node_df$feature)
+  if (!length(present)) {
+    return(character(0))
+  }
+
   # Normalize options
   search_additional <- intersect(search_additional,
                                  c("mod", "neigh"))
 
   # Start with genes actually present in the network
-  result_list <- Net %N>%
-    dplyr::filter(feature %in% gene_list) %>%
-    dplyr::pull(feature)
+  #result_list <- Net %N>%
+    #dplyr::filter(feature %in% gene_list) %>%
+    #dplyr::pull(feature)
+
+  result_list <- present
 
   # Expand by modules
   if ("mod" %in% search_additional) {
-    mod_ids <- Net %N>%
-      dplyr::filter(feature %in% gene_list) %>%
+    #mod_ids <- Net %N>%
+    mod_ids <- node_df %>%
+      #dplyr::filter(feature %in% gene_list) %>%
+      dplyr::filter(feature %in% present) %>%
       dplyr::pull(module) %>%
       unique()
     mod_ids <- mod_ids[!is.na(mod_ids)]
 
-    for (ID in mod_ids) {
-      result_list <- c(
-        result_list,
-        searchForModule(Module, ID)
-      )
+    if (length(mod_ids)) {
+      for (ID in mod_ids) {
+        result_list <- c(
+          result_list,
+          searchForModule(Module, ID)
+        )
+      }
     }
+  }
+
   # Expand by neighbors
-  if ("neigh" %in% search_additional) {
-    more_neigh <- Net %N>%
-      dplyr::filter(feature %in% gene_list) %>%
+  #if ("neigh" %in% search_additional) {
+    #more_neigh <- Net %N>%
+      #dplyr::filter(feature %in% gene_list) %>%
+  if ("neigh" %in% search_additional && "neighbors" %in% names(node_df)) {
+    more_neigh <- node_df %>%
+      dplyr::filter(feature %in% present) %>%
       dplyr::pull(neighbors)
 
     result_list <- c(result_list, unlist(more_neigh))
@@ -187,7 +231,6 @@ searchForGeneList <- function(Net, Module, gene_list, search_additional= c("mod"
 ## 3. SUBGRAPH CONSTRUCTION
 ## ====================================================
 
-## Core safe inducer, to avoid "feature not found" errors
 induceSubraph <- function(Net, features) {
   if (is.null(features) || length(features) == 0L) {
     return(Net %>% activate(nodes) %>% filter(FALSE))
@@ -201,6 +244,8 @@ induceSubraph <- function(Net, features) {
   }
 
   keep_features <- intersect(features, node_df$feature)
+  keep_features <- keep_features[!is.na(keep_features)]
+
   if (length(keep_features) == 0L) {
     return(Net %>% activate(nodes) %>% filter(FALSE))
   }
@@ -209,6 +254,7 @@ induceSubraph <- function(Net, features) {
     activate(nodes) %>%
     filter(feature %in% keep_features) %>%
     induce_subgraph()
+
 }
 
 ## Subgraph for a module
@@ -506,4 +552,3 @@ prepModuleTable <- function(Module, mod_ids) {
     filter(.data[[mcol]] %in% mod_ids) %>%
     arrange(.data[[mcol]], .data[[fcol]])
 }
-
