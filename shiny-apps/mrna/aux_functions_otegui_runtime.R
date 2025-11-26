@@ -9,6 +9,7 @@ suppressPackageStartupMessages({
   library(stringr)
   library(tibble)
   library(tidygraph)
+  library(igraph)
 })
 
 ## ---- Load precomputed network data ----
@@ -240,12 +241,19 @@ searchForGeneList <- function(Net, Module, gene_list, search_additional= c("mod"
 ## ====================================================
 
 induceSubraph <- function(Net, features) {
+  # Empty / NULL query → empty graph
   if (is.null(features) || length(features) == 0L) {
-    return(Net %>% activate(nodes) %>% filter(FALSE))
+    return(
+      Net %>%
+        activate(nodes) %>%
+        filter(FALSE)
+    )
   }
 
-  features <- unique(features[nzchar(features)])
+  # Clean and deduplicate feature list
+  features <- unique(as.character(features[nzchar(features)]))
 
+  # Get node data from Net
   node_df <- Net %>%
     activate(nodes) %>%
     as_tibble()
@@ -257,15 +265,34 @@ induceSubraph <- function(Net, features) {
   keep_features <- intersect(features, node_df$feature)
   keep_features <- keep_features[!is.na(keep_features)]
 
+  # If none of the requested features are in the network → empty graph
   if (length(keep_features) == 0L) {
-    return(Net %>% activate(nodes) %>% filter(FALSE))
+    return(
+      Net %>%
+        activate(nodes) %>%
+        filter(FALSE)
+    )
   }
 
-  Net %>%
-    activate(nodes) %>%
-    filter(feature %in% keep_features) %>%
-    induce_subgraph()
+  # Work in igraph space to build the induced subgraph
+  g_full <- as.igraph(Net)
 
+  # Map features to igraph vertex indices
+  v_features <- igraph::vertex_attr(g_full, "feature")
+  keep_idx   <- which(v_features %in% keep_features)
+
+  if (length(keep_idx) == 0L) {
+    return(
+      Net %>%
+        activate(nodes) %>%
+        filter(FALSE)
+    )
+  }
+
+  g_sub <- igraph::induced_subgraph(g_full, vids = keep_idx)
+
+  # Back to tidygraph
+  tidygraph::as_tbl_graph(g_sub)
 }
 
 ## Subgraph for a module
@@ -339,7 +366,9 @@ diffScoreSubgraph <- function(Net, diff_scores, threshold = 0) {
   if (is.null(diff_scores) || length(diff_scores) == 0L) {
     return(Net %>% activate(nodes) %>% filter(FALSE))
   }
-  node_df <- Net %N>% as_tibble()
+  node_df <- Net %>%
+    activate(nodes) %>%
+    as_tibble()
   if (!("feature" %in% names(node_df))) {
     stop("Node data does not contain a 'feature' column.")
   }
