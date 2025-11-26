@@ -367,35 +367,33 @@ server <- function(input, output, session) {
   })
 
   ## Network plot
-  output$network_plot <- renderPlot({
-    res    <- query_result()
-    subNet <- res$subNet
-    req(gorder(subNet) > 0)
+output$network_plot <- renderPlot({
+  res    <- query_result()
+  subNet <- res$subNet
+  req(gorder(subNet) > 0)
 
-    ig <- as.igraph(subNet)
+  ig <- as.igraph(subNet)
 
-    v_feat  <- igraph::vertex_attr(ig, "feature")
-    v_disp1 <- igraph::vertex_attr(ig, "display_name")
-    v_disp2 <- igraph::vertex_attr(ig, "Common Name")
+  # Use feature names as labels
+  vertex_labels <- igraph::vertex_attr(ig, "feature")
 
-    vertex_labels <- if (!is.null(v_disp1)) {
-      v_disp1
-    } else if (!is.null(v_disp2)) {
-      v_disp2
-    } else {
-      v_feat
-    }
+  plot(
+    ig,
+    vertex.label        = vertex_labels,
+    vertex.label.cex    = 0.7,
+    vertex.label.color  = "black",
 
-    plot(
-      ig,
-      vertex.label        = vertex_labels,
-      vertex.label.cex    = 0.6,     # smaller text so it’s not a blob
-      vertex.label.color  = "black",
-      vertex.size         = 6,
-      edge.arrow.size     = 0.2,
-      layout              = layout_with_fr(ig)
-    )
-  })
+    # Node size twice as large
+    vertex.size         = 16,
+
+    # Push label bottom-left
+    vertex.label.dist   = 1.3,              # how far from node center
+    vertex.label.degree = 225 * pi / 180,   # node label position
+
+    edge.arrow.size     = 0.2,
+    layout              = layout_with_fr(ig)
+  )
+})
 
 }
 
