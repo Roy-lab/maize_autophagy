@@ -358,15 +358,36 @@ server <- function(input, output, session) {
     )
   })
 
-  output$modules_table <- renderDT({
-    res <- query_result()
-    req(nrow(res$modules_tbl) > 0)
-    datatable(
-      res$modules_tbl,
-      escape  = FALSE,
-      options = list(pageLength = 20, scrollX = TRUE)
+output$modules_table <- renderDT({
+  res <- query_result()
+  req(nrow(res$modules_tbl) > 0)
+
+  tbl <- res$modules_tbl %>%
+    dplyr::rename(
+      `Number of requests`  = module,
+      `Module ID`           = module_id,
+      `Number of genes from query list in module` = k,
+      `Number of all genes in module` = K,
+      `Length of gene list query`  = n
     )
-  })
+
+  datatable(
+  tbl,
+  escape = FALSE,
+  options = list(
+    pageLength = 20,
+    scrollX = TRUE,
+    autoWidth = TRUE
+  ),
+  class = "display nowrap cell-border"
+) %>%
+  formatStyle(
+    columns = names(tbl),
+    whiteSpace = "normal",
+    wordWrap = "break-word"
+  )
+
+})
 
   ## Network plot
 output$network_plot <- renderPlot({
