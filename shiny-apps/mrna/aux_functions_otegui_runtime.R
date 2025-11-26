@@ -386,7 +386,7 @@ diffScoreSubgraph <- function(Net, diff_scores, threshold = 0) {
 }
 
 ## =====================================================
-## 4. NODE / EDGE TABLES
+## 4. EDGE TABLES
 ## =====================================================
 
 graph2NodeEdgeTables <- function(SubNet) {
@@ -398,15 +398,36 @@ graph2NodeEdgeTables <- function(SubNet) {
     activate(edges) %>%
     as_tibble()
 
-  node_tbl <- node_tbl %>%
-    dplyr::mutate(dplyr::across(where(is.logical), as.character))
+  # Helper to coerce list + logical columns to character
+  squash_for_dt <- function(df) {
+    df %>%
+      dplyr::mutate(
+        # logical → character
+        dplyr::across(where(is.logical), as.character),
+        # list → character (semicolon-separated, NA if NULL/empty)
+        dplyr::across(
+          where(is.list),
+          ~ vapply(
+              .x,
+              function(v) {
+                if (is.null(v) || length(v) == 0L) {
+                  NA_character_
+                } else {
+                  paste0(as.character(v), collapse = ";")
+                }
+              },
+              character(1)
+            )
+        )
+      )
+  }
 
-  edge_tbl <- edge_tbl %>%
-    dplyr::mutate(dplyr::across(where(is.logical), as.character))
+  node_tbl <- squash_for_dt(node_tbl)
+  edge_tbl <- squash_for_dt(edge_tbl)
 
   list(nodes = node_tbl, edges = edge_tbl)
-
 }
+
 
 ## =====================================================
 ## 5. NARRATIVE HELPERS
