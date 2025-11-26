@@ -110,7 +110,7 @@ ui <- fluidPage(
           value = default_gene,
           placeholder = "atg12"
         ),
-        helpText("Gene should match the 'feature' column in mRNA network.")
+        helpText("Gene should match gene name in mRNA network.")
       ),
 
       ## Module query
@@ -216,14 +216,14 @@ ui <- fluidPage(
 
 server <- function(input, output, session) {
 
-  ## Helper: safely parse gene list text
+  ## Helper: parse gene list
   parse_gene_list <- function(txt) {
     if (is.null(txt) || !nzchar(txt)) return(character(0))
     gl <- unlist(strsplit(txt, "[,\\s]+"))
     unique(gl[nzchar(gl)])
   }
 
-  ## Core reactive: run requested query and build subgraph + tables
+  ## Core reactive: run requested query & build subgraph & tables
   query_result <- eventReactive(input$run_query, {
     mode       <- input$query_type
     gene_list  <- NULL
@@ -278,7 +278,7 @@ server <- function(input, output, session) {
       gene_list <- gl
     }
 
-    validate(need(!is.null(subNet), "No subgraph could be constructed for this query."))
+    validate(need(!is.null(subNet), "No subgraph could be constructed from this query."))
 
     if (gorder(subNet) == 0) {
       return(list(
@@ -379,16 +379,18 @@ output$network_plot <- renderPlot({
 
   plot(
     ig,
-    vertex.label        = vertex_labels,
-    vertex.label.cex    = 0.7,
+	vertex.label        = vertex_labels,
+    vertex.label.cex    = 1.7,
     vertex.label.color  = "black",
+    vertex.color        = "#00FF0080",
+	edge.width= 1.5,
 
-    # Node size twice as large
-    vertex.size         = 16,
+    # Node size
+    vertex.size         = 20,
 
     # Push label bottom-left
-    vertex.label.dist   = 1.3,              # how far from node center
-    vertex.label.degree = 225 * pi / 180,   # node label position
+    vertex.label.dist   = 1.5,              # how far from node center
+    vertex.label.degree = pi/4,   # node label position
 
     edge.arrow.size     = 0.2,
     layout              = layout_with_fr(ig)
