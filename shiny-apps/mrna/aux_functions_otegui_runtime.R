@@ -83,12 +83,13 @@ get_module_col <- function(Module) {
 
 ## Return feature / gene column name for Module
 get_module_feature_col <- function(Module) {
-  col_candidates <- c("feature", "gene", "gene_id", "name")
-  fcol <- intersect(col_candidates, names(Module))
-  if (length(fcol) == 0L) {
-    stop("Cannot determine feature column in Module data.frame.")
-  }
-  fcol[1L]
+  #col_candidates <- c("feature", "gene", "gene_id", "name")
+  #fcol <- intersect(col_candidates, names(Module))
+  #if (length(fcol) == 0L) {
+    #stop("Cannot determine feature column in Module data.frame.")
+  #}
+  #fcol[1L]
+  "feature"
 }
 
 ## Return regulators as a character vector of feature IDs
@@ -322,7 +323,7 @@ geneListSubgraph <- function(Net,
   induceSubraph(Net, genes)
 }
 
-## Subgraph for a GO term: union of modules annotated with that term
+## Subgraph for a GO term: union of modules annotated with a term
 goSubgraph <- function(Net, Module, enrich_2_module, go_term) {
   if (is.null(go_term) || !nzchar(go_term)) {
     return(Net %>% activate(nodes) %>% filter(FALSE))
@@ -333,7 +334,6 @@ goSubgraph <- function(Net, Module, enrich_2_module, go_term) {
   }
 
   mcol <- get_module_col(Module)
-  fcol <- get_module_feature_col(Module)
 
   ## Determine which column in enrich_2_module holds the GO term
   go_col <- if ("go_term" %in% names(enrich_2_module)) {
@@ -345,21 +345,25 @@ goSubgraph <- function(Net, Module, enrich_2_module, go_term) {
   }
 
   mod_ids <- enrich_2_module %>%
-    filter(.data[[go_col]] == go_term) %>%
-    pull(.data[[mcol]]) %>%
+    dplyr::filter(.data[[go_col]] == go_term) %>%
+    dplyr::pull(.data[[mcol]]) %>%
     unique()
 
   if (length(mod_ids) == 0L) {
     return(Net %>% activate(nodes) %>% filter(FALSE))
   }
 
-  genes <- Module %>%
-    filter(.data[[mcol]] %in% mod_ids) %>%
-    pull(.data[[fcol]]) %>%
+  ## Use the long format with explicit 'feature' column
+  mod_long <- module_gene_long(Module)
+
+  genes <- mod_long %>%
+    dplyr::filter(.data[[mcol]] %in% mod_ids) %>%
+    dplyr::pull(.data[["feature"]]) %>%
     unique()
 
   induceSubraph(Net, genes)
 }
+
 
 ## Placeholder for differential-score based subgraph
 diffScoreSubgraph <- function(Net, diff_scores, threshold = 0) {
@@ -461,21 +465,22 @@ module_go <- function(Module, enrich_2_module, module_id) {
     transmute(go = .data[[go_col]])
 }
 
-## Module-level summary
+## Module summary
 printModuleInfo <- function(Module,
                             enrich_2_module,
                             module_id,
                             gene_list = NULL) {
-  fcol <- get_module_feature_col(Module)
-  mcol <- get_module_col(Module)
 
-  genes_in_mod <- Module %>%
-    filter(.data[[mcol]] == module_id) %>%
-    pull(.data[[fcol]]) %>%
+  # Long format with 'module' and 'feature'
+  mod_long <- module_gene_long(Module)
+
+  genes_in_mod <- mod_long %>%
+    dplyr::filter(.data$module == module_id) %>%
+    dplyr::pull(.data$feature) %>%
     unique()
 
-  n_genes      <- length(genes_in_mod)
-  go_tbl       <- module_go(Module, enrich_2_module, module_id)
+  n_genes <- length(genes_in_mod)
+  go_tbl  <- module_go(Module, enrich_2_module, module_id)
 
   txt <- sprintf("<b>Module %s</b><br/>", module_id)
   txt <- paste0(txt, sprintf("Size: %d genes<br/>", n_genes))
@@ -496,52 +501,57 @@ printModuleInfo <- function(Module,
   txt
 }
 
-## High-level summary over all modules touched by subgraph / gene list
+
+
+## High level summary over all modules interacting with subgraph/gene list
 printAllModuleInfo <- function(SubNet,
                                Module,
                                gene_list = NULL,
                                genes = NULL) {
- 
+
   node_df <- SubNet %>%
     activate(nodes) %>%
     as_tibble()
 
-   	if (!("feature" %in% names(node_df))) {
+  if (!("feature" %in% names(node_df))) {
     return("No 'feature' column in node data.")
   }
 
-  fcol <- get_module_feature_col(Module)
-  mcol <- get_module_col(Module)
-
   present_features <- unique(node_df$feature)
 
-  mod_ids <- Module %>%
-    filter(.data[[fcol]] %in% present_features) %>%
-    pull(.data[[mcol]]) %>%
+  mod_long <- module_gene_long(Module)
+
+  mod_ids <- mod_long %>%
+    dplyr::filter(.data$feature %in% present_features) %>%
+    dplyr::pull(.data$module) %>%
     unique()
 
   if (length(mod_ids) == 0L) {
     return("No modules associated with this query.")
   }
 
-  parts <- map_chr(
+  parts <- purrr::map_chr(
     mod_ids,
-    ~ printModuleInfo(Module, enrich_2_module, module_id = .x, gene_list = gene_list)
+    ~ printModuleInfo(Module,
+                      enrich_2_module,
+                      module_id = .x,
+                      gene_list = gene_list)
   )
 
   paste(parts, collapse = "<br/><br/>")
 }
 
+
+
 ## =====================================================
 ## 6. ENRICHMENT
 ## =====================================================
 
-## Simple hypergeometric enrichment of query gene list against modules
+## Hypergeometric enrichment of query gene list against modules
 computeEnrichment <- function(Module, gl, num_genes) {
   gl <- unique(gl[nzchar(gl)])
+
   if (length(gl) == 0L || num_genes <= 0) {
-    mod <- Module
-    mcol <- get_module_col(mod)
     tibble(
       module_id      = character(0),
       k              = integer(0),
@@ -552,59 +562,53 @@ computeEnrichment <- function(Module, gl, num_genes) {
       corrected_pval = numeric(0)
     )
   } else {
-    fcol <- get_module_feature_col(Module)
-    mcol <- get_module_col(Module)
+    mod_long <- module_gene_long(Module)
 
     N <- num_genes
     n <- length(gl)
 
-    Module %>%
-      group_by(.data[[mcol]]) %>%
-      summarise(
-        module_id = as.character(first(.data[[mcol]])),
-        K         = n_distinct(.data[[fcol]]),
-        k         = length(intersect(gl, .data[[fcol]])),
+    mod_long %>%
+      dplyr::group_by(.data$module) %>%
+      dplyr::summarise(
+        module_id = as.character(dplyr::first(.data$module)),
+        K         = dplyr::n_distinct(.data$feature),
+        k         = length(intersect(gl, .data$feature)),
         .groups   = "drop"
       ) %>%
-      mutate(
+      dplyr::mutate(
         N    = N,
         n    = n,
         pval = phyper(k - 1, K, N - K, n, lower.tail = FALSE)
       ) %>%
-      mutate(
+      dplyr::mutate(
         corrected_pval = p.adjust(pval, method = "BH")
       ) %>%
-      arrange(corrected_pval)
+      dplyr::arrange(corrected_pval)
   }
 }
+
+
 
 ## =====================================================
 ## 7. SMALL UTILITIES
 ## =====================================================
 
-## Get module id(s) for a given gene
+## Get module id for a given gene
 getModuleID <- function(Module, gene) {
-  fcol <- get_module_feature_col(Module)
-  mcol <- get_module_col(Module)
+  mod_long <- module_gene_long(Module)
 
-  Module %>%
-    filter(.data[[fcol]] == gene) %>%
-    pull(.data[[mcol]]) %>%
+  mod_long %>%
+    dplyr::filter(.data$feature == gene) %>%
+    dplyr::pull(.data$module) %>%
     unique()
 }
 
-prepNodeTable <- function(SubNet) {
-  SubNet %>%
-    activate(nodes) %>%
-    as_tibble()
-}
-
-
 prepModuleTable <- function(Module, mod_ids) {
-  fcol <- get_module_feature_col(Module)
-  mcol <- get_module_col(Module)
+  mod_long <- module_gene_long(Module)
 
-  Module %>%
-    filter(.data[[mcol]] %in% mod_ids) %>%
-    arrange(.data[[mcol]], .data[[fcol]])
+  mod_long %>%
+    dplyr::filter(.data$module %in% mod_ids) %>%
+    dplyr::arrange(.data$module, .data$feature)
 }
+
+
