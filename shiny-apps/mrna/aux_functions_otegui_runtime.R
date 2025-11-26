@@ -31,7 +31,11 @@ default_gene <- "atg12"
 
 # Noode features in the full network
 get_net_features <- function(Net) {
-  Net %N>% as_tibble() %>% pull(feature) %>% as.character()
+  Net %>%
+    activate(nodes) %>%
+    as_tibble() %>%
+    dplyr::pull(feature) %>%
+    as.character()
 }
 
 # Table of module & feature pairs
@@ -88,15 +92,21 @@ get_module_feature_col <- function(Module) {
 
 ## Return regulators as a character vector of feature IDs
 regulators <- function(Net) {
-  node_df <- Net %N>% as_tibble()
+
+  node_df <- Net %>%
+    activate(nodes) %>%
+    as_tibble()
+
   if (!("regulator" %in% names(node_df))) {
     return(character(0))
   }
+
   node_df %>%
-    filter(regulator == "scr" | regulator == TRUE) %>%
-    pull(feature) %>%
+    dplyr::filter(regulator == "scr" | regulator == TRUE) %>%
+    dplyr::pull(feature) %>%
     unique() %>%
     sort()
+
 }
 
 ## Convenience vectors used by the app UI
@@ -168,7 +178,9 @@ searchForGeneList <- function(Net, Module, gene_list, search_additional= c("mod"
   if (!length(gene_list)) return(character(0))
 
   # Only keep genes that exist in the network
-  node_df <- Net %N% as_tibble()
+  node_df <- Net %>%
+    activate(nodes) %>%
+    as_tibble()
   if (!("feature" %in% names(node_df))) {
     stop("Node data does not contain a 'feature' column.")
   }
@@ -182,11 +194,7 @@ searchForGeneList <- function(Net, Module, gene_list, search_additional= c("mod"
   search_additional <- intersect(search_additional,
                                  c("mod", "neigh"))
 
-  # Start with genes actually present in the network
-  #result_list <- Net %N>%
-    #dplyr::filter(feature %in% gene_list) %>%
-    #dplyr::pull(feature)
-
+  # Start with genes present in the network
   result_list <- present
 
   # Expand by modules
@@ -238,7 +246,10 @@ induceSubraph <- function(Net, features) {
 
   features <- unique(features[nzchar(features)])
 
-  node_df <- Net %N>% as_tibble()
+  node_df <- Net %>%
+    activate(nodes) %>%
+    as_tibble()
+
   if (!("feature" %in% names(node_df))) {
     stop("Node data does not contain a 'feature' column.")
   }
@@ -346,16 +357,22 @@ diffScoreSubgraph <- function(Net, diff_scores, threshold = 0) {
 ## =====================================================
 
 graph2NodeEdgeTables <- function(SubNet) {
-  node_tbl <- SubNet %N>% as_tibble()
-  edge_tbl <- SubNet %E>% as_tibble()
+  node_tbl <- SubNet %>%
+    activate(nodes) %>%
+    as_tibble()
+
+  edge_tbl <- SubNet %>%
+    activate(edges) %>%
+    as_tibble()
 
   node_tbl <- node_tbl %>%
-    mutate(across(where(is.logical), as.character))
+    dplyr::mutate(dplyr::across(where(is.logical), as.character))
 
   edge_tbl <- edge_tbl %>%
-    mutate(across(where(is.logical), as.character))
+    dplyr::mutate(dplyr::across(where(is.logical), as.character))
 
   list(nodes = node_tbl, edges = edge_tbl)
+
 }
 
 ## =====================================================
@@ -364,7 +381,10 @@ graph2NodeEdgeTables <- function(SubNet) {
 
 ## Basic node-level HTML summary
 printNodeInfo <- function(Net, gene) {
-  node_df <- Net %N>% as_tibble()
+  node_df <- Net %>%
+    activate(nodes) %>%
+    as_tibble()
+
 
   if (!("feature" %in% names(node_df))) {
     return(paste0("No 'feature' column found in node data.<br/>"))
@@ -452,8 +472,12 @@ printAllModuleInfo <- function(SubNet,
                                Module,
                                gene_list = NULL,
                                genes = NULL) {
-  node_df <- SubNet %N>% as_tibble()
-  if (!("feature" %in% names(node_df))) {
+ 
+  node_df <- SubNet %>%
+    activate(nodes) %>%
+    as_tibble()
+
+   	if (!("feature" %in% names(node_df))) {
     return("No 'feature' column in node data.")
   }
 
@@ -541,8 +565,11 @@ getModuleID <- function(Module, gene) {
 }
 
 prepNodeTable <- function(SubNet) {
-  SubNet %N>% as_tibble()
+  SubNet %>%
+    activate(nodes) %>%
+    as_tibble()
 }
+
 
 prepModuleTable <- function(Module, mod_ids) {
   fcol <- get_module_feature_col(Module)
