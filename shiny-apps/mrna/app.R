@@ -2,6 +2,7 @@
 ## Shiny app for MERLIN mRNA network
 ## ======================================================
 
+suppressPackageStartupMessages({
 library(shiny)
 library(DT)
 library(dplyr)
@@ -12,6 +13,7 @@ library(tibble)
 library(tidygraph)
 library(igraph)
 library(bslib)
+})
 
 ## Load runtime helpers and net_data.Rdata
 source("aux_functions_otegui_runtime.R")

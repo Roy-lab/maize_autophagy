@@ -525,45 +525,6 @@ printModuleInfo <- function(Module,
 
 
 ## High level summary over all modules interacting with subgraph/gene list
-printAllModuleInfo <- function(SubNet,
-                               Module,
-                               gene_list = NULL,
-                               genes = NULL) {
-
-  node_df <- SubNet %>%
-    activate(nodes) %>%
-    as_tibble()
-
-  if (!("feature" %in% names(node_df))) {
-    return("No 'feature' column in node data.")
-  }
-
-  present_features <- unique(node_df$feature)
-
-  mod_long <- module_gene_long(Module)
-
-  mod_ids <- mod_long %>%
-    dplyr::filter(.data$feature %in% present_features) %>%
-    dplyr::pull(.data$module) %>%
-    unique()
-
-  if (length(mod_ids) == 0L) {
-    return("No modules associated with this query.")
-  }
-
-  parts <- purrr::map_chr(
-    mod_ids,
-    ~ printModuleInfo(Module,
-                      enrich_2_module,
-                      module_id = .x,
-                      gene_list = gene_list)
-  )
-
-  paste(parts, collapse = "<br/><br/>")
-}
-
-
-
 ## =====================================================
 ## 6. ENRICHMENT
 ## =====================================================
@@ -596,6 +557,7 @@ computeEnrichment <- function(Module, gl, num_genes) {
         k         = length(intersect(gl, .data$feature)),
         .groups   = "drop"
       ) %>%
+      dplyr::filter(k > 0) %>%  # <-- only modules with at least one exact match
       dplyr::mutate(
         N    = N,
         n    = n,
