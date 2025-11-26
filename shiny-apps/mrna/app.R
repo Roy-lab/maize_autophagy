@@ -1,5 +1,5 @@
 ## =====================================================
-## Shiny app for MERLIN mRNA network (ShinyLive-compatible)
+## Shiny app for MERLIN mRNA network
 ## ======================================================
 
 library(shiny)
@@ -13,10 +13,10 @@ library(tidygraph)
 library(igraph)
 library(bslib)
 
-## Load runtime helpers (this also loads net_data.Rdata)
+## Load runtime helpers and net_data.Rdata
 source("aux_functions_otegui_runtime.R")
 
-## Convenience objects for the UI
+## Objects for UI
 node_df       <- Net %N>% as_tibble()
 all_features  <- node_df$feature
 regulator_ids <- regulators(Net)
@@ -92,7 +92,7 @@ ui <- fluidPage(
         "query_type",
         "Query type",
         choices = c(
-          "Gene (node)" = "gene",
+          "Gene       " = "gene",
           "Module ID"   = "module",
           "Regulator"   = "regulator",
           "GO term"     = "go",
@@ -110,7 +110,7 @@ ui <- fluidPage(
           value = default_gene,
           placeholder = "atg12"
         ),
-        helpText("Gene should match the 'feature' column in the mRNA network.")
+        helpText("Gene should match the 'feature' column in mRNA network.")
       ),
 
       ## Module query
@@ -129,7 +129,7 @@ ui <- fluidPage(
         condition = "input.query_type == 'regulator'",
         selectizeInput(
           "regulator",
-          "Regulator (feature id)",
+          "Regulator",
           choices  = regulator_ids,
           options  = list(
             placeholder = "Type to search regulators",
@@ -233,7 +233,7 @@ server <- function(input, output, session) {
     ## 1) Build appropriate subgraph using helper functions
     if (mode == "gene") {
       g <- trimws(input$gene)
-      validate(need(nzchar(g), "Please enter a gene (feature id)."))
+      validate(need(nzchar(g), "Enter a gene name."))
 
       if (!g %in% all_features) {
         validate(need(FALSE, paste0("Gene '", g, "' not found in network.")))
@@ -245,14 +245,14 @@ server <- function(input, output, session) {
 
     } else if (mode == "module") {
       m <- input$module_id
-      validate(need(!is.null(m) && !is.na(m), "Please select a module ID."))
+      validate(need(!is.null(m) && !is.na(m), "Select a module ID."))
 
       subNet    <- moduleSubgraph(Net, Module, m)
       gene_list <- searchForModule(Module, m)
 
     } else if (mode == "regulator") {
       r <- trimws(input$regulator)
-      validate(need(nzchar(r), "Please select or enter a regulator id."))
+      validate(need(nzchar(r), "Select or enter a regulator id."))
 
       if (!r %in% all_features) {
         validate(need(FALSE, paste0("Regulator '", r, "' not found in network.")))
@@ -374,18 +374,33 @@ server <- function(input, output, session) {
 
     ig <- as.igraph(subNet)
 
+    v_feat  <- igraph::vertex_attr(ig, "feature")
+    v_disp1 <- igraph::vertex_attr(ig, "display_name")
+    v_disp2 <- igraph::vertex_attr(ig, "Common Name")
+
+    vertex_labels <- if (!is.null(v_disp1)) {
+      v_disp1
+    } else if (!is.null(v_disp2)) {
+      v_disp2
+    } else {
+      v_feat
+    }
+
     plot(
       ig,
-      vertex.label     = NA,
-      vertex.size      = 4,
-      edge.arrow.size  = 0.2,
-      layout           = layout_with_fr(ig)
+      vertex.label        = vertex_labels,
+      vertex.label.cex    = 0.6,     # smaller text so it’s not a blob
+      vertex.label.color  = "black",
+      vertex.size         = 6,
+      edge.arrow.size     = 0.2,
+      layout              = layout_with_fr(ig)
     )
   })
+
 }
 
 ## ====================================================
-## App object (for shinyApp() / shinylive::export)
+## App object
 ## ====================================================
 
 app <- shinyApp(ui = ui, server = server)
