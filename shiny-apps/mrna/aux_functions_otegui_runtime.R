@@ -168,8 +168,17 @@ searchForGene <- function(Net, Module, gene) {
   if (is.null(gene) || !nzchar(gene)) {
     return(character(0))
   }
-  searchForGeneList(Net, Module, gene_list = gene)
+
+  # Expand by module *and* neighbors
+  searchForGeneList(
+    Net              = Net,
+    Module           = Module,
+    gene_list        = gene,
+    search_additional = c("mod", "neigh")
+  )
 }
+
+
 
 ## Main helper: starting from a gene list, expand to modules / neighbors
 searchForGeneList <- function(Net, Module, gene_list, search_additional= c("mod", "neigh")) {
