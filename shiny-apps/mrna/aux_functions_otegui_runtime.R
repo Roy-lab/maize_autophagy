@@ -23,6 +23,83 @@ if (file.exists("net_data.Rdata")) {
   stop("net_data.Rdata not found in app directory.")
 }
 
+## ---- Fix Net: merge duplicate vertices that share the same `feature` ----
+merge_duplicate_features <- function(Net, weight_combine = c("max", "mean", "sum")) {
+  weight_combine <- match.arg(weight_combine)
+
+  g <- as.igraph(Net)
+
+  # Ensure we have feature attribute
+  feat <- as.character(igraph::vertex_attr(g, "feature"))
+  if (is.null(feat)) stop("Net vertices do not have a 'feature' attribute.")
+
+  # If no duplicates, still set name to feature for readable edge tables
+  if (!anyDuplicated(feat)) {
+    igraph::V(g)$name <- feat
+    return(tidygraph::as_tbl_graph(g))
+  }
+
+  # Set igraph 'name' to feature BEFORE merging so endpoints can be reasoned about
+  igraph::V(g)$name <- feat
+
+  # Group index for contraction: same feature -> same group
+  uniq_feat <- unique(feat)
+  grp <- match(feat, uniq_feat)
+
+  # Attribute combine rules for vertex contraction
+  # Pick conservative defaults:
+  # - module: if conflicting, "first" is arbitrary, but deterministic
+  # - regulator: "any" keeps TRUE if any duplicate was regulator
+  # - list columns like neighbors: union unique values
+  attr_comb <- list(
+    name = function(x) x[1],
+    feature = function(x) x[1],
+    module = function(x) {
+      x <- unique(na.omit(x))
+      if (length(x) == 0) NA
+      else x[1]
+    },
+    regulator = function(x) any(x == TRUE | x == "scr", na.rm = TRUE),
+    neighbors = function(x) {
+      # neighbors could be list-of; flatten and unique
+      vals <- unique(unlist(x, recursive = TRUE, use.names = FALSE))
+      if (length(vals) == 0) list(character(0)) else list(as.character(vals))
+    }
+  )
+
+  # For any other attributes not listed above: take first non-NA (deterministic)
+  other_attrs <- setdiff(igraph::vertex_attr_names(g), names(attr_comb))
+  for (a in other_attrs) {
+    attr_comb[[a]] <- function(x) {
+      x2 <- x[!is.na(x)]
+      if (length(x2) == 0) NA else x2[1]
+    }
+  }
+
+  g2 <- igraph::contract(g, mapping = grp, vertex.attr.comb = attr_comb)
+
+  # Simplify edges created by contraction
+  # This collapses parallel edges and drops loops if you want
+  ecomb <- switch(
+    weight_combine,
+    max  = list(weight = "max"),
+    mean = list(weight = "mean"),
+    sum  = list(weight = "sum")
+  )
+
+  g2 <- igraph::simplify(g2, remove.multiple = TRUE, remove.loops = TRUE, edge.attr.comb = ecomb)
+
+  # Ensure names are the merged features (readable edges)
+  igraph::V(g2)$feature <- uniq_feat
+  igraph::V(g2)$name <- uniq_feat
+
+  tidygraph::as_tbl_graph(g2)
+}
+
+# Apply and choose how to combine weights across merged edges
+Net <- merge_duplicate_features(Net, weight_combine = "max")
+
+
 ## ---- Single app default ----
 default_gene <- "atg12"
 
@@ -251,58 +328,21 @@ searchForGeneList <- function(Net, Module, gene_list, search_additional= c("mod"
 ## ====================================================
 
 induceSubraph <- function(Net, features) {
-  # Empty / NULL query → empty graph
-  if (is.null(features) || length(features) == 0L) {
-    return(
-      Net %>%
-        activate(nodes) %>%
-        filter(FALSE)
-    )
-  }
-
-  # Clean and deduplicate feature list
   features <- unique(as.character(features[nzchar(features)]))
-
-  # Get node data from Net
-  node_df <- Net %>%
-    activate(nodes) %>%
-    as_tibble()
-
-  if (!("feature" %in% names(node_df))) {
-    stop("Node data does not contain a 'feature' column.")
+  if (!length(features)) {
+    return(Net %>% activate(nodes) %>% filter(FALSE))
   }
 
-  keep_features <- intersect(features, node_df$feature)
-  keep_features <- keep_features[!is.na(keep_features)]
+  g <- as.igraph(Net)
 
-  # If none of the requested features are in the network → empty graph
-  if (length(keep_features) == 0L) {
-    return(
-      Net %>%
-        activate(nodes) %>%
-        filter(FALSE)
-    )
+  # Now V(g)$name == feature can select vertices by name
+  keep <- intersect(features, igraph::V(g)$name)
+  if (!length(keep)) {
+    return(Net %>% activate(nodes) %>% filter(FALSE))
   }
 
-  # Work in igraph space to build the induced subgraph
-  g_full <- as.igraph(Net)
-
-  # Map features to igraph vertex indices
-  v_features <- igraph::vertex_attr(g_full, "feature")
-  keep_idx   <- which(v_features %in% keep_features)
-
-  if (length(keep_idx) == 0L) {
-    return(
-      Net %>%
-        activate(nodes) %>%
-        filter(FALSE)
-    )
-  }
-
-  g_sub <- igraph::induced_subgraph(g_full, vids = keep_idx)
-
-  # Back to tidygraph
-  tidygraph::as_tbl_graph(g_sub)
+  gsub <- igraph::induced_subgraph(g, vids = keep)
+  tidygraph::as_tbl_graph(gsub)
 }
 
 ## Subgraph for a module

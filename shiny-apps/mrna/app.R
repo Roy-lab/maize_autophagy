@@ -164,7 +164,7 @@ ui <- fluidPage(
           "gene_list",
           label       = NULL,
           rows        = 5,
-          placeholder = "atg12, atg8, atg5"
+          placeholder = "atg12, atg2, atg8b, atg13b"
         ),
         checkboxGroupInput(
           "gene_list_options",
@@ -364,7 +364,7 @@ output$modules_table <- renderDT({
 
   tbl <- res$modules_tbl %>%
     dplyr::rename(
-      `Number of requests`  = module,
+      #`Number of requests`  = module,
       `Module ID`           = module_id,
       `Number of genes from query list in module` = k,
       `Number of all genes in module` = K,
@@ -406,16 +406,20 @@ output$network_plot <- renderPlot({
     vertex.label.cex    = 1.7,
     vertex.label.color  = "black",
     vertex.color        = "#00FF0080",
-	edge.width= 1.5,
 
     # Node size
     vertex.size         = 20,
 
     # Push label bottom-left
-    vertex.label.dist   = 1.5,              # how far from node center
-    vertex.label.degree = pi/4,   # node label position
+    vertex.label.dist   = 3.5,  # how far from node center
+    vertex.label.degree = pi/4, # node label position
 
-    edge.arrow.size     = 0.2,
+
+	# Edges
+    edge.arrow.size     = 0.6,
+	edge.arrow.width    = 1.2,
+	edge.width          = 2.5,
+	edge.color          = "gray40",
     layout              = layout_with_fr(ig)
   )
 })
