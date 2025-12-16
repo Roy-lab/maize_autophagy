@@ -403,14 +403,14 @@ output$network_plot <- renderPlot({
   plot(
     ig,
 	vertex.label        = vertex_labels,
-    vertex.label.cex    = 1.7,
+    vertex.label.cex    = 1.3,
     vertex.label.color  = "black",
-    vertex.color        = "#00FF0080",
+    vertex.color        = "#58d184",
 
     # Node size
-    vertex.size         = 20,
+    vertex.size         = 16,
 
-    # Push label bottom-left
+    # Label position
     vertex.label.dist   = 3.5,  # how far from node center
     vertex.label.degree = pi/4, # node label position
 

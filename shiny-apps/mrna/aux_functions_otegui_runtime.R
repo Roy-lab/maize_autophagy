@@ -212,47 +212,44 @@ if (!exists("enriched_go_terms")) {
 
 ## Return all features in a given module
 searchForModule <- function(Module, module_id) {
-  row <- Module %>%
-    dplyr::filter(.data$module == !!module_id) %>%
-    dplyr::slice_head(n = 1)
 
-  if (nrow(row) == 0L) {
-    return(character(0))
+  # normalize module_id type
+  module_id <- as.integer(module_id)
+
+  # Case A: long format already: one row per gene
+  if (all(c("module", "feature") %in% names(Module))) {
+    genes <- Module %>%
+      dplyr::filter(.data$module == module_id) %>%
+      dplyr::pull(.data$feature) %>%
+      as.character() %>%
+      unique()
+
+    return(genes)
   }
 
-  # Module genes
-  genes <- character(0)
-  if (!is.null(row$gene_list[[1]])) {
-    genes <- as.character(row$gene_list[[1]])
-  }
+  # Case B: list-column format: module + gene_list
+  if (all(c("module", "gene_list") %in% names(Module))) {
+    genes <- Module %>%
+      dplyr::filter(.data$module == module_id) %>%
+      dplyr::pull(.data$gene_list)
 
-  # Regulators for this module if any
-  regs <- character(0)
-  if (!is.null(row$regulators[[1]])) {
-    regs_tbl <- row$regulators[[1]]
-    if ("regulator" %in% names(regs_tbl)) {
-      regs <- as.character(regs_tbl$regulator)
+    # genes is a list-column, flatten safely
+    genes <- unique(as.character(unlist(genes, recursive = TRUE, use.names = FALSE)))
+
+    # Optional: add regulators if present
+    if ("regulators" %in% names(Module)) {
+      regs <- Module %>%
+        dplyr::filter(.data$module == module_id) %>%
+        dplyr::pull(.data$regulators)
+
+      regs <- unique(as.character(unlist(regs, recursive = TRUE, use.names = FALSE)))
+      genes <- unique(c(genes, regs))
     }
+
+    return(genes)
   }
 
-  unique(c(genes, regs))
-
-
-}
-
-## Return genes associated with a single query gene
-searchForGene <- function(Net, Module, gene) {
-  if (is.null(gene) || !nzchar(gene)) {
-    return(character(0))
-  }
-
-  # Expand by module *and* neighbors
-  searchForGeneList(
-    Net              = Net,
-    Module           = Module,
-    gene_list        = gene,
-    search_additional = c("mod", "neigh")
-  )
+  stop("Module must have either (module, feature) or (module, gene_list).")
 }
 
 
